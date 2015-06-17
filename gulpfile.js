@@ -18,7 +18,7 @@ var path = require('path');
 
 var config = {};
 config.srcDirectory = "src";
-config.vendorDirectory = "dist/vendor";
+config.vendorDirectory = "vendor";
 config.destDirectory = "dist";
 config.confDirectory = "conf";
 
@@ -30,23 +30,6 @@ var options = minimist(process.argv.slice(2), {
 process.env.USER = options.user ? options.user : process.env.USER;
 process.env.NEED_WATCH = options.watch=="false" || options.watch=="" ? "" : "true";
 process.env.HTTP_SERVER = options.httpServer=="nodejs"||options.httpServer=="nginx" ? options.httpServer : "";
-
-gulp.task('vendor' , function(cb){
-
-	del([config.vendorDirectory] , function(){
-		//这种做法存在NODE文件缓存 但这里可以用
-		var packages  = require('./package.json');
-
-		var depends = packages.dependencies ? (Object.keys(packages.dependencies)) : [],
-			src = 'node_modules/+('+depends.join("|")+')/**/*';
-
-		gulp.src(src)
-	    	.pipe(gulp.dest(config.vendorDirectory));
-
-	    cb();
-	});
-
-});
 
 var browserSyncConf = {
 	server: {
@@ -105,9 +88,18 @@ gulp.task('httpServer', ['httpServer::ngxconf'] , function(cb){
 
 gulp.task('watch' , function(cb){
 	if(process.env.NEED_WATCH != "true"){
-		return;
+		return cb();
 	}
 	gulp.watch(config.srcDirectory +'/**/*', ['build']);
+});
+
+gulp.task('clean', function (cb) {
+
+  del([
+    config.destDirectory ,
+    config.confDirectory + '/used'
+  ], cb);
+
 });
 
 gulp.task('build::less' , function(cb){
@@ -138,11 +130,38 @@ gulp.task('build::html' , function(cb){
             .pipe(gulp.dest( config.destDirectory ))
             .pipe(browserSync.reload({stream:true}));
 });
+//手工摘取
+gulp.task('vendorDist' , function(cb){
+	return gulp.src( [
+		config.vendorDirectory + '/+(bootstrap)/+(dist)/**/* ' , 
+		config.vendorDirectory + '/+(font-awesome)/+(css|fonts)/**/* ' ,
+		config.vendorDirectory + '/+(normalize.css)/*.css',
+		config.vendorDirectory + '/+(animate.css)/*.css'
+			] )
+        .pipe(plumber())
+        .pipe(swig({ext : ".html"})) 
+        .pipe(gulp.dest( config.destDirectory + '/vendor' ))
+        .pipe(browserSync.reload({stream:true}));
+});
 
+gulp.task('sumDist',function(){
+	return gulp.src(config.destDirectory+'/**/*').pipe(size({title: 'build', gzip: true}));
+});
+
+
+gulp.task('buildBefore',function(cb){
+	sequence('clean' , cb);
+})
 
 gulp.task('build' , function(cb){
 	sequence('build::less','build::img','build::html',cb);
 });
+
+gulp.task('buildAfter',function(cb){
+	sequence('vendorDist','sumDist',['httpServer','watch'],cb);
+})
+
+/* 对外常用任务 */
 
 gulp.task('deploy',['build'], function() {
   return gulp.src(config.destDirectory+'/**/*')
@@ -150,6 +169,24 @@ gulp.task('deploy',['build'], function() {
     .pipe(ghPages());
 });
 
-gulp.task('default', ['build','watch','httpServer'],function(){
-	return gulp.src(config.destDirectory+'/**/*').pipe(size({title: 'build', gzip: true}));
+//npm install后 , 或 npm start执行
+gulp.task('vendor' , function(cb){
+	del([config.vendorDirectory] , function(){
+		//这种做法存在NODE文件缓存 但这里可以用
+		var packages  = require('./package.json');
+
+		var depends = packages.dependencies ? (Object.keys(packages.dependencies)) : [],
+			src = 'node_modules/+('+depends.join("|")+')/**/*';
+
+		gulp.src(src)
+	    	.pipe(gulp.dest(config.vendorDirectory));
+
+	    cb();
+	});
+});
+
+
+
+gulp.task('default',function(cb){
+	sequence('buildBefore','build','buildAfter',cb);
 });
