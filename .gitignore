@@ -5,3 +5,4 @@ dist/
 output/
 vendor/
 sftp-config.json
+conf/used/
