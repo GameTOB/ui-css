@@ -1,1 +1,392 @@
-body {}
+@import "reset.css";
+@import "variables.css";
+
+/* variables */
+@darken-percent: 5%;
+@lighten-percent: 5%;
+
+@base-color: #333;
+@base-bg: #fff;
+
+@gray-base: #a8aeb4;
+@gray-light: #efefef;
+@gray-lighter: #ddd;
+@gray-dark:#eee;
+
+@cyan-base: #02e4a2;
+@cyan-dark: #2c9445;
+@cyan-darker:#3dba9c;
+@blue-base: #272b36;
+@blue-light: #6E8EFF;
+@blue-vivid:#0B7FDD;
+@red-base: #eb0000;
+
+
+@text-padding-base-horizontal: 4px;
+@text-padding-base-vertical: 4px;
+
+
+@padding-base-vertical: 6px;
+@padding-base-horizontal: 12px;
+@padding-base-computed: 10px;
+
+
+@margin-base-computed: 10px;
+@border-radius-base: 4px;
+
+
+@font-size-base: 14px;
+@font-size-large: ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small: ceil((@font-size-base * 0.85)); // ~12px
+
+@line-height-base: 1.428571429; //20/14
+// @line-height-computed:  floor((@font-size-base * @line-height-base)); // ~20px
+@line-height-computed: 20px;
+@line-height-large: 35px;
+
+/* layout */
+@doc-toolbar-height: 30px;
+@doc-navbar-height: 54px;
+@doc-aside-width: 8%;
+
+ // Toolbar ========================================
+ @toolbar-bg: #383c47;
+
+
+// Navbar variables  ==============================================
+@navbar-color: @base-bg;
+@navbar-height: 50px;
+
+
+// Navbar variables  ==============================================
+@aside-menu-height: 40px;
+
+
+// Panel =============================================
+@panel-bg: @gray-light;
+
+
+// Table ==============================
+@table-color: #fff;
+@table-border: #e8e8e8;
+@table-link-color: #337ab7;
+@th-bg: #3B6F97;
+
+
+
+// Charts ===========================
+@pie-width: 400px;
+@pie-height: 300px;
+
+
+// Form ==============================================
+@input-height-base:38px;
+@input-border:1px solid #dfdfdf;
+@width-nextmenu:8%;
+@form-margin-base:10px 4px;
+
+
+// Pop ==============================================
+@pop-base-width:500px;
+@panel-border:1px solid #ddd;
+@pop-header-height:40px;
+
+
+
+
+// #doc-@import "print.css"toolbar =================
+#doc-toolbar {
+  background-color: @toolbar-bg;
+  color: @gray-base;
+  height: @doc-toolbar-height;
+  padding: 0 @padding-base-computed;
+  line-height: @doc-toolbar-height;
+  .logo{
+    font-size: 16px;
+  }
+  .logout {
+    color: @cyan-base;
+    text-decoration: underline;
+    padding: 0 8px;
+    font-weight: bold;
+    &:hover {
+      color: @cyan-base - 20;
+    }
+  }
+}
+
+// #doc-navbar =================
+#doc-navbar {
+  border-bottom: @doc-navbar-height - @navbar-height solid @blue-base - 10;
+  height: @doc-navbar-height;
+  font-size: @font-size-base;
+  .navbar {
+    background-color: @blue-base;
+    border-radius: 0px 0px;
+    border: 0px;
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    margin-left: @doc-aside-width;
+  }
+  .navbar-nav li {
+    margin-right: @margin-base-computed;
+    &.active a {
+      background-color: @toolbar-bg;
+    }
+  }
+  a {
+    color: @navbar-color;
+    background-color: @blue-base;
+    padding: 0 @padding-base-horizontal;
+    line-height: @navbar-height;
+    &:hover {
+      color: @base-color + #ccc;
+      background-color: @toolbar-bg;
+    }
+  }
+  .fa {
+    margin-right: 4px;
+  }
+
+}
+
+
+// #doc-bd =================
+
+#doc-bd {
+  position: absolute;
+  top: @doc-toolbar-height + @doc-navbar-height;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-height: 100% - @doc-toolbar-height - @doc-navbar-height;
+  overflow-y: auto;
+}
+
+#doc-aside {
+  width: @doc-aside-width;
+  min-width: 100px;
+  background-color: @blue-base;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+  .aside-menu li {
+    line-height:  @aside-menu-height + 1;
+    border-bottom: 1px solid @blue-base - 10;
+    &.active a {
+      color: @cyan-base;
+      &:hover {
+        color: @cyan-base;
+      }
+    }
+  }
+  a {
+    display: block;
+    font-size: @font-size-small;
+    color: @gray-base;
+    text-decoration: none;
+    &:hover{
+      color: @gray-base - 10;
+    }
+    .fa{
+      position:absolute;
+      line-height: 44px;
+      right: 0;
+      margin-right: @margin-base-computed;
+    }
+  }
+
+}
+#doc-main {
+  position: absolute;
+  top: 0px;
+  left: @doc-aside-width;
+  right: 0px;
+  bottom: 0px;
+  padding: 2 * @padding-base-computed;
+  position: absolute;
+  width: 92%;
+  min-width: 1024px;
+  overflow: auto;
+  z-index: 1;
+}
+
+// fa ======================
+.fa-arrow-down{
+  color: @cyan-dark;
+}
+.fa-arrow-up{
+  color: @red-base;
+}
+.fa-arrow-right {
+  color: @gray-base;
+}
+
+// Chart ==================
+.chart-table-container, .chart-container{
+  // padding: @padding-base-computed;
+  margin: @margin-base-computed*2 0
+}
+.pie-chart-container {
+  float: left;
+  width: @pie-width;
+  height: @pie-height;
+}
+.pie-chart {
+  width: 100%;
+  height: 100%;
+}
+
+// Table ==============================
+table {
+  margin-top: @margin-base-computed;
+  font-size: @font-size-base;
+  tr th {
+    font-weight: bold;
+    border-bottom:2px solid @table-border;
+    background: @th-bg;
+    color: @table-color;
+  }
+  th, td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .fa-arrow-down {
+    color: ;
+  }
+}
+thead {
+  tr.th-collapsed{
+    border-bottom: 1px solid @table-border;
+  }
+  tr:first-child {
+    border-bottom: 0px;
+  }
+  tr:first-child {
+    border-bottom: 0px;           
+  }
+  tr:last-child .th-collapsed {
+    border-top: 0px;
+  }
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 1px;
+}
+
+
+// Tabset ========================
+.nav-tabs.nav-justified > li {
+  display: inline-block;
+  // float: left;
+  width: 16.66666667%; //.col-xs-2
+  border-radius: 4px 4px 0px 0px;
+  a, a:hover, a:focus {
+    outline: 0px;
+    border: 0px solid transparent;
+  }
+  &.active {
+    a, a:hover, a:focus{
+      border: 0px solid transparent;
+      background-image: linear-gradient(180deg, #B1DAFF, #ffffff);
+    }
+  }
+  h4{
+    margin-bottom: @margin-base-computed;
+  }
+
+}
+
+// chart
+.chart{
+  padding: @padding-base-computed;
+  margin: @margin-base-computed*3 0
+}
+// table-area
+.table-area{
+  margin: @margin-base-computed;
+}
+
+// page-title 
+.title-base{
+  label{
+    margin: 0 @margin-base-computed - 4;
+  }
+  small{ 
+    font-size: @font-size-small;
+    font-style: inherit;
+    padding:@text-padding-base-horizontal @text-padding-base-vertical; 
+  }
+}
+.title-icon{
+  display: inline-block;
+  background: @cyan-base;
+  border-radius: @border-radius-base;
+  width: @border-radius-base;
+  height: @border-radius-base + 16px;
+  vertical-align: -4px;
+}
+.title-name{
+  font-size: 20px;
+  display: inline-block;
+  line-height: 20px * 1.5;
+  a{
+    background: @cyan-base - 50;
+    color: @base-color;
+    border-radius: 15px;
+    padding: @text-padding-base-horizontal @padding-base-computed;
+    &:hover{
+      color: @base-color + 10;
+      text-decoration: none;;
+    }
+    h4,h5{
+      margin: 0;
+    }
+  }
+  .more {
+    color: @base-bg;
+  }
+}
+
+// doc-row
+.doc-row{
+  margin-bottom: @margin-base-computed;
+}
+
+// search box
+.input-icon{
+  position: relative;
+
+  i{
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: @cyan-base;
+  }
+}
+// form
+.form-inline .form-group, .btn-group{
+  margin-top: 8px;
+}
+.form-inline .col-lg-3{
+  min-width: 320px;
+}
+// input-search
+.input-search {
+  border: 1px solid @gray-base;
+  height: 32px;
+  padding:2px 0 2px 20px;
+  border-radius: 4px;
+}
+// page
+.page{
+  .pagination{ margin: 0;}
+}
+// tab
+.tab-container{
+  padding: @padding-base-computed;
+  margin-top: -1px;
+  border: 1px solid @gray-lighter;
+}
