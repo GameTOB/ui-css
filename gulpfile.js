@@ -135,7 +135,6 @@ gulp.task('vendorDist' , function(cb){
 		config.vendorDirectory + '/+(animate.css)/*.css'
 			] )
         .pipe(plumber())
-        .pipe(swig({ext : ".html"})) 
         .pipe(gulp.dest( config.destDirectory + '/vendor' ))
         .pipe(browserSync.reload({stream:true}));
 });
