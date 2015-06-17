@@ -6,3 +6,4 @@ output/
 vendor/
 .publish/
 sftp-config.json
+conf/used/
