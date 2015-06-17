@@ -144,7 +144,7 @@ gulp.task('build' , function(cb){
 	sequence('build::less','build::img','build::html',cb);
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy',['build'], function() {
   return gulp.src(config.destDirectory+'/**/*')
   	.pipe(plumber())
     .pipe(ghPages());
