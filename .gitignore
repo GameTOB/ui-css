@@ -4,5 +4,4 @@ bower_components/
 dist/
 output/
 vendor/
-.publish/
 sftp-config.json
