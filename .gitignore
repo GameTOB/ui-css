@@ -1,0 +1,8 @@
+rg.fail
+node_modules/
+bower_components/
+dist/
+output/
+vendor/
+.publish/
+sftp-config.json
