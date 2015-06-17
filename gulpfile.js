@@ -126,7 +126,7 @@ gulp.task('build::img' , function(cb){
 
 gulp.task('build::html' , function(cb){
 	return gulp.src( config.srcDirectory + '/*.html' )
-            .pipe(plumber())
+            .pipe(swig({ext : ".html"})) 
             .pipe(gulp.dest( config.destDirectory ))
             .pipe(browserSync.reload({stream:true}));
 });
