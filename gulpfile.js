@@ -24,11 +24,10 @@ config.confDirectory = "conf";
 
 /* 输入参数 */
 var options = minimist(process.argv.slice(2), {
-  string: ['user' , 'watch' , 'httpServer'],
-  default: { user: "" , watch: "true" , httpServer : process.env.SSH_CONNECTION ? "nginx" : "nodejs"}
+  string: ['user' , 'httpServer'],
+  default: { user: "" , httpServer : process.env.SSH_CONNECTION ? "nginx" : "nodejs"}
 });
 process.env.USER = options.user ? options.user : process.env.USER;
-process.env.NEED_WATCH = options.watch=="false" || options.watch=="" ? "" : "true";
 process.env.HTTP_SERVER = options.httpServer=="nodejs"||options.httpServer=="nginx" ? options.httpServer : "";
 
 var browserSyncConf = {
@@ -57,7 +56,7 @@ gulp.task('httpServer::ngxconf' , function(cb){
 				PRJROOT : process.env.PWD 
 			}; 
 		})) 
-		.pipe(swig({ext : ".conf"})) 
+		.pipe(swig({ext : ".conf" , cache: false})) 
 		.pipe(rename(userNgxConf))
 		.pipe(gulp.dest(config.confDirectory + '/used'));
 });
@@ -86,10 +85,7 @@ gulp.task('httpServer', ['httpServer::ngxconf'] , function(cb){
 
 });
 
-gulp.task('watch' , function(cb){
-	if(process.env.NEED_WATCH != "true"){
-		return cb();
-	}
+gulp.task('watch' , function(){
 	gulp.watch(config.srcDirectory +'/**/*', ['build']);
 });
 
@@ -126,7 +122,7 @@ gulp.task('build::img' , function(cb){
 
 gulp.task('build::html' , function(cb){
 	return gulp.src( config.srcDirectory + '/*.html' )
-            .pipe(swig({ext : ".html"})) 
+            .pipe(swig({ext : ".html" , defaults:{ cache: false } })) 
             .pipe(gulp.dest( config.destDirectory ))
             .pipe(browserSync.reload({stream:true}));
 });
