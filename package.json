@@ -38,6 +38,6 @@
   },
   "scripts" : {
     "postinstall" : "gulp vendor",
-    "start" : "gulp default"
+    "start" : "gulp vendor"
   }
 }
