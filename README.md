@@ -23,14 +23,14 @@ http://360gametob.github.io/ui-css/
 
 ## 使用说明
 
-1. NPM包安装
+- NPM包安装
 
 ````
 npm install
 ````
 安装完成后会自动执行 gulp vendor 任务。
 
-2. Gulp任务
+- Gulp任务
 ````
 gulp (default)
 ```` 
