@@ -43,11 +43,11 @@
   <!-- aside-menu -->
   <div id="doc-aside">
     <ul class="aside-menu">
-      <li class="active"> <a href="table.html"> Tables <span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a></li> 
-      <li> <a href="form.html" target=""> Form <span class="nav-sidebar-default nav-sidebar-dropdown"> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
-      <li> <a href="alert.html" target="">Alert <span class="nav-sidebar-default nav-sidebar-dropdown"> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
-      <li> <a href="panel.html" target="">Panel<span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
-      <li> <a href="main.html" target=""> Main <span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
+      <li {% if subItem=="index" %}class="active"{% endif %}> <a href="index.html" target=""> Main <span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
+      <li {% if subItem=="table" %}class="active"{% endif %}> <a href="table.html"> Tables <span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a></li> 
+      <li {% if subItem=="form" %}class="active"{% endif %}> <a href="form.html" target=""> Form <span class="nav-sidebar-default nav-sidebar-dropdown"> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
+      <li {% if subItem=="alert" %}class="active"{% endif %}> <a href="alert.html" target="">Alert <span class="nav-sidebar-default nav-sidebar-dropdown"> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
+      <li {% if subItem=="panel" %}class="active"{% endif %}> <a href="panel.html" target="">Panel<span class="nav-sidebar-default "> </span> <i class="nav-sidebarfa fa fa-caret-right"> </i> </a> </li> 
     </ul>
   </div>
   <!-- /aside-menu -->
