@@ -35,10 +35,12 @@ npm install
 gulp (default)
 ```` 
 >开发时做调试而用 默认会开启watch任务
+
 ````
 gulp deploy
 ```` 
 > 将dist目录下所有文件发布至分支:gh-pages 即更新 [360gametob.github.io/ui-css](http://360gametob.github.io/ui-css/)
+
 ````
 gulp vendor
 ```` 
