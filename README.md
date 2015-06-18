@@ -1,9 +1,9 @@
-# UI-CSS for 360GameTOB
+# UI-CSS for GameTOB
 
 - ver 0.1.0
 
 ## 样例
-http://360gametob.github.io/ui-css/
+http://gametob.github.io/ui-css/
 
 ## CHANGELOG
 
@@ -39,7 +39,7 @@ gulp (default)
 ````
 gulp deploy
 ```` 
-> 将dist目录下所有文件发布至分支:gh-pages 即更新 [360gametob.github.io/ui-css](http://360gametob.github.io/ui-css/)
+> 将dist目录下所有文件发布至分支:gh-pages 即更新 [gametob.github.io/ui-css](http://gametob.github.io/ui-css/)
 
 ````
 gulp vendor
