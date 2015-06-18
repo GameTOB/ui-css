@@ -31,12 +31,15 @@ npm install
 安装完成后会自动执行 gulp vendor 任务。
 
 2. Gulp任务
-
-- gulp (default) 
+````
+gulp (default)
+```` 
 >开发时做调试而用 默认会开启watch任务
-
-- gulp deploy 
+````
+gulp deploy
+```` 
 > 将dist目录下所有文件发布至分支:gh-pages 即更新 [360gametob.github.io/ui-css](http://360gametob.github.io/ui-css/)
-
-- gulp vendor 
+````
+gulp vendor
+```` 
 > 将package.json中指定的资源包(dependencies) 从 /node_modules 中拷贝至 /vendor
