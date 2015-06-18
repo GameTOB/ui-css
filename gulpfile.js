@@ -127,7 +127,7 @@ gulp.task('build::html' , function(cb){
             .pipe(browserSync.reload({stream:true}));
 });
 //手工摘取
-gulp.task('vendorDist' , function(cb){
+gulp.task('build::vendor' , function(cb){
 	return gulp.src( [
 		config.vendorDirectory + '/+(bootstrap)/+(dist)/**/* ' , 
 		config.vendorDirectory + '/+(font-awesome)/+(css|fonts)/**/* ' ,
@@ -149,11 +149,11 @@ gulp.task('buildBefore',function(cb){
 })
 
 gulp.task('build' , function(cb){
-	sequence('build::less','build::img','build::html',cb);
+	sequence('build::less','build::img','build::vendor','build::html',cb);
 });
 
 gulp.task('buildAfter',function(cb){
-	sequence('vendorDist','sumDist',['httpServer','watch'],cb);
+	sequence('sumDist',['httpServer','watch'],cb);
 })
 
 /* 对外常用任务 */
