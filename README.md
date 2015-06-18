@@ -5,6 +5,10 @@
 ## 样例
 http://360gametob.github.io/ui-css/
 
+## CHANGELOG
+
+[CHANGELOG.md]
+
 ## 目录结构
 * | - conf  目前包含开发机环境所需的nginx配置文件
 * | - src / 源代码包
