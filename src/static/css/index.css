@@ -6,9 +6,10 @@
 @lighten-percent: 5%;
 
 @base-color: #333;
+@base-color-muted:#888;
 @base-bg: #fff;
 
-@gray-base: #a8aeb4;
+@gray-base: #a7b1c2;
 @gray-light: #efefef;
 @gray-lighter: #ddd;
 @gray-dark:#eee;
@@ -16,7 +17,7 @@
 @cyan-base: #02e4a2;
 @cyan-dark: #2c9445;
 @cyan-darker:#3dba9c;
-@blue-base: #272b36;
+@blue-base: #2f4050;
 @blue-light: #6E8EFF;
 @blue-vivid:#0B7FDD;
 @red-base: #eb0000;
@@ -45,12 +46,12 @@
 @line-height-large: 35px;
 
 /* layout */
-@doc-toolbar-height: 30px;
+@doc-toolbar-height: 60px;
 @doc-navbar-height: 54px;
-@doc-aside-width: 8%;
+@doc-aside-width: 190px;
 
  // Toolbar ========================================
- @toolbar-bg: #383c47;
+ @toolbar-bg: #fff;
 
 
 // Navbar variables  ==============================================
@@ -64,7 +65,7 @@
 
 // Panel =============================================
 @panel-bg: @gray-light;
-
+@gray-bg: #f3f3f3;
 
 // Table ==============================
 @table-color: #fff;
@@ -92,74 +93,15 @@
 @pop-header-height:40px;
 
 
-
-
-// #doc-@import "print.css"toolbar =================
-#doc-toolbar {
-  background-color: @toolbar-bg;
-  color: @gray-base;
-  height: @doc-toolbar-height;
-  padding: 0 @padding-base-computed;
-  line-height: @doc-toolbar-height;
-  .logo{
-    font-size: 16px;
-  }
-  .logout {
-    color: @cyan-base;
-    text-decoration: underline;
-    padding: 0 8px;
-    font-weight: bold;
-    &:hover {
-      color: @cyan-base - 20;
-    }
-  }
-}
-
-// #doc-navbar =================
-#doc-navbar {
-  border-bottom: @doc-navbar-height - @navbar-height solid @blue-base - 10;
-  height: @doc-navbar-height;
-  font-size: @font-size-base;
-  .navbar {
-    background-color: @blue-base;
-    border-radius: 0px 0px;
-    border: 0px;
-    margin-bottom: 0px;
-  }
-  .navbar-nav {
-    margin-left: @doc-aside-width;
-  }
-  .navbar-nav li {
-    margin-right: @margin-base-computed;
-    &.active a {
-      background-color: @toolbar-bg;
-    }
-  }
-  a {
-    color: @navbar-color;
-    background-color: @blue-base;
-    padding: 0 @padding-base-horizontal;
-    line-height: @navbar-height;
-    &:hover {
-      color: @base-color + #ccc;
-      background-color: @toolbar-bg;
-    }
-  }
-  .fa {
-    margin-right: 4px;
-  }
-
-}
-
-
-// #doc-bd =================
+// doc-bd =================
 
 #doc-bd {
   position: absolute;
-  top: @doc-toolbar-height + @doc-navbar-height;
-  left: 0px;
+  top: 0px;
+  left:@doc-aside-width;
   right: 0px;
   bottom: 0px;
+  background: @gray-bg;
   min-height: 100% - @doc-toolbar-height - @doc-navbar-height;
   overflow-y: auto;
 }
@@ -172,6 +114,9 @@
   height: 100%;
   text-align: center;
   z-index: 2;
+  .aside-menu{
+    margin-top: @margin-base-computed*2;
+  }
   .aside-menu li {
     line-height:  @aside-menu-height + 1;
     border-bottom: 1px solid @blue-base - 10;
@@ -187,11 +132,12 @@
     font-size: @font-size-small;
     color: @gray-base;
     text-decoration: none;
+    text-align: left;
+    padding-left:@padding-base-computed*2;
     &:hover{
       color: @gray-base - 10;
     }
     .fa{
-      position:absolute;
       line-height: 44px;
       right: 0;
       margin-right: @margin-base-computed;
@@ -199,16 +145,39 @@
   }
 
 }
+
+.logo-element{
+  background: @cyan-base;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+// toolbar =================
+#doc-toolbar {
+  background-color: @toolbar-bg;
+  border-top: 2px solid @cyan-base;
+  border-bottom: 1px solid @gray-lighter;
+  color:@base-color-muted;
+  padding: 0 @padding-base-computed*2;
+  line-height: @doc-toolbar-height;
+  .logo{
+    font-size: 16px;
+  }
+  .logout {
+    text-decoration: underline;
+    padding: 0 8px;
+    font-weight: bold;
+  }
+}
+
+
 #doc-main {
-  position: absolute;
-  top: 0px;
-  left: @doc-aside-width;
+  top:@doc-toolbar-height;
   right: 0px;
   bottom: 0px;
   padding: 2 * @padding-base-computed;
-  position: absolute;
-  width: 92%;
-  min-width: 1024px;
+  min-width: 1090px;
   overflow: auto;
   z-index: 1;
 }

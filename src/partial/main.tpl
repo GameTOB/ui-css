@@ -4,7 +4,7 @@
 		<!-- tit -->
 		<div class="title-base">
 			<span class="title-icon"></span>
-			<span class="title-name">TITLE NAME</span>
+			<span class="title-name">模块标题</span>
 		</div>
 		<!-- /tit -->
 	</div>

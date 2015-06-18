@@ -1,163 +1,180 @@
+<!-- page-title -->
+<div class="doc-row page-title clearfix content">
+	<div class="pull-left">
+		<!-- tit -->
+		<div class="title-base">
+			<span class="title-icon"></span>
+			<span class="title-name">模块标题</span>
+			<small>小标题或描述性文字</small>
+		</div>
+		<!-- /tit -->
+	</div>
+	<div class="pull-right search">
+		<span class="input-icon"> <input type="text" placeholder="Search ..." class="input-search" /> <i class="fa fa-search"></i>
+		</span>
+	</div>
+</div>
+<!-- /page-title -->
 <!-- the data -->
 <table class="table table-striped table-hover">
 	<thead>
 		<tr>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
-			<th> th </th>
+			<th> 序号 </th>
+			<th> 性别 </th>
+			<th> 本月增长 </th>
+			<th> 本日增长 </th>
+			<th> 总额 </th>
+			<th> 所在地 </th>
+			<th> 姓名 </th>
+			<th> 年龄 </th>
+			<th> 出生日期 </th>
+			<th> 注册日期 </th>
+			<th> 操作 </th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td> 1 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class=""> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 2 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 男 </td>
+			<td class=""> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 张家口市 </td>
+			<td > 王五 </td>
+			<td > 35 </td>
+			<td > 1978.08.28</td>
+			<td > 2015/06/18 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 3 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class=""> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 香港 </td>
+			<td > 赵女士 </td>
+			<td > 25 </td>
+			<td > 1960.04.12</td>
+			<td > 2015/06/10 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 4 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class=""> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 5 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 6 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 7 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 8 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 9 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 10 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 		<tr>
 			<td> 11 </td>
-			<td> name </td>
-			<td class="color-font-warm"> td </td>
-			<td > td</td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td > td </td>
-			<td> <a href="#"> link </a> <a href="#"> link </a> </td>
+			<td> 女 </td>
+			<td class="color-font-warm"> 2,058 </td>
+			<td > 10,025</td>
+			<td > 122,155,140 </td>
+			<td > 北京市 </td>
+			<td > 张三 </td>
+			<td > 25 </td>
+			<td > 1991.08.28</td>
+			<td > 2015/06/15 </td>
+			<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 		</tr>
 	</tbody>
 </table>
