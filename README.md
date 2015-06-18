@@ -6,15 +6,15 @@
 http://360gametob.github.io/ui-css/
 
 ## 目录结构
-| - conf  目前包含开发机环境所需的nginx配置文件
-| - src / 源代码包
-| -  | -  *.html 单例页面
-| -  | -  _layout.tpl 页面框架模板
-| -  | -  partial /  页面单例模板
-| -  | -  static  /  静态资源
-| - dist / 编译后的成品 用于调试及发布
-| - vendor / 第三方资源包
-| - node_modules / npm install 生成
+* | - conf  目前包含开发机环境所需的nginx配置文件
+* | - src / 源代码包
+* | -  | -  *.html 单例页面
+* | -  | -  _layout.tpl 页面框架模板
+* | -  | -  partial /  页面单例模板
+* | -  | -  static  /  静态资源
+* | - dist / 编译后的成品 用于调试及发布
+* | - vendor / 第三方资源包
+* | - node_modules / npm install 生成
 
 
 ## 使用说明
