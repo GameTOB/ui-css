@@ -1,7 +1,7 @@
 
 <!-- modal -->
 <!-- 模态框（Modal） -->
-<div class="modal" style="display:inherit">
+<!-- <div class="modal" style="display:inherit">
    <div class="modal-dialog">
       <div class="modal-content">
          <div class="modal-header">
@@ -24,6 +24,6 @@
                提交更改
             </button>
          </div>
-      </div><!-- /.modal-content -->
-</div><!-- /.modal -->
+      </div>
+</div> -->
 <!-- /modal -->
