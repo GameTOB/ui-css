@@ -2,79 +2,31 @@
 @import "variables.css";
 /* variables */
 /* layout */
-#doc-toolbar {
-  background-color: #383c47;
-  color: #a8aeb4;
-  height: 30px;
-  padding: 0 10px;
-  line-height: 30px;
-}
-#doc-toolbar .logo {
-  font-size: 16px;
-}
-#doc-toolbar .logout {
-  color: #02e4a2;
-  text-decoration: underline;
-  padding: 0 8px;
-  font-weight: bold;
-}
-#doc-toolbar .logout:hover {
-  color: #00d08e;
-}
-#doc-navbar {
-  border-bottom: 4px solid #1d212c;
-  height: 54px;
-  font-size: 14px;
-}
-#doc-navbar .navbar {
-  background-color: #272b36;
-  border-radius: 0px 0px;
-  border: 0px;
-  margin-bottom: 0px;
-}
-#doc-navbar .navbar-nav {
-  margin-left: 8%;
-}
-#doc-navbar .navbar-nav li {
-  margin-right: 10px;
-}
-#doc-navbar .navbar-nav li.active a {
-  background-color: #383c47;
-}
-#doc-navbar a {
-  color: #ffffff;
-  background-color: #272b36;
-  padding: 0 12px;
-  line-height: 50px;
-}
-#doc-navbar a:hover {
-  color: #ffffff;
-  background-color: #383c47;
-}
-#doc-navbar .fa {
-  margin-right: 4px;
-}
 #doc-bd {
   position: absolute;
-  top: 84px;
-  left: 0px;
+  top: 0px;
+  left: 190px;
   right: 0px;
   bottom: 0px;
-  min-height: 16%;
+  background: #f3f3f3;
+  min-height: -14%;
   overflow-y: auto;
 }
 #doc-aside {
-  width: 8%;
+  width: 190px;
   min-width: 100px;
-  background-color: #272b36;
+  background-color: #2f4050;
   position: absolute;
   height: 100%;
   text-align: center;
   z-index: 2;
 }
+#doc-aside .aside-menu {
+  margin-top: 20px;
+}
 #doc-aside .aside-menu li {
   line-height: 41px;
-  border-bottom: 1px solid #1d212c;
+  border-bottom: 1px solid #253646;
 }
 #doc-aside .aside-menu li.active a {
   color: #02e4a2;
@@ -85,27 +37,44 @@
 #doc-aside a {
   display: block;
   font-size: 12px;
-  color: #a8aeb4;
+  color: #a7b1c2;
   text-decoration: none;
+  text-align: left;
+  padding-left: 20px;
 }
 #doc-aside a:hover {
-  color: #9ea4aa;
+  color: #9da7b8;
 }
 #doc-aside a .fa {
-  position: absolute;
   line-height: 44px;
   right: 0;
   margin-right: 10px;
 }
+.logo-element {
+  background: #02e4a2;
+  height: 50px;
+  line-height: 50px;
+}
+#doc-toolbar {
+  border-top: 2px solid #02e4a2;
+  color: #888888;
+  padding: 0 20px;
+  line-height: 60px;
+}
+#doc-toolbar .logo {
+  font-size: 16px;
+}
+#doc-toolbar .logout {
+  text-decoration: underline;
+  padding: 0 8px;
+  font-weight: bold;
+}
 #doc-main {
-  top: 0px;
-  left: 8%;
+  top: 60px;
   right: 0px;
   bottom: 0px;
   padding: 20px;
-  position: absolute;
-  width: 92%;
-  min-width: 1024px;
+  min-width: 1090px;
   overflow: auto;
   z-index: 1;
 }
@@ -116,7 +85,7 @@
   color: #eb0000;
 }
 .fa-arrow-right {
-  color: #a8aeb4;
+  color: #a7b1c2;
 }
 .chart-table-container,
 .chart-container {
@@ -138,7 +107,7 @@ table {
 table tr th {
   font-weight: bold;
   border-bottom: 2px solid #e8e8e8;
-  background: #3b6f97;
+  background: #337ab7;
   color: #ffffff;
 }
 table th,
@@ -250,7 +219,7 @@ thead tr:last-child .th-collapsed {
   min-width: 320px;
 }
 .input-search {
-  border: 1px solid #a8aeb4;
+  border: 1px solid #a7b1c2;
   height: 32px;
   padding: 2px 0 2px 20px;
   border-radius: 4px;
@@ -259,7 +228,52 @@ thead tr:last-child .th-collapsed {
   margin: 0;
 }
 .tab-container {
-  padding: 10px;
+  background: #ffffff;
+  padding: 15px;
   margin-top: -1px;
   border: 1px solid #dddddd;
+}
+#doc-bd .breadcrumb {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 0;
+}
+#doc-bd .breadcrumb .breadcrumb-nav {
+  margin-bottom: 0;
+}
+#doc-bd .breadcrumb .breadcrumb-nav li {
+  display: inline-block;
+}
+#doc-bd .breadcrumb .breadcrumb-nav > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/";
+}
+/*list-box*/
+.list-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  height: 170px;
+  margin-bottom: 20px;
+}
+.list-box img.applogo {
+  width: 100px;
+  height: 100px;
+  margin-left: 37%;
+}
+.list-button {
+  text-align: center;
+}
+.list-button a {
+  display: inline-block;
+  margin-top: 20%;
+}
+.list-title {
+  padding: 10px;
+  border-top: 2px solid #2f4050;
+}
+.list-title a:link {
+  color: #333333;
 }
