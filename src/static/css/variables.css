@@ -23,12 +23,14 @@
 @text-padding-base-vertical: 4px;
 
 
+
 @padding-base-vertical: 6px;
 @padding-base-horizontal: 12px;
 @padding-base-computed: 10px;
 
 
 @margin-base-computed: 10px;
+@margin-base-vertical:4px;
 @border-radius-base: 4px;
 
 

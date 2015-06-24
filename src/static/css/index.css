@@ -23,6 +23,7 @@
 @padding-base-horizontal: 12px;
 @padding-base-computed: 10px;
 @margin-base-computed: 10px;
+@margin-base-vertical:4px;
 @border-radius-base: 4px;
 @border-radius-round: 20px;
 @font-size-base: 14px;
@@ -82,6 +83,9 @@
   height: 100%;
   text-align: center;
   z-index: 2;
+  .logo{
+    color:@gray-base;
+  }
   .aside-menu{
     margin-top: @margin-base-computed*2;
   }
@@ -119,13 +123,10 @@
 }
 // toolbar =================
 #doc-toolbar {
-  border-top: 2px solid @cyan-base;
+  // border-top: 2px solid @cyan-base;
   color:@base-color-muted;
   padding: 0 @padding-base-computed*2;
   line-height: @doc-toolbar-height;
-  .logo{
-    font-size: 16px;
-  }
   .logout {
     text-decoration: underline;
     padding: 0 8px;
@@ -298,6 +299,10 @@ thead {
   padding:2px 0 2px 20px;
   border-radius: 4px;
 }
+
+.form-group button.btn-fail{
+  cursor:default;
+}
 // page
 .page{
   .pagination{ margin: 0;}
@@ -349,9 +354,29 @@ thead {
   text-align: center;
 }
 .list-title{
-   padding: @padding-base-computed;
-   border-top:2px solid @blue-base;
-   a:link{
-    color: @base-color;
-   }
+ padding: @padding-base-computed;
+ border-top:2px solid @blue-base;
+ a:link{
+  color: @base-color;
+}
+}
+
+/*modal*/
+.modal-scroll{
+  max-height: 300px;
+  overflow-y: scroll;
+  form button{
+    margin-bottom:@margin-base-vertical;
+  }
+}
+.modal-translate-center{
+  position: absolute;
+  z-index: 1050;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) ;
+  -moz-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
+  -o-transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) ;
 }
