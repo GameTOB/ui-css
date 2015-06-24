@@ -10,7 +10,7 @@
                 <span><strong>ONE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="../static/img/testpic.png">
+            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
     <div class="col-lg-3">
@@ -19,7 +19,7 @@
                 <span><strong>TWO</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="../static/img/testpic.png">
+            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
     <div class="col-lg-3">
@@ -28,7 +28,7 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="../static/img/testpic.png">
+            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
     <div class="col-lg-3">
@@ -37,7 +37,7 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="../static/img/testpic.png">
+            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
     <div class="col-lg-3">
@@ -46,7 +46,7 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="../static/img/testpic.png">
+            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
 </div>

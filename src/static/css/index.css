@@ -110,6 +110,7 @@
       color: @gray-base - 10;
     }
     .fa{
+      width: 12px;
       line-height: 44px;
       right: 0;
       margin-right: @margin-base-computed;

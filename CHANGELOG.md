@@ -1,5 +1,10 @@
 #ver 0.1 
 
+##2015/6/24
+1. layout模板修改
+2. 多种modal重构
+3. modal展示用transform: translate垂直居中展示
+
 
 ## 2015/6/19
 1. 模板中加入BreadcrumbNavigation(面包屑)
