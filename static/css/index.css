@@ -21,6 +21,9 @@
   text-align: center;
   z-index: 2;
 }
+#doc-aside .logo {
+  color: #a7b1c2;
+}
 #doc-aside .aside-menu {
   margin-top: 20px;
 }
@@ -56,13 +59,9 @@
   line-height: 50px;
 }
 #doc-toolbar {
-  border-top: 2px solid #02e4a2;
   color: #888888;
   padding: 0 20px;
   line-height: 60px;
-}
-#doc-toolbar .logo {
-  font-size: 16px;
 }
 #doc-toolbar .logout {
   text-decoration: underline;
@@ -224,6 +223,9 @@ thead tr:last-child .th-collapsed {
   padding: 2px 0 2px 20px;
   border-radius: 4px;
 }
+.form-group button.btn-fail {
+  cursor: default;
+}
 .page .pagination {
   margin: 0;
 }
@@ -276,4 +278,20 @@ thead tr:last-child .th-collapsed {
 }
 .list-title a:link {
   color: #333333;
+}
+/*modal*/
+.modal-scroll {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.modal-scroll form button {
+  margin-bottom: 4px;
+}
+.modal-translate-center {
+  position: absolute;
+  z-index: 1050;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
