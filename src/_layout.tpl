@@ -18,7 +18,7 @@
       <li {% if subItem=="index" %}class="active"{% endif %}>
         <a href="index.html" target="">
           <i class="fa fa-calendar"></i>
-          <span class="nav-label">主内容区</span>
+          <span class="nav-label">ARK</span>
           <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
         </a>
       </li>
@@ -89,7 +89,7 @@
         </div>
         <!-- /BreadcrumbNavigation -->
 
-        <!-- BreadcrumbNavigation -->
+        <!-- ARK==============BreadcrumbNavigation -->
         <div class="breadcrumb clearfix">
           <form class="form-inline col-lg-10">
             <div class="form-group">
@@ -109,7 +109,7 @@
          
         </form>
       </div>
-      <!-- /BreadcrumbNavigation -->
+      <!-- ARK============== /BreadcrumbNavigation -->
 
       <!-- doc-main -->
       <div id="doc-main">

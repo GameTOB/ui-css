@@ -1,7 +1,71 @@
 @import "variables.css";
 @import "reset.css";
 @import "reset-media.css";
-
+/* variables */
+@darken-percent: 5%;
+@lighten-percent: 5%;
+@base-color: #333;
+@base-color-muted:#888;
+@base-bg: #fff;
+@gray-base: #a7b1c2;
+@gray-light: #efefef;
+@gray-lighter: #ddd;
+@gray-dark:#eee;
+@cyan-base: #02e4a2;
+@cyan-dark: #2c9445;
+@cyan-darker:#3dba9c;
+@blue-base: #2f4050;
+@blue-light: #6E8EFF;
+@blue-vivid:#0B7FDD;
+@red-base: #eb0000;
+@text-padding-base-horizontal: 4px;
+@text-padding-base-vertical: 4px;
+@padding-base-vertical: 6px;
+@padding-base-horizontal: 12px;
+@padding-base-computed: 10px;
+@margin-base-computed: 10px;
+@margin-base-vertical:4px;
+@border-radius-base: 4px;
+@border-radius-round: 20px;
+@font-size-base: 14px;
+@font-size-large: ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small: ceil((@font-size-base * 0.85)); // ~12px
+@line-height-base: 1.428571429; //20/14
+// @line-height-computed:  floor((@font-size-base * @line-height-base)); // ~20px
+@line-height-computed: 20px;
+@line-height-large: 35px;
+/* layout */
+@doc-toolbar-height: 60px;
+@doc-navbar-height: 54px;
+@doc-aside-width: 190px;
+// Toolbar ========================================
+@toolbar-bg: #fff;
+// Navbar variables  ==============================================
+@navbar-color: @base-bg;
+@navbar-height: 50px;
+// Navbar variables  ==============================================
+@aside-menu-height: 40px;
+// Panel =============================================
+@panel-bg: @gray-light;
+@gray-bg: #f3f3f3;
+// Table ==============================
+@table-color: #fff;
+@table-border: #e8e8e8;
+@table-link-color: #337ab7;
+@th-bg: #337ab7;
+// Charts ===========================
+@pie-width: 400px;
+@pie-height: 300px;
+// Form ==============================================
+@input-height-base:38px;
+@input-border:1px solid #dfdfdf;
+@width-nextmenu:8%;
+@form-margin-base:10px 4px;
+// Pop ==============================================
+@pop-base-width:500px;
+@panel-border:1px solid #ddd;
+@pop-header-height:40px;
+// doc-bd =================
 #doc-bd {
   position: absolute;
   top: 0px;
