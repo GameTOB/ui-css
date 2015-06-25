@@ -65,7 +65,8 @@
 @pop-base-width:500px;
 @panel-border:1px solid #ddd;
 @pop-header-height:40px;
-// doc-bd =================
+
+// doc-bd  =================
 #doc-bd {
   position: absolute;
   top: 0px;
@@ -77,6 +78,8 @@
   min-width: 1090px;
   overflow-y: auto;
 }
+
+// doc-aside ================= 
 #doc-aside {
   width: @doc-aside-width;
   min-width: 100px;
@@ -85,39 +88,78 @@
   height: 100%;
   text-align: center;
   z-index: 2;
-  .logo{
-    color:@gray-base;
-  }
+
   .aside-menu{
     margin-top: @margin-base-computed*2;
   }
   .aside-menu li {
-    line-height:  @aside-menu-height + 1;
+
+    a {
+      display: block;
+      font-size: @font-size-small;
+      color: @gray-base;
+      text-decoration: none;
+      text-align: left;
+      padding-left:@padding-base-computed*2;
+      &:hover{
+        color: @gray-base - 10;
+      }
+      .fa{
+        width: 12px;
+        line-height: 44px;
+        right: 0;
+        margin-right: @margin-base-computed;
+      }
+    }
+
     border-bottom: 1px solid @blue-base - 10;
+    &.active {
+      border-left: 4px solid @cyan-base;
+      background: #293846;
+    }
     &.active a {
       color: @cyan-base;
       &:hover {
         color: @cyan-base;
       }
     }
-  }
-  a {
-    display: block;
-    font-size: @font-size-small;
-    color: @gray-base;
-    text-decoration: none;
-    text-align: left;
-    padding-left:@padding-base-computed*2;
-    &:hover{
-      color: @gray-base - 10;
+    .nav-second-level li{
+      border: none;
+      i.fa{
+        line-height: 14px;
+        color: @cyan-base;
+      }
+      .nav-third-level li a{
+        color: @gray-base;
+        padding-left:70px;
+        &:hover {
+          color: @cyan-base;
+        }
+      }
     }
-    .fa{
-      width: 12px;
-      line-height: 44px;
-      right: 0;
-      margin-right: @margin-base-computed;
+
+    .nav-second-level li.active a{
+      color: @cyan-base;
     }
+
+    .nav-second-level li a{
+      color: @gray-base;
+      padding-left: 50px;
+      &:hover {
+        background: none;
+        color: @cyan-base;
+      }
+    }
+    .nav-second-level li:last-child{
+      border-bottom: 0;
+    }
+
   }
+}
+
+.nav-second-level li a.active{ color: #02e4a2; }
+.logo{
+  color:@gray-base;
 }
 .logo-element{
   background: @cyan-base;
@@ -126,7 +168,6 @@
 }
 // toolbar =================
 #doc-toolbar {
-  // border-top: 2px solid @cyan-base;
   color:@base-color-muted;
   padding: 0 @padding-base-computed*2;
   line-height: @doc-toolbar-height;
@@ -157,8 +198,8 @@
 }
 // Chart ==================
 .chart-table-container, .chart-container{
-  // padding: @padding-base-computed;
-  margin: @margin-base-computed*2 0
+// padding: @padding-base-computed;
+margin: @margin-base-computed*2 0
 }
 .pie-chart-container {
   float: left;
@@ -173,6 +214,7 @@
 table {
   margin-top: @margin-base-computed;
   font-size: @font-size-base;
+  white-space: nowrap;
   tr th {
     font-weight: bold;
     border-bottom:2px solid @table-border;
@@ -208,7 +250,6 @@ thead {
 // Tabset ========================
 .nav-tabs.nav-justified > li {
   display: inline-block;
-  // float: left;
   width: 16.66666667%; //.col-xs-2
   border-radius: 4px 4px 0px 0px;
   a, a:hover, a:focus {
@@ -289,9 +330,6 @@ thead {
   }
 }
 // form
-.form-inline .form-group, .btn-group{
-  // margin:8px 0;
-}
 .form-inline .col-lg-3{
   min-width: 320px;
 }
@@ -302,7 +340,6 @@ thead {
   padding:2px 0 2px 20px;
   border-radius: 4px;
 }
-
 .form-group button.btn-fail{
   cursor:default;
 }
@@ -324,21 +361,20 @@ thead {
   border-top: 1px solid @gray-lighter;
   margin-bottom:@margin-base-computed*2;
   form.form-inline .form-group{
-   margin-bottom: 0;
- }
- .breadcrumb-nav{
-  margin-bottom: 0;
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav{
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav li{
+    display: inline-block;
+  }
+  .breadcrumb-nav>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+  }
 }
-.breadcrumb-nav li{
-  display: inline-block;
-}
-.breadcrumb-nav>li+li:before {
- padding: 0 5px;
- color: #ccc;
- content: "/";
-}
-}
-
 /*list-box*/
 .list-box {
   background-color:@base-bg;
@@ -360,13 +396,12 @@ thead {
   text-align: center;
 }
 .list-title{
- padding: @padding-base-computed;
- border-top:2px solid @blue-base;
- a:link{
-  color: @base-color;
+  padding: @padding-base-computed;
+  border-top:2px solid @blue-base;
+  a:link{
+    color: @base-color;
+  }
 }
-}
-
 /*modal*/
 .modal-scroll{
   max-height: 300px;
@@ -386,4 +421,3 @@ thead {
   -o-transform: translate(-50%, -50%) ;
   transform: translate(-50%, -50%) ;
 }
-
