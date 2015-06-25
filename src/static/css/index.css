@@ -74,6 +74,7 @@
   bottom: 0px;
   background: @gray-bg;
   min-height: 100% - @doc-toolbar-height - @doc-navbar-height;
+  min-width: 1090px;
   overflow-y: auto;
 }
 #doc-aside {
