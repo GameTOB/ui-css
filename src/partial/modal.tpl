@@ -173,11 +173,11 @@
          <!-- form-->
          <form class="form-inline clearfix">
             <div class="form-group form-margin-base col-lg-3">
-               <label for="exampleInputName2">标签名称：</label>
+               <label for="exampleInputName2"><mark>*</mark> 标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
             <div class="form-group form-margin-base col-lg-3">
-               <label>标签名称：</label>
+               <label><mark>*</mark> 标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
             <div class="form-group form-margin-base col-lg-9">
