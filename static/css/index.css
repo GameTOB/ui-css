@@ -1,5 +1,6 @@
-@import "reset.css";
 @import "variables.css";
+@import "reset.css";
+@import "reset-media.css";
 /* variables */
 /* layout */
 #doc-bd {
@@ -49,6 +50,7 @@
   color: #9da7b8;
 }
 #doc-aside a .fa {
+  width: 12px;
   line-height: 44px;
   right: 0;
   margin-right: 10px;
@@ -210,10 +212,6 @@ thead tr:last-child .th-collapsed {
   top: 2px;
   color: #02e4a2;
 }
-.form-inline .form-group,
-.btn-group {
-  margin-top: 8px;
-}
 .form-inline .col-lg-3 {
   min-width: 320px;
 }
@@ -239,6 +237,9 @@ thead tr:last-child .th-collapsed {
   background-color: #ffffff;
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+#doc-bd .breadcrumb form.form-inline .form-group {
   margin-bottom: 0;
 }
 #doc-bd .breadcrumb .breadcrumb-nav {
