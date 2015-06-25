@@ -32,7 +32,7 @@
 
 <!-- modal -->
 <!-- 模态框（Modal） -->
-<div class="modal" style="display:inherit; margin-top:11%;left:auto">
+<div class="modal" style="display:inherit; margin-top:10%;left:auto">
    <div class="modal-dialog">
       <div class="modal-content">
          <div class="modal-header">
@@ -47,15 +47,15 @@
       <div class="modal-body clearfix">
          <!-- form-->
          <form class="form-inline clearfix">
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-6">
                <label for="exampleInputName2">标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-6">
                <label>标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-9">
+            <div class="form-group form-margin-base col-xs-6">
                <label>标签名称：</label>
                <label class="radio-inline">
                   <input type="radio" name="inlineRadioOptions"> 全部
@@ -83,7 +83,7 @@
 
 <!-- modal -->
 <!-- 模态框（Modal） -->
-<div class="modal" style="display:inherit; margin-top:27%;left:auto">
+<div class="modal" style="display:inherit; margin-top:26%;left:auto">
    <div class="modal-dialog">
       <div class="modal-content">
          <div class="modal-header">
@@ -98,17 +98,17 @@
       <div class="modal-body clearfix">
          <!-- form-->
          <form class="form-inline clearfix">
-            <div class="form-group form-margin-base col-lg-10">
+            <div class="form-group form-margin-base col-xs-10">
                <label for="exampleInputName2">标签名称：</label>
                <button type="button" class="btn btn-fail btn-sm">不可点击</button>
                <button type="button" class="btn btn-success btn-sm">被选选项</button>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-8">
                <label>标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-9">
+            <div class="form-group form-margin-base col-xs-8">
                <label>标签名称：</label>
                <label class="radio-inline">
                   <input type="radio" name="inlineRadioOptions"> 全部
@@ -117,15 +117,15 @@
                   <input type="radio" name="inlineRadioOptions"> 指定
                </label>
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-8">
                <label>标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-8">
                <label>标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-8">
                <label>标签名称：</label>
                <label class="checkbox-inline">
                   <input type="checkbox"  value="option1"> 1
@@ -172,15 +172,15 @@
       <div class="modal-body clearfix">
          <!-- form-->
          <form class="form-inline clearfix">
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-6">
                <label for="exampleInputName2">标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-3">
+            <div class="form-group form-margin-base col-xs-6">
                <label><mark class="text-danger">*</mark> 标签名称：</label>
                <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
             </div>
-            <div class="form-group form-margin-base col-lg-9">
+            <div class="form-group form-margin-base col-xs-6">
                <label>标签名称：</label>
                <label class="radio-inline">
                   <input type="radio" name="inlineRadioOptions"> 全部

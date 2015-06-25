@@ -1,10 +1,10 @@
 <div class="doc-row">
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box list-button">
             <a href="#">+添加</a>
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box">
             <div class="list-title clearfix">
                 <span><strong>ONE</strong></span>
@@ -13,7 +13,7 @@
             <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box">
             <div class="list-title clearfix">
                 <span><strong>TWO</strong></span>
@@ -22,7 +22,7 @@
             <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box">
             <div class="list-title clearfix">
                 <span><strong>THREE</strong></span>
@@ -31,7 +31,7 @@
             <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box">
             <div class="list-title clearfix">
                 <span><strong>THREE</strong></span>
@@ -40,7 +40,7 @@
             <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
         </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-xs-3">
         <div class="list-box">
             <div class="list-title clearfix">
                 <span><strong>THREE</strong></span>

@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+
   form.form-inline .form-group {
     display: inline-block;
     margin-bottom:15px;
@@ -47,4 +47,4 @@
   form.form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
-}
+

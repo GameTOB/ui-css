@@ -47,11 +47,11 @@
 <div class="tab-container clearfix">
 <div class="doc-row clearfix">
 	<form class="form-inline">
-		<div class="form-group form-margin-base col-lg-3">
+		<div class="form-group form-margin-base col-xs-3">
 			<label for="exampleInputName2">标签名称：</label>
 			<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
 		</div>
-		<div class="form-group form-margin-base col-lg-2">
+		<div class="form-group form-margin-base col-xs-2">
 			<label>标签名称：</label>
 			<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
 		</div>
