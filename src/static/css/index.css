@@ -6,24 +6,23 @@
 /* variables */
 
 // color =====================
-@base-color: #333;
-@base-color-muted:#888;
+@font-color-base: #333;
+@font-color-base-muted:#888;
 @base-bg: #fff;
 
 @gray-base: #a7b1c2;
 @gray-light: #efefef;
 @gray-lighter: #ddd;
 
-//辅助色-绿色
 @cyan-base: #19aa8d;
 @cyan-dark: lighten(@cyan-base, 20%);
 @cyan-darker:lighten(@cyan-base, 15%);
 
 @blue-base: #2f4050;
-@blue-dark:#293846;
+@blue-dark: #293846;
 @red-base: #eb0000;
 
-// common padding and margin ========================
+//Components common padding and margin ========================
 @text-padding-base-horizontal: 4px;
 @text-padding-base-vertical: 4px;
 
@@ -42,6 +41,7 @@
 @font-size-base: 14px;
 @font-size-large: ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small: ceil((@font-size-base * 0.85)); // ~12px
+
 @line-height-base: 1.428571429; //20/14
 @line-height-computed: 20px;
 
@@ -72,12 +72,7 @@
 // Table ==============================
 @table-border: #e8e8e8;
 @table-link-color: #337ab7;
-@th-bg: #337ab7;
-
-
-// Charts ===========================
-@pie-width: 400px;
-@pie-height: 300px;
+@table-th-bg: #337ab7;
 
 
 // Form ==============================================
@@ -92,6 +87,7 @@
 @panel-border:1px solid #ddd;
 @pop-header-height:40px;
 
+// body ==================
 .doc-body{
   overflow-y: auto;
   background-color: @blue-base;
@@ -102,7 +98,6 @@
   width: 100%;
   overflow-x: hidden;
 }
-
 
 // doc-bd  =================
 #doc-bd {
@@ -123,7 +118,6 @@
   text-align: center;
   z-index: 2;
   transition: all 0.5s ease-in;
-
   .aside-menu{
     margin-top: @margin-base-computed*2;
   }
@@ -137,7 +131,6 @@
       text-align: left;
       padding-left:@padding-base-computed*2;
       &:hover{
-        // color: @gray-base - 10;
         background-color:@blue-dark;
         color: white;
       }
@@ -178,7 +171,6 @@
     .nav-second-level li.active a{
       color:white;
     }
-
     .nav-second-level li a{
       color: @gray-base;
       padding-left: 50px;
@@ -190,11 +182,34 @@
     .nav-second-level li:last-child{
       border-bottom: 0;
     }
-
   }
 }
 
-.nav-second-level li a.active{ color: #02e4a2; }
+.nav-second-level li a.active{ 
+  color: #02e4a2;
+}
+
+#doc-aside .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  &:extend(.clearfix all);
+
+  > li {
+    position: relative;
+    display: block;
+
+    > a {
+      position: relative;
+      display: block;
+      &:hover,
+      &:focus {
+        background-color:@blue-dark;
+      }
+    }
+  }
+}
+
 .logo{
   color:@gray-base;
 }
@@ -205,7 +220,7 @@
 }
 // toolbar =================
 #doc-toolbar {
-  color:@base-color-muted;
+  color:@font-color-base-muted;
   padding: 0 @padding-base-computed*2;
   line-height: @doc-toolbar-height;
   .logout {
@@ -233,20 +248,7 @@
 .fa-arrow-right {
   color: @gray-base;
 }
-// Chart ==================
-.chart-table-container, .chart-container{
-// padding: @padding-base-computed;
-margin: @margin-base-computed*2 0
-}
-.pie-chart-container {
-  float: left;
-  width: @pie-width;
-  height: @pie-height;
-}
-.pie-chart {
-  width: 100%;
-  height: 100%;
-}
+
 // Table ==============================
 table {
   margin-top: @margin-base-computed;
@@ -255,7 +257,7 @@ table {
   tr th {
     font-weight: bold;
     border-bottom:2px solid @table-border;
-    background: @th-bg;
+    background: @table-th-bg;
     color: @font-color;
   }
   th, td {
@@ -303,11 +305,6 @@ thead {
     margin-bottom: @margin-base-computed;
   }
 }
-// chart
-.chart{
-  padding: @padding-base-computed;
-  margin: @margin-base-computed*3 0
-}
 // table-area
 .table-area{
   margin: @margin-base-computed;
@@ -337,11 +334,11 @@ thead {
   line-height: 20px * 1.5;
   a{
     background: @cyan-base - 50;
-    color: @base-color;
+    color: @font-color-base;
     border-radius: 15px;
     padding: @text-padding-base-horizontal @padding-base-computed;
     &:hover{
-      color: @base-color + 10;
+      color: @font-color-base + 10;
       text-decoration: none;;
     }
     h4,h5{
@@ -436,7 +433,7 @@ thead {
   padding: @padding-base-computed;
   border-top:2px solid @blue-base;
   a:link{
-    color: @base-color;
+    color: @font-color-base;
   }
 }
 /*modal*/
