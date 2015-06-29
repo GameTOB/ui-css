@@ -23,19 +23,19 @@
 @blue-dark:#293846;
 @red-base: #eb0000;
 
- // common padding and margin ========================
- @text-padding-base-horizontal: 4px;
- @text-padding-base-vertical: 4px;
+// common padding and margin ========================
+@text-padding-base-horizontal: 4px;
+@text-padding-base-vertical: 4px;
 
- @padding-base-vertical: 6px;
- @padding-base-horizontal: 12px;
- @padding-base-computed: 10px;
+@padding-base-vertical: 6px;
+@padding-base-horizontal: 12px;
+@padding-base-computed: 10px;
 
- @margin-base-computed: 10px;
- @margin-base-vertical:4px;
+@margin-base-computed: 10px;
+@margin-base-vertical:4px;
 
- @border-radius-base: 4px;
- @border-radius-round: 20px;
+@border-radius-base: 4px;
+@border-radius-round: 20px;
 
 // font ===========================
 @font-color: #fff;
@@ -111,7 +111,6 @@
   background: @gray-bg;
   min-height: 1000px;
   min-width: 1090px;
-  transition: background 0.5s ease-in,color 0.3s ease-out;
 }
 
 // doc-aside ================= 

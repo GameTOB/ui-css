@@ -1,12 +1,17 @@
 #ver 0.1 
 
-##2015/6/25
+## 2015/6/29
+1. 菜单完善
+2. layout模板修改
+3. variables修整
+
+## 2015/6/25
 1. 菜单新增二三级
 2. variables修整
 3. reset media queries
 
 
-##2015/6/24
+## 2015/6/24
 1. layout模板修改
 2. 多种modal重构
 3. modal展示用transform: translate垂直居中展示
