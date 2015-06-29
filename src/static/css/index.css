@@ -14,25 +14,28 @@
 @gray-light: #efefef;
 @gray-lighter: #ddd;
 
-@cyan-base: #19aa8d; //辅助色-绿色
+//辅助色-绿色
+@cyan-base: #19aa8d;
 @cyan-dark: lighten(@cyan-base, 20%);
 @cyan-darker:lighten(@cyan-base, 15%);
 
 @blue-base: #2f4050;
+@blue-dark:#293846;
 @red-base: #eb0000;
 
-@text-padding-base-horizontal: 4px;
-@text-padding-base-vertical: 4px;
+ // common padding and margin ========================
+ @text-padding-base-horizontal: 4px;
+ @text-padding-base-vertical: 4px;
 
-@padding-base-vertical: 6px;
-@padding-base-horizontal: 12px;
-@padding-base-computed: 10px;
+ @padding-base-vertical: 6px;
+ @padding-base-horizontal: 12px;
+ @padding-base-computed: 10px;
 
-@margin-base-computed: 10px;
-@margin-base-vertical:4px;
+ @margin-base-computed: 10px;
+ @margin-base-vertical:4px;
 
-@border-radius-base: 4px;
-@border-radius-round: 20px;
+ @border-radius-base: 4px;
+ @border-radius-round: 20px;
 
 // font ===========================
 @font-color: #fff;
@@ -89,18 +92,26 @@
 @panel-border:1px solid #ddd;
 @pop-header-height:40px;
 
+.doc-body{
+  overflow-y: auto;
+  background-color: @blue-base;
+}
+
+// wrapper =================
+#wrapper{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 
 // doc-bd  =================
 #doc-bd {
-  position: absolute;
-  top: 0px;
-  left:@doc-aside-width;
-  right: 0px;
-  bottom: 0px;
+  position:relative;
+  margin-left:@doc-aside-width;
   background: @gray-bg;
-  min-height: 100% - @doc-toolbar-height - @doc-navbar-height;
+  min-height: 1000px;
   min-width: 1090px;
-  overflow-y: auto;
+  transition: background 0.5s ease-in,color 0.3s ease-out;
 }
 
 // doc-aside ================= 
@@ -112,6 +123,7 @@
   height: 100%;
   text-align: center;
   z-index: 2;
+  transition: all 0.5s ease-in;
 
   .aside-menu{
     margin-top: @margin-base-computed*2;
@@ -126,7 +138,9 @@
       text-align: left;
       padding-left:@padding-base-computed*2;
       &:hover{
-        color: @gray-base - 10;
+        // color: @gray-base - 10;
+        background-color:@blue-dark;
+        color: white;
       }
       .fa{
         width: 12px;
@@ -136,32 +150,34 @@
       }
     }
     &.active {
+      color:white;
       border-left: 4px solid @cyan-base;
-      background: #293846;
+      background: @blue-dark;
     }
     &.active a {
-      color: @cyan-base;
+      color:white;
       &:hover {
-        color: @cyan-base;
+        background-color:@blue-dark;
+        color: white;
       }
     }
     .nav-second-level li{
       border: none;
       i.fa{
         line-height: 14px;
-        color: @cyan-base;
+        color: white;
       }
       .nav-third-level li a{
         color: @gray-base;
         padding-left:70px;
         &:hover {
-          color: @cyan-base;
+          color: white;
         }
       }
     }
 
     .nav-second-level li.active a{
-      color: @cyan-base;
+      color:white;
     }
 
     .nav-second-level li a{
@@ -169,7 +185,7 @@
       padding-left: 50px;
       &:hover {
         background: none;
-        color: @cyan-base;
+        color:white;
       }
     }
     .nav-second-level li:last-child{
