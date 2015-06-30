@@ -1,0 +1,22 @@
+/* variables */
+.form-inline .col-lg-3 {
+  min-width: 320px;
+}
+.input-icon {
+  position: relative;
+}
+.input-icon i {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  color: #19aa8d;
+}
+.input-search {
+  border: 1px solid #a7b1c2;
+  height: 32px;
+  padding: 2px 0 2px 20px;
+  border-radius: 4px;
+}
+.form-group button.btn-fail {
+  cursor: default;
+}

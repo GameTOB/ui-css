@@ -1,0 +1,95 @@
+/* variables */
+#doc-aside {
+  width: 190px;
+  min-width: 100px;
+  background-color: #2f4050;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+  transition: all 0.5s ease-in;
+}
+#doc-aside .aside-menu {
+  margin-top: 20px;
+}
+#doc-aside .aside-menu li a {
+  display: block;
+  font-size: 12px;
+  color: #a7b1c2;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 20px;
+}
+#doc-aside .aside-menu li a:hover {
+  background-color: #293846;
+  color: white;
+}
+#doc-aside .aside-menu li a .fa {
+  width: 12px;
+  line-height: 44px;
+  right: 0;
+  margin-right: 10px;
+}
+#doc-aside .aside-menu li.active {
+  color: white;
+  border-left: 4px solid #19aa8d;
+  background: #293846;
+}
+#doc-aside .aside-menu li.active a {
+  color: white;
+}
+#doc-aside .aside-menu li.active a:hover {
+  background-color: #293846;
+  color: white;
+}
+#doc-aside .aside-menu li .nav-second-level li {
+  border: none;
+}
+#doc-aside .aside-menu li .nav-second-level li i.fa {
+  line-height: 14px;
+  color: white;
+}
+#doc-aside .aside-menu li .nav-second-level li .nav-third-level li a {
+  color: #a7b1c2;
+  padding-left: 70px;
+}
+#doc-aside .aside-menu li .nav-second-level li .nav-third-level li a:hover {
+  color: white;
+}
+#doc-aside .aside-menu li .nav-second-level li.active a {
+  color: white;
+}
+#doc-aside .aside-menu li .nav-second-level li a {
+  color: #a7b1c2;
+  padding-left: 50px;
+}
+#doc-aside .aside-menu li .nav-second-level li a:hover {
+  background: none;
+  color: white;
+}
+#doc-aside .aside-menu li .nav-second-level li:last-child {
+  border-bottom: 0;
+}
+.nav-second-level li a.active {
+  color: #02e4a2;
+}
+#doc-aside .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#doc-aside .nav > li {
+  position: relative;
+  display: block;
+}
+#doc-aside .nav > li > a {
+  position: relative;
+  display: block;
+}
+#doc-aside .nav > li > a:hover,
+#doc-aside .nav > li > a:focus {
+  background-color: #293846;
+}
+.logo {
+  color: #a7b1c2;
+}

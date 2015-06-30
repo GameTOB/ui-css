@@ -1,0 +1,49 @@
+/*disable responsice*/
+form.form-inline .form-group {
+  display: inline-block;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+form.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+form.form-inline .form-control-static {
+  display: inline-block;
+}
+form.form-inline .input-group {
+  display: inline-table;
+  vertical-align: middle;
+}
+form.form-inline .input-group .input-group-addon,
+form.form-inline .input-group .input-group-btn,
+form.form-inline .input-group .form-control {
+  width: auto;
+}
+form.form-inline .input-group > .form-control {
+  width: 100%;
+}
+form.form-inline .control-label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+form.form-inline .radio,
+form.form-inline .checkbox {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+form.form-inline .radio label,
+form.form-inline .checkbox label {
+  padding-left: 0;
+}
+form.form-inline .radio input[type="radio"],
+form.form-inline .checkbox input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+}
+form.form-inline .has-feedback .form-control-feedback {
+  top: 0;
+}
