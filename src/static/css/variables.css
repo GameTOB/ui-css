@@ -1,21 +1,23 @@
 /* variables */
 
 // color =====================
-@base-color: #333;
-@base-color-muted:#888;
+@font-color-base: #333;
+@font-color-base-muted:#888;
 @base-bg: #fff;
 
 @gray-base: #a7b1c2;
 @gray-light: #efefef;
 @gray-lighter: #ddd;
 
-@cyan-base: #19aa8d; //辅助色-绿色
+@cyan-base: #19aa8d;
 @cyan-dark: lighten(@cyan-base, 20%);
 @cyan-darker:lighten(@cyan-base, 15%);
 
 @blue-base: #2f4050;
+@blue-dark: #293846;
 @red-base: #eb0000;
 
+//Components common padding and margin ========================
 @text-padding-base-horizontal: 4px;
 @text-padding-base-vertical: 4px;
 
@@ -34,6 +36,7 @@
 @font-size-base: 14px;
 @font-size-large: ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small: ceil((@font-size-base * 0.85)); // ~12px
+
 @line-height-base: 1.428571429; //20/14
 @line-height-computed: 20px;
 
@@ -64,12 +67,7 @@
 // Table ==============================
 @table-border: #e8e8e8;
 @table-link-color: #337ab7;
-@th-bg: #337ab7;
-
-
-// Charts ===========================
-@pie-width: 400px;
-@pie-height: 300px;
+@table-th-bg: #337ab7;
 
 
 // Form ==============================================

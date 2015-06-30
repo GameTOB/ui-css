@@ -1,0 +1,108 @@
+@import "variables.css";
+
+
+// doc-aside ================= 
+#doc-aside {
+  width: @doc-aside-width;
+  min-width: 100px;
+  background-color: @blue-base;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+  transition: all 0.5s ease-in;
+  .aside-menu{
+    margin-top: @margin-base-computed*2;
+  }
+  .aside-menu li {
+
+    a {
+      display: block;
+      font-size: @font-size-small;
+      color: @gray-base;
+      text-decoration: none;
+      text-align: left;
+      padding-left:@padding-base-computed*2;
+      &:hover{
+        background-color:@blue-dark;
+        color: white;
+      }
+      .fa{
+        width: 12px;
+        line-height: 44px;
+        right: 0;
+        margin-right: @margin-base-computed;
+      }
+    }
+    &.active {
+      color:white;
+      border-left: 4px solid @cyan-base;
+      background: @blue-dark;
+    }
+    &.active a {
+      color:white;
+      &:hover {
+        background-color:@blue-dark;
+        color: white;
+      }
+    }
+    .nav-second-level li{
+      border: none;
+      i.fa{
+        line-height: 14px;
+        color: white;
+      }
+      .nav-third-level li a{
+        color: @gray-base;
+        padding-left:70px;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .nav-second-level li.active a{
+      color:white;
+    }
+    .nav-second-level li a{
+      color: @gray-base;
+      padding-left: 50px;
+      &:hover {
+        background: none;
+        color:white;
+      }
+    }
+    .nav-second-level li:last-child{
+      border-bottom: 0;
+    }
+  }
+}
+
+.nav-second-level li a.active{ 
+  color: #02e4a2;
+}
+
+#doc-aside .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  &:extend(.clearfix all);
+
+  > li {
+    position: relative;
+    display: block;
+
+    > a {
+      position: relative;
+      display: block;
+      &:hover,
+      &:focus {
+        background-color:@blue-dark;
+      }
+    }
+  }
+}
+
+.logo{
+  color:@gray-base;
+}

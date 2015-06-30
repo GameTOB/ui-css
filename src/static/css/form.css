@@ -1,0 +1,25 @@
+@import "variables.css";
+
+// form input select
+.form-inline .col-lg-3{
+  min-width: 320px;
+}
+.input-icon{
+  position: relative;
+  i{
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    color: @cyan-base;
+  }
+}
+// input-search
+.input-search {
+  border: 1px solid @gray-base;
+  height: 32px;
+  padding:2px 0 2px 20px;
+  border-radius: 4px;
+}
+.form-group button.btn-fail{
+  cursor:default;
+}
