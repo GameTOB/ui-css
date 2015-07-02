@@ -1,0 +1,63 @@
+@import "variables";
+
+
+// Table ==============================
+table {
+  margin-top: @margin-base-computed;
+  font-size: @font-size-base;
+  white-space: nowrap;
+  tr th {
+    font-weight: bold;
+    border-bottom:2px solid @table-border;
+    background: @table-th-bg;
+    color: @font-color;
+  }
+  th, td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .fa-arrow-down {
+    color: ;
+  }
+}
+thead {
+  tr.th-collapsed{
+    border-bottom: 1px solid @table-border;
+  }
+  tr:first-child {
+    border-bottom: 0px;
+  }
+  tr:first-child {
+    border-bottom: 0px;
+  }
+  tr:last-child .th-collapsed {
+    border-top: 0px;
+  }
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 1px;
+}
+// Tabset ========================
+.nav-tabs.nav-justified > li {
+  display: inline-block;
+  width: 16.66666667%; //.col-xs-2
+  border-radius: 4px 4px 0px 0px;
+  a, a:hover, a:focus {
+    outline: 0px;
+    border: 0px solid transparent;
+  }
+  &.active {
+    a, a:hover, a:focus{
+      border: 0px solid transparent;
+      background-image: linear-gradient(180deg, #B1DAFF, #ffffff);
+    }
+  }
+  h4{
+    margin-bottom: @margin-base-computed;
+  }
+}
+// table-area
+.table-area{
+  margin: @margin-base-computed;
+}

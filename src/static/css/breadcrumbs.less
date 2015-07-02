@@ -1,0 +1,23 @@
+@import "variables";
+
+// breadcrumb
+#doc-bd .breadcrumb{
+  background-color: @base-bg;
+  border-bottom: 1px solid @gray-lighter;
+  border-top: 1px solid @gray-lighter;
+  margin-bottom:@margin-base-computed*2;
+  form.form-inline .form-group{
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav{
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav li{
+    display: inline-block;
+  }
+  .breadcrumb-nav>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+  }
+}

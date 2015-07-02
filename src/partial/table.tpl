@@ -17,9 +17,11 @@
 <!-- /page-title -->
 <!-- the data -->
 
-<div class="row">
+
+<div class="doc-row">
+	<span class="label label-warning">无边框表格</span>
 	<!-- table -->
-	<table class="table">
+	<table class="table"> <!-- table-hover -->
 		<thead>
 			<tr>
 				<th> 序号 </th>
@@ -39,7 +41,7 @@
 			<tr>
 				<td> 1 </td>
 				<td> 女 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 北京市 </td>
@@ -52,7 +54,7 @@
 			<tr>
 				<td> 2 </td>
 				<td> 男 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 张家口市 </td>
@@ -62,190 +64,12 @@
 				<td > 2015/06/18 </td>
 				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 			</tr>
-			<tr>
-				<td> 3 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 香港 </td>
-				<td > 赵女士 </td>
-				<td > 25 </td>
-				<td > 1960.04.12</td>
-				<td > 2015/06/10 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 4 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 5 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 6 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 7 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
 		</tbody>
 	</table>
 	<!-- /table -->
 </div>
-<div class="row">
-	<!-- table -->
-	<table class="table table-hover">
-		<thead>
-			<tr>
-				<th> 序号 </th>
-				<th> 性别 </th>
-				<th> 本月增长 </th>
-				<th> 本日增长 </th>
-				<th> 总额 </th>
-				<th> 所在地 </th>
-				<th> 姓名 </th>
-				<th> 年龄 </th>
-				<th> 出生日期 </th>
-				<th> 注册日期 </th>
-				<th> 操作 </th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td> 1 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 2 </td>
-				<td> 男 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 张家口市 </td>
-				<td > 王五 </td>
-				<td > 35 </td>
-				<td > 1978.08.28</td>
-				<td > 2015/06/18 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 3 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 香港 </td>
-				<td > 赵女士 </td>
-				<td > 25 </td>
-				<td > 1960.04.12</td>
-				<td > 2015/06/10 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 4 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 5 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 6 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 7 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-		</tbody>
-	</table>
-	<!-- /table -->
-</div>
-<div class="row">
+<div class="doc-row">
+	<span class="label label-warning">有换行色表格</span>
 	<!-- table -->
 	<table class="table table-striped table-hover">
 		<thead>
@@ -267,7 +91,7 @@
 			<tr>
 				<td> 1 </td>
 				<td> 女 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 北京市 </td>
@@ -280,7 +104,7 @@
 			<tr>
 				<td> 2 </td>
 				<td> 男 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 张家口市 </td>
@@ -291,9 +115,9 @@
 				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 			</tr>
 			<tr>
-				<td> 3 </td>
+				<td> 表尾数据</td>
 				<td> 女 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 香港 </td>
@@ -303,76 +127,12 @@
 				<td > 2015/06/10 </td>
 				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 			</tr>
-			<tr>
-				<td> 4 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 5 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 6 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 7 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
-			<tr>
-				<td> 8 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-				<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
-			</tr>
 		</tbody>
 	</table>
 	<!-- /table -->
 </div>
-<div class="row">
+<div class="doc-row">
+	<span class="label label-warning">有边框表格</span>
 	<!-- table -->
 	<table class="table table-striped table-hover table-bordered">
 		<thead>
@@ -393,7 +153,7 @@
 			<tr>
 				<td> 1 </td>
 				<td> 女 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 北京市 </td>
@@ -405,7 +165,7 @@
 			<tr>
 				<td> 2 </td>
 				<td> 男 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 张家口市 </td>
@@ -417,7 +177,7 @@
 			<tr>
 				<td> 3 </td>
 				<td> 女 </td>
-				<td class=""> 2,058 </td>
+				<td > 2,058 </td>
 				<td > 10,025</td>
 				<td > 122,155,140 </td>
 				<td > 香港 </td>
@@ -425,78 +185,6 @@
 				<td > 25 </td>
 				<td > 1960.04.12</td>
 				<td > 2015/06/10 </td>
-			</tr>
-			<tr>
-				<td> 4 </td>
-				<td> 女 </td>
-				<td class=""> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-			</tr>
-			<tr>
-				<td> 5 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-			</tr>
-			<tr>
-				<td> 6 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-			</tr>
-			<tr>
-				<td> 7 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-			</tr>
-			<tr>
-				<td> 8 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
-			</tr>
-			<tr>
-				<td> 9 </td>
-				<td> 女 </td>
-				<td class="color-font-warm"> 2,058 </td>
-				<td > 10,025</td>
-				<td > 122,155,140 </td>
-				<td > 北京市 </td>
-				<td > 张三 </td>
-				<td > 25 </td>
-				<td > 1991.08.28</td>
-				<td > 2015/06/15 </td>
 			</tr>
 		</tbody>
 	</table>
@@ -525,4 +213,4 @@
 	</ul>
 </nav>
 </div>
-<!--/页码-->
+<!--/页码

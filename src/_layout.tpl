@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>UI - CSS</title>
-  <link rel="stylesheet" href="static/css/style.css"/>
+  <link rel="stylesheet" href="static/css/ui-css.css"/>
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
 </head>
@@ -30,10 +30,10 @@
             <span class="nav-label">表格</span>
             <i class="nav-sidebarfa fa fa-caret-down pull-right"> </i>
           </a>
-          <ul class="nav nav-second-level">
+          <ul class="nav nav-second-level" style="display: none">
             <li class="active">
               <a href="#">二级菜单<i class="fa fa-caret-down pull-right"> </i> </a>
-              <ul class="nav nav-third-level">
+              <ul class="nav nav-third-level" style="display: none">
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
@@ -107,7 +107,7 @@
         </div>
         <!-- /BreadcrumbNavigation -->
         <!-- ARK==============BreadcrumbNavigation -->
-        <div class="breadcrumb clearfix">
+<!--         <div class="breadcrumb clearfix">
           <form class="form-inline col-lg-10">
             <div class="form-group">
               <a href="#">Home</a>
@@ -124,7 +124,7 @@
               <button type="submit" class="btn btn-primary">前往应用</button>
             </div>
           </form>
-        </div>
+        </div> -->
         <!-- ARK============== /BreadcrumbNavigation -->
         <!-- doc-main -->
         <div id="doc-main">

@@ -1,0 +1,113 @@
+@import "variables";
+
+/* Base */
+// body ==================
+.doc-body{
+  overflow-y: auto;
+  background-color: @blue-base;
+}
+
+// wrapper =================
+#wrapper{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// doc-bd  =================
+#doc-bd {
+  position:relative;
+  margin-left:@doc-aside-width;
+  background: @gray-bg;
+  min-height: 1080px;
+  min-width: 1090px;
+}
+
+// toolbar =================
+#doc-toolbar {
+  color:@font-color-base-muted;
+  padding: 0 @padding-base-computed*2;
+
+  line-height: @doc-toolbar-height;
+  .logout {
+    text-decoration: underline;
+    padding: 0 8px;
+    font-weight: bold;
+  }
+}
+#doc-main {
+  top:@doc-toolbar-height;
+  right: 0px;
+  bottom: 0px;
+  padding: 2 * @padding-base-computed;
+  min-width: 1090px;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+// page-title
+.title-base{
+  label{
+    margin: 0 @margin-base-computed - 4;
+  }
+  small{
+    font-size: @font-size-small;
+    font-style: inherit;
+    padding:@text-padding-base-horizontal @text-padding-base-vertical;
+  }
+}
+.title-icon{
+  display: inline-block;
+  background: @cyan-base;
+  border-radius: @border-radius-base;
+  width: @border-radius-base;
+  height: @border-radius-base + 16px;
+  vertical-align: -4px;
+}
+.title-name{
+  font-size: 20px;
+  display: inline-block;
+  line-height: 20px * 1.5;
+  a{
+    background: @cyan-base - 50;
+    color: @font-color-base;
+    border-radius: 15px;
+    padding: @text-padding-base-horizontal @padding-base-computed;
+    &:hover{
+      color: @font-color-base + 10;
+      text-decoration: none;;
+    }
+    h4,h5{
+      margin: 0;
+    }
+  }
+  .more {
+    color: @base-bg;
+  }
+}
+// doc-row
+.doc-row{
+  margin-bottom: @margin-base-computed;
+}
+
+// page
+.page{
+  .pagination{ margin: 0;}
+}
+
+// tab
+.tab-container{
+  background: @base-bg;
+  padding: @padding-base-computed + 5;
+  margin-top: -1px;
+  border: 1px solid @gray-lighter;
+}
+
+// hr
+.doc-row hr {
+margin: 20px 0;
+border: 0;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #fff;
+}
+
