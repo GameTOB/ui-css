@@ -46,16 +46,19 @@ gulp vendor
 ```` 
 > 将package.json中指定的资源包(dependencies) 从 /node_modules 中拷贝至 /vendor
 
-- LESS分类
+## LESS分类
 
-* form.less /表单类 包括 input select button 
-* main.less /框架主要的组成部分 doc-bd  doc-main  table  title
-* non-responsive.css /重置bootstrap中对响应式做的控制
-* sidebar.less /左侧菜单
+* ui-css.less /import less
+* reset.less /重置浏览器的不一致性
+* non-responsive.less /重置bootstrap中对响应式做的控制
+* font-awesome.less /字体图标
 * variables.less /变量定义
+* scaffolding.less /框架主要的组成部分 doc-bd  doc-main  table  title
+* table.less /表格类
+* form.less /表单类 包括 input select button 
+* sidebar.less /左侧菜单
 * modal.less /模式框
-* reset.css /重置浏览器的不一致性
-* style.css /import less
-
-
-
+* alert.less /各类消息提示框
+* tab.less /选项卡
+* list.less /列表
+* breadcrumbs.less /面包屑

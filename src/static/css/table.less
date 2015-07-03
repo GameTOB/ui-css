@@ -61,3 +61,28 @@ thead {
 .table-area{
   margin: @margin-base-computed;
 }
+
+// table-th-non ============
+.table-th-non > thead > tr > th{
+  background: none;
+  color: @font-color-base;
+}
+// custom-table
+.custom-table{
+  margin-bottom:@margin-base-computed * 2;
+  width: 100%;
+  font-size: 12px;
+  line-height: 27px;
+  border: 1px solid #ddd;
+}
+.custom-table > thead > tr > th, .custom-table > tbody > tr > td{
+  border-right: 1px solid #ddd;
+  padding: 0 4px;
+}
+.custom-table > tbody > tr > td{
+  border-bottom: 1px solid #ddd;
+}
+.custom-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}

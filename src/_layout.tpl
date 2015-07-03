@@ -54,7 +54,7 @@
           </li>
           <li {% if subItem=="panel" %}class="active"{% endif %}>
             <a href="panel.html" target=""><i class="fa fa-usd"></i>
-              <span class="nav-label"> 面板合集 </span>
+              <span class="nav-label"> 面板</span>
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
             </a>
           </li>

@@ -17,7 +17,7 @@
 <!-- /page-title -->
 <h5><span class="label label-warning">内容为筛选条件容器</span></h5>
 <!-- panel -->
-<div class="panel panel-default">
+<div class="panel  panel-primary">
 <div class="panel-heading">
 	面板名称
 </div>
@@ -67,7 +67,7 @@
 <!--/panel -->
 <h5><span class="label label-warning">默认用法</span></h5>
 <!-- panel -->
-<div class="panel panel-default">
+<div class="panel panel-danger ">
 <div class="panel-heading clearfix">
 	面板名称
 	<small>其它文字</small>
