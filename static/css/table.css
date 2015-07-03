@@ -1,0 +1,82 @@
+/* variables */
+table {
+  margin-top: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+table tr th {
+  font-weight: bold;
+  border-bottom: 2px solid #e8e8e8;
+  background: #337ab7;
+  color: #ffffff;
+}
+table th,
+table td {
+  vertical-align: middle;
+  text-align: center;
+}
+table .fa-arrow-down {
+  color: ;
+}
+thead tr.th-collapsed {
+  border-bottom: 1px solid #e8e8e8;
+}
+thead tr:first-child {
+  border-bottom: 0px;
+}
+thead tr:first-child {
+  border-bottom: 0px;
+}
+thead tr:last-child .th-collapsed {
+  border-top: 0px;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 1px;
+}
+.nav-tabs.nav-justified > li {
+  display: inline-block;
+  width: 16.66666667%;
+  border-radius: 4px 4px 0px 0px;
+}
+.nav-tabs.nav-justified > li a,
+.nav-tabs.nav-justified > li a:hover,
+.nav-tabs.nav-justified > li a:focus {
+  outline: 0px;
+  border: 0px solid transparent;
+}
+.nav-tabs.nav-justified > li.active a,
+.nav-tabs.nav-justified > li.active a:hover,
+.nav-tabs.nav-justified > li.active a:focus {
+  border: 0px solid transparent;
+  background-image: linear-gradient(180deg, #b1daff, #ffffff);
+}
+.nav-tabs.nav-justified > li h4 {
+  margin-bottom: 10px;
+}
+.table-area {
+  margin: 10px;
+}
+.table-th-non > thead > tr > th {
+  background: none;
+  color: #333333;
+}
+.custom-table {
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 27px;
+  border: 1px solid #ddd;
+}
+.custom-table > thead > tr > th,
+.custom-table > tbody > tr > td {
+  border-right: 1px solid #ddd;
+  padding: 0 4px;
+}
+.custom-table > tbody > tr > td {
+  border-bottom: 1px solid #ddd;
+}
+.custom-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,21 @@
+/* variables */
+#doc-bd .breadcrumb {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+#doc-bd .breadcrumb form.form-inline .form-group {
+  margin-bottom: 0;
+}
+#doc-bd .breadcrumb .breadcrumb-nav {
+  margin-bottom: 0;
+}
+#doc-bd .breadcrumb .breadcrumb-nav li {
+  display: inline-block;
+}
+#doc-bd .breadcrumb .breadcrumb-nav > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/";
+}

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>UI - CSS</title>
-  <link rel="stylesheet" href="static/css/style.css"/>
+  <link rel="stylesheet" href="static/css/ui-css.css"/>
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
 </head>
@@ -30,10 +30,10 @@
             <span class="nav-label">表格</span>
             <i class="nav-sidebarfa fa fa-caret-down pull-right"> </i>
           </a>
-          <ul class="nav nav-second-level">
+          <ul class="nav nav-second-level" style="display: none">
             <li class="active">
               <a href="#">二级菜单<i class="fa fa-caret-down pull-right"> </i> </a>
-              <ul class="nav nav-third-level">
+              <ul class="nav nav-third-level" style="display: none">
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
@@ -54,7 +54,7 @@
           </li>
           <li >
             <a href="panel.html" target=""><i class="fa fa-usd"></i>
-              <span class="nav-label"> 面板合集 </span>
+              <span class="nav-label"> 面板</span>
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
             </a>
           </li>
@@ -107,7 +107,7 @@
         </div>
         <!-- /BreadcrumbNavigation -->
         <!-- ARK==============BreadcrumbNavigation -->
-        <div class="breadcrumb clearfix">
+<!--         <div class="breadcrumb clearfix">
           <form class="form-inline col-lg-10">
             <div class="form-group">
               <a href="#">Home</a>
@@ -124,35 +124,79 @@
               <button type="submit" class="btn btn-primary">前往应用</button>
             </div>
           </form>
-        </div>
+        </div> -->
         <!-- ARK============== /BreadcrumbNavigation -->
         <!-- doc-main -->
         <div id="doc-main">
           <div id="main-bd">
             
-<!-- alert -->
-<div class="alert alert-block alert-success">
-	<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
-	<i class="fa fa-check green"></i> 恭喜你！
-	<strong class="green">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
+<!-- panel -->
+<div class="panel panel-info">
+	<div class="panel-heading">
+		alert
+	</div>
+	<div class="panel-body element-con clearfix">
+
+		<h5><span class="label label-warning">默认用法</span></h5>
+		<!-- alert -->
+		<div class="alert alert-block alert-success">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<i class="fa fa-check green"></i> 恭喜你！
+			<strong class="green">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
+		</div>
+		<div class="alert alert-block alert-danger">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<i class="fa fa-check danger"></i> 警示！
+			<strong class="danger">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
+		</div>
+		<div class="alert alert-block alert-info">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<i class="fa fa-check info"></i>  提示！
+			<strong class="info">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
+		</div>
+		<div class="alert alert-block alert-warning">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<i class="fa fa-check warning"></i>  提示！
+			<strong class="warning">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
+		</div>
+		<!--/alert -->
+
+		<div class="alert alert-block alert-success">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<h4 class="alert-heading">Success!</h4>
+			这里会提示一些信息给你,请注意查看！
+		</div>
+
+		<div class="alert alert-block alert-danger">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<h4 class="alert-heading">Danger!</h4>
+			这里会提示一些信息给你,请注意查看！
+		</div>
+
+		<div class="alert alert-block alert-info">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<h4 class="alert-heading">Info!</h4>
+			这里会提示一些信息给你,请注意查看！
+		</div>
+
+		<div class="alert alert-block alert-warning">
+			<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
+			<h4 class="alert-heading">Warning!</h4>
+			这里会提示一些信息给你,请注意查看！
+		</div>
+
+	</div>
+	<!-- panel-body -->
 </div>
-<div class="alert alert-block alert-danger">
-	<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
-	<i class="fa fa-check danger"></i> 警示！
-	<strong class="danger">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
-</div>
-<div class="alert alert-block alert-info">
-	<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
-	<i class="fa fa-check info"></i>  提示！
-	<strong class="info">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
-</div>
-<div class="alert alert-block alert-warning">
-	<button type="button" class="close" data-dismiss="alert"> <i class="fa fa-times"></i> </button>
-	<i class="fa fa-check warning"></i>  提示！
-	<strong class="warning">系统版本<small>(v1.0)</small></strong>,这里会提示一些信息给你,请注意查看！
-</div>
-</div>
-<!--/alert -->
+
+
+
+
+
+
+
+
+
 
 
           </div>

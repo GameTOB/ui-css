@@ -1,20 +1,5 @@
 body {
   font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
-  line-height: 1.42857143;
-  color: #333;
-  min-width: 1360px;
-  overflow-y: hidden;
-}
-body,
-button,
-input,
-select,
-textarea {
-  font: 12px/1.125 Microsoft YaHei;
-}
-sub,
-sup {
-  line-height: 0;
 }
 body,
 h1,
@@ -43,34 +28,4 @@ textarea,
 hr {
   margin: 0;
   padding: 0;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-li {
-  list-style: none;
-}
-fieldset,
-img {
-  border: 0;
-}
-input,
-textarea {
-  outline-style: none;
-}
-textarea {
-  resize: none;
-}
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-i,
-th,
-var {
-  font-style: normal;
-  font-weight: normal;
 }

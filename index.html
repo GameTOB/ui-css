@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>UI - CSS</title>
-  <link rel="stylesheet" href="static/css/style.css"/>
+  <link rel="stylesheet" href="static/css/ui-css.css"/>
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
 </head>
@@ -30,10 +30,10 @@
             <span class="nav-label">表格</span>
             <i class="nav-sidebarfa fa fa-caret-down pull-right"> </i>
           </a>
-          <ul class="nav nav-second-level">
+          <ul class="nav nav-second-level" style="display: none">
             <li class="active">
               <a href="#">二级菜单<i class="fa fa-caret-down pull-right"> </i> </a>
-              <ul class="nav nav-third-level">
+              <ul class="nav nav-third-level" style="display: none">
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
                 <li><a href="#">三级菜单</a></li>
@@ -54,7 +54,7 @@
           </li>
           <li >
             <a href="panel.html" target=""><i class="fa fa-usd"></i>
-              <span class="nav-label"> 面板合集 </span>
+              <span class="nav-label"> 面板</span>
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
             </a>
           </li>
@@ -107,7 +107,7 @@
         </div>
         <!-- /BreadcrumbNavigation -->
         <!-- ARK==============BreadcrumbNavigation -->
-        <div class="breadcrumb clearfix">
+<!--         <div class="breadcrumb clearfix">
           <form class="form-inline col-lg-10">
             <div class="form-group">
               <a href="#">Home</a>
@@ -124,13 +124,13 @@
               <button type="submit" class="btn btn-primary">前往应用</button>
             </div>
           </form>
-        </div>
+        </div> -->
         <!-- ARK============== /BreadcrumbNavigation -->
         <!-- doc-main -->
         <div id="doc-main">
           <div id="main-bd">
             
-<div class="doc-row">
+<div class="doc-row clearfix">
     <div class="col-xs-3">
         <div class="list-box list-button">
             <a href="#">+添加</a>
@@ -142,7 +142,7 @@
                 <span><strong>ONE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
+            <a href="#"><img alt="image" class="img-circle applogo" src="static/img/testpic.png"></a>
         </div>
     </div>
     <div class="col-xs-3">
@@ -151,7 +151,7 @@
                 <span><strong>TWO</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
+            <a href="#"><img alt="image" class="img-circle applogo" src="static/img/testpic.png"></a>
         </div>
     </div>
     <div class="col-xs-3">
@@ -160,7 +160,7 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
+            <a href="#"><img alt="image" class="img-circle applogo" src="static/img/testpic.png"></a>
         </div>
     </div>
     <div class="col-xs-3">
@@ -169,7 +169,7 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
+            <a href="#"><img alt="image" class="img-circle applogo" src="static/img/testpic.png"></a>
         </div>
     </div>
     <div class="col-xs-3">
@@ -178,9 +178,13 @@
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
-            <img alt="image" class="img-circle applogo" src="static/img/testpic.png">
+            <a href="#"><img alt="image" class="img-circle applogo" src="static/img/testpic.png"></a>
         </div>
     </div>
+</div>
+
+<div class="doc-row">
+    <hr />
 </div>
 
           </div>

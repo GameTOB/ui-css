@@ -1,0 +1,39 @@
+/* variables */
+.tabbable-custom .nav-tabs > li {
+  width: 200px;
+  text-align: center;
+}
+.tabbable-custom .nav-tabs > li > a:hover {
+  border: none;
+  background: none;
+}
+.tabbable-custom .nav-tabs > li.active {
+  position: relative;
+}
+.red .nav-tabs > li.active {
+  border-top: 3px solid #d12610;
+}
+.cyan .nav-tabs > li.active {
+  border-top: 3px solid #19aa8d;
+}
+.tabbable-custom .nav-tabs > li.active > a {
+  border-top: none;
+}
+.tabbable-custom .nav-tabs > li > a {
+  border-radius: 2px;
+  margin-right: 0;
+}
+.tabbable-custom .tab-container {
+  margin-top: -2px;
+}
+.tabbable-custom .nav-tabs > li.active > a,
+.tabbable-custom .nav-tabs > li.active > a:hover,
+.tabbable-custom .nav-tabs > li.active > a:focus {
+  color: #333333;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-bottom: none;
+  border-bottom-color: transparent;
+}
