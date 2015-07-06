@@ -26,12 +26,62 @@
 		</div>
 		<div class="panel-body element-con clearfix">
 			<div class="clearfix">
-				<div class="btn-group">
+				<div class="btn-group pull-left">
 					<button class="btn btn-success btn-sm">
 						添加
 						<i class="fa fa-plus-circle"></i>
 					</button>
 				</div>
+
+<!-- 				<div class="col-xs-6">
+					<div class="dataTables_length">
+						<label>
+
+							<div class="select-container small">
+
+								<a href="#" class="select-choice">
+									<span>5</span>
+									<abbr class="select2-search-choice-close"></abbr>
+									<div><b></b></div>
+								</a>
+
+								<input class="select-focusser select-offscreen" type="text" />
+
+								<div class="select-drop select-with-searchbox" style="display:none">
+									<div class="select-search">
+										<input type="text" autocomplete="off" class="select-input">
+									</div>
+									<ul class="select-results"></ul>
+								</div>
+
+							</div>
+
+							<select class="m-wrap small select-offscreen" tabindex="-1">
+								<option value="5" selected="selected">5</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+								<option value="-1">All</option>
+							</select>
+						</label>
+
+					</div>
+				</div> -->
+
+				<!-- select search -->
+				<div class="col-xs-1">
+				<div class="select-container">
+					<a href="#" class="select-choice">
+						<span>5</span>
+						<abbr class="select-search-choice-close"></abbr>
+						<div><b></b></div>
+					</a>
+				</div>
+				</div>
+				<!-- /select search -->
+
+
+
+
 				<div class="btn-group pull-right">
 					<button class="btn dropdown-toggle">工具 <i class="fa fa-angle-down"></i>
 					</button>
