@@ -72,6 +72,13 @@
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
             </a>
           </li>
+          <li >
+            <a href="sidebar.html" target="">
+              <i class="fa fa-bars"></i>
+              <span class="nav-label">菜单</span>
+              <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+            </a>
+          </li>
         </ul>
       </div>
       <!-- /aside-menu -->
@@ -147,7 +154,6 @@
 	</div>
 </div>
 <!-- /page-title -->
-
 <!-- the data -->
 <div class="doc-row">
 	<h5><span class="label label-warning">定制表格</span></h5>
@@ -158,12 +164,50 @@
 		</div>
 		<div class="panel-body element-con clearfix">
 			<div class="clearfix">
-				<div class="btn-group">
+				<div class="btn-group pull-left">
 					<button class="btn btn-success btn-sm">
 						添加
 						<i class="fa fa-plus-circle"></i>
 					</button>
 				</div>
+				<!-- select search -->
+				<div class="col-xs-2">
+					<div class="select2-container">
+						<a href="#" class="select2-choice">
+							<span>test</span>
+							<abbr class="select2-search-choice-close"></abbr>
+							<div><b></b></div>
+						</a>
+						<div class="select2-drop select2-with-searchbox select2-drop-active select2-drop-above" style="width: 244px; display: block;" id="select2-drop">
+							<div class="select2-search">
+								<input type="text" autocomplete="off" class="select2-input">
+							</div>
+							<ul class="select2-results">
+								<li class="select2-result select2-result-selectable">
+									<div class="select2-result-label">
+										<span class="select2-match"></span>5
+									</div>
+								</li>
+								<li class="select2-result select2-result-selectable">
+									<div class="select2-result-label">
+										<span class="select2-match"></span>10
+									</div>
+								</li>
+								<li class="select2-result select2-result-selectable">
+									<div class="select2-result-label">
+										<span class="select2-match"></span>15
+									</div>
+								</li>
+								<li class="select2-result select2-result-selectable">
+									<div class="select2-result-label">
+										<span class="select2-match"></span>全部
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /select search -->
 				<div class="btn-group pull-right">
 					<button class="btn dropdown-toggle">工具 <i class="fa fa-angle-down"></i>
 					</button>
@@ -222,7 +266,12 @@
 						<td  class="text-left"> % +1.6</td>
 						<td  class="text-left"> ¥ 122,155,140 </td>
 						<td > 香港 </td>
-						<td > <span class="label label-success">标签</span> <span class="label label-default">标签</span>   </td>
+						<td > 
+							<span class="label label-default">默认</span>
+							<span class="label label-primary">重要</span>
+							<span class="label label-success">成功</span>
+							<span class="label label-warning">提示</span>
+						</td>
 						<td > 25 </td>
 						<td > 1960.04.12</td>
 						<td > 2015/06/10 </td>
@@ -253,7 +302,6 @@
 	</div>
 	<!--/panel -->
 </div>
-
 <div class="doc-row clearfix">
 	<span class="label label-warning">无边框简单表格</span>
 	<!-- table -->
@@ -321,7 +369,6 @@
 	</div>
 	<!--/页码-->
 </div>
-
 <div class="doc-row">
 	<span class="label label-warning">有换行色表格</span>
 	<!-- table -->
@@ -385,7 +432,6 @@
 	</table>
 	<!-- /table -->
 </div>
-
 <div class="doc-row">
 	<span class="label label-warning">有边框表格</span>
 	<!-- table -->
@@ -445,8 +491,7 @@
 	</table>
 	<!-- /table -->
 </div>
-
-<!-- /the data 
+<!-- /the data
 
           </div>
         </div>
