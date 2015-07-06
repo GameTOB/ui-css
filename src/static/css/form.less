@@ -25,6 +25,11 @@
 }
 
 // select search 
+.select-container {
+  position: relative;
+  zoom: 1;
+  vertical-align: middle;
+}
 .select-container .select-choice {
   display: block;
   height: 30px;
@@ -56,7 +61,7 @@
   font-size: 1px;
   text-decoration: none;
   border: 0;
-  background: url('static/img/select.png') right top no-repeat;
+  background: url('../img/select.png') right top no-repeat;
   cursor: pointer;
   outline: 0;
 }
@@ -69,7 +74,7 @@
   top: 3px;
   font-size: 1px;
   outline: none;
-  background: url('static/img/select.png') right top no-repeat;
+  background: url('../img/select.png') right top no-repeat;
 }
 
 .select-container .select-choice div {
@@ -79,7 +84,6 @@
   position: absolute;
   right: 0;
   top: 0;
-  border-left: 1px solid #e5e5e5;
   background: #fff;
 }
 
@@ -87,25 +91,73 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: url('static/img/select.png') no-repeat 0 3px;
+  background: url('../img/select.png') no-repeat 0 3px;
 }
+
+.select-search {
+  display: inline-block;
+  width: 100%;
+  padding: 0 4px;
+  position: relative;
+  z-index: 9992;
+  white-space: nowrap;
+  margin-top: 4px;
+}
+
 
 .select-search input {
   width: 100%;
-  height: 20px;
-  line-height: 20px;
-  padding: 4px 20px 4px 5px;
+  padding: 2px 20px 2px 5px;
   margin: 0;
   outline: 0;
   font-family: sans-serif;
   font-size: 1em;
   border: 1px solid #e5e5e5;
-  background: #fff url('static/img/select.png') no-repeat 100% -22px;
+  background:url('../img/select.png') no-repeat 100% -22px;
   color: #333333;
+}
+
+.select-results {
+  max-height: 200px;
+  padding: 0 0 0 4px;
+  margin: 4px 4px 4px 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .select-results .select-result-label {
   padding: 3px 7px 4px;
   margin: 0;
   cursor: pointer;
+}
+.select-results li {
+  list-style: none;
+  display: list-item;
+  background-image: none;
+  &:hover{
+    background: #ddd;
+  }
+}
+
+.select-drop {
+  width: 100%;
+  margin-top: -1px;
+  position: absolute;
+  z-index: 9992;
+  top: 100%;
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.select-drop.select-drop-above {
+  border-top: 1px solid #ddd;
+  border-bottom: 0;
+}
+.select-drop.select-drop-active {
+  border: 1px solid #ddd;
+  border-top: 0;
 }
