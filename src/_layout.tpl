@@ -72,6 +72,13 @@
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
             </a>
           </li>
+          <li {% if subItem=="sidebar" %}class="active"{% endif %}>
+            <a href="sidebar.html" target="">
+              <i class="fa fa-bars"></i>
+              <span class="nav-label">菜单</span>
+              <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+            </a>
+          </li>
         </ul>
       </div>
       <!-- /aside-menu -->
