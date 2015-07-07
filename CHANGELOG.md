@@ -1,5 +1,16 @@
 #ver 0.1 
 
+## 2015/7/7
+1. form.tpl重构
+2. sidebar.tpl进行多样式展示
+
+
+## 2015/7/6
+1. sidebar.tpl重构
+2. alert 定制页面元素
+3. panel-select2
+
+
 ## 2015/7/3
 1. 对各LESS模块进行分类
 2. 定制页面元素
