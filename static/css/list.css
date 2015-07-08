@@ -4,20 +4,23 @@
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
-  height: 170px;
   margin-bottom: 20px;
+  display: table;
+  width: 100%;
+  height: 170px;
 }
-.list-box img.applogo {
-  width: 100px;
-  height: 100px;
-  margin-left: 37%;
+.list-box a img {
+  display: block;
+  margin: 0 auto;
 }
 .list-button {
+  display: table;
+  width: 100%;
   text-align: center;
 }
 .list-button a {
-  display: inline-block;
-  padding: 20% 43%;
+  display: table-cell;
+  vertical-align: middle;
 }
 .list-title {
   padding: 10px;

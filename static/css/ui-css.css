@@ -1,37 +1,3 @@
-body {
-  font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-th,
-td,
-p,
-blockquote,
-pre,
-form,
-fieldset,
-legend,
-input,
-button,
-textarea,
-hr {
-  margin: 0;
-  padding: 0;
-}
-ul li {
-  list-style: none;
-}
 /*disable responsice*/
 form.form-inline .form-group {
   display: inline-block;
@@ -92,11 +58,15 @@ form.form-inline .has-feedback .form-control-feedback {
   overflow-x: hidden;
 }
 #doc-bd {
-  position: relative;
-  margin-left: 190px;
+  position: absolute;
+  left: 190px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background: #f3f3f3;
-  min-height: 1080px;
+  min-height: 100%;
   min-width: 1090px;
+  overflow: auto;
 }
 #doc-toolbar {
   color: #888888;
@@ -303,7 +273,7 @@ form.form-inline .has-feedback .form-control-feedback {
 }
 .select2-drop {
   width: 100%;
-  margin-top: -1px;
+  margin-top: -3px;
   position: absolute;
   z-index: 9992;
   top: 100%;
@@ -320,19 +290,6 @@ form.form-inline .has-feedback .form-control-feedback {
   border: 1px solid #ddd;
   border-top: 0;
 }
-.thumbnail img {
-  transition: All 0.4s ease-in-out;
-  -webkit-transition: All 0.4s ease-in-out;
-  -moz-transition: All 0.4s ease-in-out;
-  -o-transition: All 0.4s ease-in-out;
-}
-.thumbnail img:hover {
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-}
 #doc-aside {
   width: 190px;
   min-width: 100px;
@@ -344,7 +301,11 @@ form.form-inline .has-feedback .form-control-feedback {
   transition: all 0.5s ease-in;
 }
 #doc-aside .aside-menu {
+  padding: 0;
   margin-top: 20px;
+}
+#doc-aside .aside-menu li {
+  list-style: none;
 }
 #doc-aside .aside-menu li a {
   display: block;
@@ -433,7 +394,11 @@ form.form-inline .has-feedback .form-control-feedback {
   text-align: center;
   border-radius: 0;
 }
+.asidebar nav .mini-asidebar {
+  padding: 0;
+}
 .asidebar nav ul li {
+  list-style: none;
   position: relative;
   background: #2f4050;
   border-bottom: 1px solid #3e556a;
@@ -471,6 +436,7 @@ form.form-inline .has-feedback .form-control-feedback {
   width: 100px;
   left: 80px;
   top: 0;
+  padding: 0;
   transition: all 0.5s ease-in;
 }
 .asidebar nav ul li.active ul.nav-second-level li a {
@@ -485,20 +451,23 @@ form.form-inline .has-feedback .form-control-feedback {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
-  height: 170px;
   margin-bottom: 20px;
+  display: table;
+  width: 100%;
+  height: 170px;
 }
-.list-box img.applogo {
-  width: 100px;
-  height: 100px;
-  margin-left: 37%;
+.list-box a img {
+  display: block;
+  margin: 0 auto;
 }
 .list-button {
+  display: table;
+  width: 100%;
   text-align: center;
 }
 .list-button a {
-  display: inline-block;
-  padding: 20% 43%;
+  display: table-cell;
+  vertical-align: middle;
 }
 .list-title {
   padding: 10px;
@@ -590,6 +559,10 @@ thead tr:last-child .th-collapsed {
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
   margin-bottom: 20px;
+  padding: 8px 20px;
+}
+#doc-bd .breadcrumb ul {
+  padding: 0;
 }
 #doc-bd .breadcrumb form.form-inline .form-group {
   margin-bottom: 0;
@@ -640,7 +613,7 @@ thead tr:last-child .th-collapsed {
   margin-bottom: 4px;
 }
 .modal-translate-center {
-  position: absolute;
+  position: fixed;
   z-index: 1050;
   left: 50%;
   top: 50%;

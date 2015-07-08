@@ -9,11 +9,15 @@
   overflow-x: hidden;
 }
 #doc-bd {
-  position: relative;
-  margin-left: 190px;
+  position: absolute;
+  left: 190px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background: #f3f3f3;
-  min-height: 1080px;
+  min-height: 100%;
   min-width: 1090px;
+  overflow: auto;
 }
 #doc-toolbar {
   color: #888888;

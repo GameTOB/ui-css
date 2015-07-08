@@ -4,6 +4,10 @@
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
   margin-bottom: 20px;
+  padding: 8px 20px;
+}
+#doc-bd .breadcrumb ul {
+  padding: 0;
 }
 #doc-bd .breadcrumb form.form-inline .form-group {
   margin-bottom: 0;

@@ -129,7 +129,7 @@
 }
 .select2-drop {
   width: 100%;
-  margin-top: -1px;
+  margin-top: -3px;
   position: absolute;
   z-index: 9992;
   top: 100%;
@@ -145,17 +145,4 @@
 .select2-drop.select2-drop-active {
   border: 1px solid #ddd;
   border-top: 0;
-}
-.thumbnail img {
-  transition: All 0.4s ease-in-out;
-  -webkit-transition: All 0.4s ease-in-out;
-  -moz-transition: All 0.4s ease-in-out;
-  -o-transition: All 0.4s ease-in-out;
-}
-.thumbnail img:hover {
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
 }
