@@ -21,6 +21,7 @@
 						<span class="nav-label">表格</span>
 						<i class="fa fa-caret-down pull-right"> </i>
 					</a>
+					<ul class="nav nav-second-level collapse">
 						<li class="active">
 							<a href="#">二级菜单<i class="fa fa-caret-down pull-right"> </i> </a>
 							<ul class="nav nav-third-level">
