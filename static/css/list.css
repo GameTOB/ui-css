@@ -29,3 +29,21 @@
 .list-title a:link {
   color: #333333;
 }
+.summary-info {
+  color: #ffffff;
+}
+.green {
+  background-color: #19aa8d;
+}
+.yellow {
+  background-color: #f8ac59;
+}
+.red {
+  background-color: #ed5565;
+}
+.widget {
+  border-radius: 4px;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  margin: 10px 0;
+}
