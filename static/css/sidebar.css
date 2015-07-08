@@ -1,10 +1,13 @@
 /* variables */
 #doc-aside {
-  width: 190px;
-  min-width: 100px;
-  background-color: #2f4050;
   position: absolute;
-  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  width: 190px;
+  min-height: 100%;
+  background-color: #2f4050;
   text-align: center;
   z-index: 2;
   transition: all 0.5s ease-in;

@@ -32,11 +32,14 @@
 .summary-info {
   color: #ffffff;
 }
-.green {
+.green-bg {
   background-color: #19aa8d;
 }
-.yellow {
+.yellow-bg {
   background-color: #f8ac59;
+}
+.red-bg {
+  background-color: #ed5565;
 }
 .widget {
   border-radius: 4px;

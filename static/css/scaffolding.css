@@ -6,7 +6,6 @@
 }
 #wrapper {
   width: 100%;
-  overflow-x: hidden;
 }
 #doc-bd {
   position: absolute;

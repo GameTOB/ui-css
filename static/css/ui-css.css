@@ -55,7 +55,6 @@ form.form-inline .has-feedback .form-control-feedback {
 }
 #wrapper {
   width: 100%;
-  overflow-x: hidden;
 }
 #doc-bd {
   position: absolute;
@@ -291,11 +290,14 @@ form.form-inline .has-feedback .form-control-feedback {
   border-top: 0;
 }
 #doc-aside {
-  width: 190px;
-  min-width: 100px;
-  background-color: #2f4050;
   position: absolute;
-  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  width: 190px;
+  min-height: 100%;
+  background-color: #2f4050;
   text-align: center;
   z-index: 2;
   transition: all 0.5s ease-in;
@@ -479,11 +481,14 @@ form.form-inline .has-feedback .form-control-feedback {
 .summary-info {
   color: #ffffff;
 }
-.green {
+.green-bg {
   background-color: #19aa8d;
 }
-.yellow {
+.yellow-bg {
   background-color: #f8ac59;
+}
+.red-bg {
+  background-color: #ed5565;
 }
 .widget {
   border-radius: 4px;
