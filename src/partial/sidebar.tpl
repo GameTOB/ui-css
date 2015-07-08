@@ -13,13 +13,14 @@
 						<span class="nav-label">ARK</span>
 					</a>
 				</li>
+
 				<li class="active">
+
 					<a href="#">
 						<i class="fa fa-line-chart"></i>
 						<span class="nav-label">表格</span>
 						<i class="fa fa-caret-down pull-right"> </i>
 					</a>
-					<ul class="nav nav-second-level">
 						<li class="active">
 							<a href="#">二级菜单<i class="fa fa-caret-down pull-right"> </i> </a>
 							<ul class="nav nav-third-level">
@@ -36,6 +37,7 @@
 						<li><a href="#">二级菜单</a></li>
 					</ul>
 				</li>
+
 				<li>
 					<a href="#" > <i class="fa fa-files-o"></i>
 						<span class="nav-label">选项卡</span>

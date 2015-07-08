@@ -23,7 +23,7 @@
 
 <div class="doc-row clearfix">
     <div class="col-xs-3">
-        <div class="widget summary-info green">
+        <div class="widget summary-info green-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="col-xs-4">
-        <div class="widget summary-info yellow">
+        <div class="widget summary-info yellow-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
@@ -49,7 +49,7 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info green">
+        <div class="widget summary-info green-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info green">
+        <div class="widget summary-info green-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info green">
+        <div class="widget summary-info red-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
@@ -88,7 +88,7 @@
         </div>
     </div>
     <div class="col-xs-2">
-        <div class="widget summary-info yellow">
+        <div class="widget summary-info yellow-bg">
             <div class="doc-row clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
