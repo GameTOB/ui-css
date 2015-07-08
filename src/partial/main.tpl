@@ -1,3 +1,108 @@
+<!-- ARK==============BreadcrumbNavigation -->
+<div class="breadcrumb clearfix">
+    <form class="form-inline">
+        <div class="form-group">
+            <a href="#">Home</a>
+            <p class="form-control-static">标签名称:</p>
+        </div>
+        <div class="form-group">
+            <select class="form-control">
+                <option>select1</option>
+                <option>select2</option>
+                <option>select3</option>
+                <option>select4</option>
+                <option>select5</option>
+            </select>
+            <button type="submit" class="btn btn-primary">前往应用</button>
+        </div>
+    </form>
+</div>
+<!-- ARK============== /BreadcrumbNavigation -->
+
+<!-- widget -->
+
+<div class="doc-row clearfix">
+    <div class="col-xs-3">
+        <div class="widget summary-info green">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <div class="widget summary-info yellow">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-5">
+        <div class="widget summary-info green">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-5">
+        <div class="widget summary-info green">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-5">
+        <div class="widget summary-info green">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="widget summary-info yellow">
+            <div class="doc-row clearfix">
+                <div class="col-xs-4">
+                    <i class="fa fa-cloud fa-5x"></i>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <span>信息显示</span>
+                    <h2 class="font-bold">25</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /widget -->
+<div class="doc-row"><hr /></div>
 <div class="doc-row clearfix">
     <div class="col-xs-3">
         <div class="list-box list-button">
@@ -51,6 +156,3 @@
     </div>
 </div>
 
-<div class="doc-row">
-    <hr />
-</div>

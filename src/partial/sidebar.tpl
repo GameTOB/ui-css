@@ -11,14 +11,13 @@
 					<a href="#" >
 						<i class="fa fa-calendar"></i>
 						<span class="nav-label">ARK</span>
-						<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
 					</a>
 				</li>
 				<li class="active">
 					<a href="#">
 						<i class="fa fa-line-chart"></i>
 						<span class="nav-label">表格</span>
-						<i class="nav-sidebarfa fa fa-caret-down pull-right"> </i>
+						<i class="fa fa-caret-down pull-right"> </i>
 					</a>
 					<ul class="nav nav-second-level">
 						<li class="active">
@@ -40,33 +39,33 @@
 				<li>
 					<a href="#" > <i class="fa fa-files-o"></i>
 						<span class="nav-label">选项卡</span>
-					<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i> </a>
+					</a>
 				</li>
 				<li>
 					<a href="#" ><i class="fa fa-usd"></i>
 						<span class="nav-label"> 面板</span>
-						<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+						
 					</a>
 				</li>
 				<li>
 					<a href="#" >
 						<i class="fa fa-cogs"></i>
 						<span class="nav-label">  信息提示</span>
-						<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+					
 					</a>
 				</li>
 				<li>
 					<a href="#" >
 						<i class="fa fa-windows"></i>
 						<span class="nav-label"> 弹出窗</span>
-						<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+					
 					</a>
 				</li>
 				<li>
 					<a href="#" >
 						<i class="fa fa-bars"></i>
 						<span class="nav-label">菜单</span>
-						<i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
+			
 					</a>
 				</li>
 			</ul>
@@ -75,10 +74,10 @@
 	</div>
 	<!-- /sidebar 1-->
 	<!-- sidebar 2-->
-	<div class="col-xs-2"  style="height: 800px">
+	<div class="col-xs-2"  style="height:800px">
 		<div class="asidebar">
-			<nav class="navbar navbar-small">
-				<ul>
+			<nav class="navbar">
+				<ul class="mini-asidebar">
 					<li>
 						<a href="#">
 							<i class="fa fa-tachometer fa-lg"></i>

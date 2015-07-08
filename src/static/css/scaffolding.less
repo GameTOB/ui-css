@@ -15,11 +15,15 @@
 
 // doc-bd  =================
 #doc-bd {
-  position:relative;
-  margin-left:@doc-aside-width;
+  position:absolute;
+  left:@doc-aside-width;
+  top: 0;
+  right: 0;
+  bottom: 0;
   background: @gray-bg;
-  min-height: 1080px;
+  min-height: 100%;
   min-width: 1090px;
+  overflow: auto;
 }
 
 // toolbar =================

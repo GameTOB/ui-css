@@ -4,18 +4,21 @@
   background-color:@base-bg;
   border: 1px solid @gray-lighter;
   border-radius: @border-radius-base;
-  height: 170px;
   margin-bottom: 20px;
-  img.applogo{
-    width: 100px;
-    height: 100px;
-    margin-left: 37%;
+  display: table;
+  width: 100%;
+  height: 170px;
+  a img{
+    display: block;
+    margin: 0 auto;
   }
 }
 .list-button{
+  display: table;
+  width: 100%;
   a{
-    display: inline-block;
-    padding: 20% 43%;
+    display:table-cell;
+    vertical-align: middle;
   }
   text-align: center;
 }
@@ -25,4 +28,22 @@
   a:link{
     color: @font-color-base;
   }
+}
+
+
+.summary-info {
+  color: @font-color;
+}
+
+.green{
+  background-color:@cyan-base;
+}
+.yellow{
+  background-color: #f8ac59;
+}
+.widget {
+  border-radius:@border-radius-base;
+  padding:@padding-base-computed @padding-base-computed*2;
+  padding-bottom: 0;
+  margin:@margin-base-computed 0;
 }

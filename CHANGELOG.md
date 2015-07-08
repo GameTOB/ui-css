@@ -1,5 +1,12 @@
 #ver 0.1 
 
+## 2015/7/8
+1. 菜单去掉DOM中的样式
+2. 整体layout结构调整
+3. ARK标签下 对一些不合理的CSS进行修改
+4. select2样式修复
+5. 删除reset.less
+
 ## 2015/7/7
 1. form.tpl重构
 2. sidebar.tpl进行多样式展示

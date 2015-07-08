@@ -39,7 +39,7 @@
 							<abbr class="select2-search-choice-close"></abbr>
 							<div><b></b></div>
 						</a>
-						<div class="select2-drop select2-with-searchbox select2-drop-active select2-drop-above" style="width: 244px; display: block;" id="select2-drop">
+						<div class="select2-drop select2-with-searchbox select2-drop-active select2-drop-above"id="select2-drop">
 							<div class="select2-search">
 								<input type="text" autocomplete="off" class="select2-input">
 							</div>
