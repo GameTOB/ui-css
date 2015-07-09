@@ -102,12 +102,13 @@
 				<label>标签名称：</label>
 				<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
 			</div>
+			<div class="clearfix"></div>
+			<div class="btn-group pull-right">
+				<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
+				<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
+			</div>
 		</form>
 		<!--/form-->
-		<div class="btn-group pull-right">
-			<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
-			<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
-		</div>
 	</div>
 </div>
 <!--/panel -->
