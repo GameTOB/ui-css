@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>UI - CSS</title>
-  <link rel="stylesheet" href="static/css/ui-css.css"/>
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
   <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="static/css/ui-css.css"/>
 </head>
 <body class="doc-body">
 
@@ -52,7 +52,7 @@
             <span class="nav-label">选项卡</span>
             <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i> </a>
           </li>
-          <li class="active">
+          <li class="unfold">
             <a href="panel.html" target=""><i class="fa fa-usd"></i>
               <span class="nav-label"> 面板</span>
               <i class="nav-sidebarfa fa fa-caret-right pull-right"> </i>
@@ -198,12 +198,13 @@
 				<label>标签名称：</label>
 				<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
 			</div>
+			<div class="clearfix"></div>
+			<div class="btn-group pull-right">
+				<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
+				<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
+			</div>
 		</form>
 		<!--/form-->
-		<div class="btn-group pull-right">
-			<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
-			<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
-		</div>
 	</div>
 </div>
 <!--/panel -->

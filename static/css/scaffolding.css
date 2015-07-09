@@ -7,6 +7,17 @@
 #wrapper {
   width: 100%;
 }
+#doc-aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 190px;
+  background-color: #2f4050;
+  z-index: 2;
+  transition: all 0.5s ease-in;
+}
 #doc-bd {
   position: absolute;
   left: 190px;
