@@ -1,12 +1,10 @@
 @import "variables";
 
-
 // doc-aside =================
 .logo{
   color:@gray-base;
   text-align: center;
 }
-
 .aside-menu {
   padding: 0;
   margin-top: @margin-base-computed*2;
@@ -63,65 +61,3 @@
     }
 }
 
-
-// sidebar style 
-.asidebar nav{
- width: 80px;
- background: @blue-base;
- text-align: center;
- border-radius: 0;
- .mini-asidebar{
-  padding: 0;
-}
-}
-.asidebar nav ul li{
-  list-style:none;
-  position: relative;
-  background: @blue-base;
-  border-bottom: 1px solid #3e556a;
-  &:hover{
-    background: #1d2a36;
-  }
-}
-.asidebar nav ul li.active{
-  background: #1d2a36;
-  a{
-    color:white;
-  }
-}
-.asidebar nav ul li:last-child{
-  border:0;
-}
-.asidebar nav ul li a{
-  font-size: 12px;
-  display: block;
-  padding: 16px 0;
-  border-top: 1px solid #1d2a36;
-  &:hover{
-    text-decoration: none;
-    color: white;
-  }
-  color: @gray-base;
-  i{
-    display:block;
-    margin: @margin-base-vertical  0;
-  }
-}
-.asidebar nav ul li.active{
- ul.nav-second-level{
-  position: absolute;
-  background:@blue-base;
-  width: 100px;
-  left: 80px;
-  top: 0;
-  padding: 0;
-  transition: all 0.5s ease-in;
-  li a{
-    padding:10px 0;
-    font-size: 12px;
-  }
-}
-}
-.sidebar .navbar-inverse{
-  background:@blue-base;
-}
