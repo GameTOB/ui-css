@@ -1,6 +1,3 @@
-
-
-
 <div class="clearfix">
 	<div class="col-xs-6">
 		<div class="panel panel-default">

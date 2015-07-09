@@ -1,3 +1,18 @@
+<!-- BreadcrumbNavigation -->
+<div class="breadcrumb clearfix">
+    <ul class="breadcrumb-nav">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a>主展示区</a>
+        </li>
+        <li class="active">
+            <strong>添加APP &amp; 面板</strong>
+        </li>
+    </ul>
+</div>
+<!-- /BreadcrumbNavigation -->
 <!-- ARK==============BreadcrumbNavigation -->
 <div class="breadcrumb clearfix">
     <form class="form-inline">
@@ -18,9 +33,7 @@
     </form>
 </div>
 <!-- ARK============== /BreadcrumbNavigation -->
-
 <!-- widget -->
-
 <div class="doc-row clearfix">
     <div class="col-xs-3">
         <div class="widget summary-info green-bg">
@@ -155,4 +168,3 @@
         </div>
     </div>
 </div>
-
