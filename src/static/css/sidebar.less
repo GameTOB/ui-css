@@ -2,114 +2,72 @@
 
 
 // doc-aside =================
-#doc-aside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  overflow-y: auto;
-  width: @doc-aside-width;
-  background-color: @blue-base;
-  text-align: center;
-  z-index: 2;
-  transition: all 0.5s ease-in;
-  .aside-menu{
-    padding: 0;
-    margin-top: @margin-base-computed*2;
-  }
-  .aside-menu li {
-    list-style: none;
-    a {
-      display: block;
-      font-size: @font-size-small;
-      color: @gray-base;
-      text-decoration: none;
-      text-align: left;
-      padding-left:@padding-base-computed*2;
-      &:hover{
-        background-color:@blue-dark;
-        color: white;
-      }
-      .fa{
-        width: 12px;
-        line-height: 44px;
-        right: 0;
-        margin-right: @margin-base-computed;
-      }
-    }
-    &.active {
-      color:white;
-      border-left: 4px solid @cyan-base;
-      background: @blue-dark;
-    }
-    &.active a {
-      color:white;
-      &:hover {
-        background-color:@blue-dark;
-        color: white;
-      }
-    }
-    .nav-second-level li{
-      border: none;
-      i.fa{
-        line-height: 14px;
-        color: white;
-      }
-      .nav-third-level li a{
-
-        color: @gray-base;
-        padding-left:70px;
-        &:hover {
-          color: white;
-        }
-      }
-    }
-
-    .nav-second-level li.active a{
-      color:white;
-    }
-    .nav-second-level li a{
-      color: @gray-base;
-      padding-left: 50px;
-      &:hover {
-        background: none;
-        color:white;
-      }
-    }
-    .nav-second-level li:last-child{
-      border-bottom: 0;
-    }
-  }
-}
-
-.nav-second-level li a.active{
-  color: #02e4a2;
-}
-
-#doc-aside .nav {
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-  &:extend(.clearfix all);
-
-  > li {
-    position: relative;
-    display: block;
-
-    > a {
-      position: relative;
-      display: block;
-      &:hover,
-      &:focus {
-        background-color:@blue-dark;
-      }
-    }
-  }
-}
-
 .logo{
   color:@gray-base;
+  text-align: center;
 }
+
+.aside-menu {
+  padding: 0;
+  margin-top: @margin-base-computed*2;
+}
+
+/*default*/
+.aside-menu li > a {
+  display: block;
+  font-size: @font-size-small;
+  color: @gray-base;
+  text-decoration: none;
+  text-align: left;
+  padding: 10px 15px;
+  &:hover , &:focus {
+    color:white;
+    background-color: none;
+  }
+}
+
+.aside-menu > li > a > i{
+  display: inline-block;
+  width: 12px;
+  margin-right:8px;
+}
+
+.aside-menu > li {
+  &.unfold {
+    border-left: 4px solid @cyan-base;
+    background: @blue-dark;
+  }
+}
+
+.aside-menu li{
+  list-style:none;
+  &.unfold > a{
+    background:@blue-dark;
+    color:white;
+  }
+
+  &.unfold > .nav {
+    display: block;
+    padding-left:18px;
+  }
+}
+
+.aside-menu li > .nav {
+  display: none;
+}
+
+.aside-menu li > .nav > li > a{
+  &:hover , &:focus {
+      color:white;
+      background-color: transparent;
+    }
+}
+
+
+
+
+
+
 
 // sidebar style 
 .asidebar nav{
