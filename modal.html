@@ -90,22 +90,6 @@
           </div>
         </div>
         <!-- /toolbar -->
-        <!-- BreadcrumbNavigation -->
-        <div class="breadcrumb clearfix">
-            <ul class="breadcrumb-nav">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a>主展示区</a>
-              </li>
-              <li class="active">
-                <strong>添加APP &amp; 面板</strong>
-              </li>
-            </ul>
-        </div>
-        <!-- /BreadcrumbNavigation -->
-
         <!-- doc-main -->
         <div id="doc-main">
           <div id="main-bd">
