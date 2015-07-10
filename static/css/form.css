@@ -1,4 +1,3 @@
-/* variables */
 .form-inline .col-lg-3 {
   min-width: 320px;
 }
@@ -12,13 +11,10 @@
   color: #19aa8d;
 }
 .input-search {
-  border: 1px solid #a7b1c2;
+  border: 1px solid  #a7b1c2;
   height: 32px;
   padding: 2px 0 2px 20px;
   border-radius: 4px;
-}
-.form-group button.btn-fail {
-  cursor: default;
 }
 .select2-container {
   position: relative;
@@ -90,7 +86,7 @@
   width: 100%;
   padding: 0 4px;
   position: relative;
-  z-index: 9992;
+  z-index: 3;
   white-space: nowrap;
   margin-top: 4px;
 }
@@ -131,7 +127,7 @@
   width: 100%;
   margin-top: -3px;
   position: absolute;
-  z-index: 9992;
+  z-index: 3;
   top: 100%;
   background: #ffffff;
   color: #000;

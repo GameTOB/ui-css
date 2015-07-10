@@ -1,8 +1,7 @@
-/* variables */
 /*list-box ARK index UI*/
 .list-box {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #efefef;
   border-radius: 4px;
   margin-bottom: 20px;
   display: table;
@@ -24,24 +23,15 @@
 }
 .list-title {
   padding: 10px;
-  border-top: 3px solid #337ab7;
+  border-top: 3px solid  #e8e8e8;
 }
 .list-title a:link {
-  color: #333333;
+  color: #333;
 }
 .summary-info {
-  color: #ffffff;
+  color: #fff;
 }
-.green-bg {
-  background-color: #19aa8d;
-}
-.yellow-bg {
-  background-color: #f8ac59;
-}
-.red-bg {
-  background-color: #ed5565;
-}
-.widget {
+.list-box-summary {
   border-radius: 4px;
   padding: 10px 20px;
   padding-bottom: 0;

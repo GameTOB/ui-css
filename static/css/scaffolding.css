@@ -1,11 +1,9 @@
-/* variables */
-/* Base */
-.doc-body {
+body {
   background: #2f4050;
   overflow: hidden;
 }
-#wrapper {
-  width: 100%;
+a {
+  cursor: pointer;
 }
 #doc-aside {
   position: absolute;
@@ -18,7 +16,7 @@
   z-index: 2;
   transition: all 0.5s ease-in;
 }
-#doc-bd {
+#doc-content {
   position: absolute;
   left: 190px;
   top: 0;
@@ -28,9 +26,9 @@
   overflow: auto;
 }
 #doc-toolbar {
-  color: #888888;
+  color: #888;
   padding: 0 20px;
-  line-height: 60px;
+  line-height: 54px;
 }
 #doc-toolbar .logout {
   text-decoration: underline;
@@ -52,7 +50,7 @@
 .title-base small {
   font-size: 12px;
   font-style: inherit;
-  padding: 4px 4px;
+  padding: 4px;
 }
 .title-icon {
   display: inline-block;
@@ -68,37 +66,34 @@
   line-height: 30px;
 }
 .title-name a {
-  background: #00785b;
-  color: #333333;
+  background: #19aa8d;
+  color: #333;
   border-radius: 15px;
   padding: 4px 10px;
 }
 .title-name a:hover {
-  color: #3d3d3d;
+  color: #666;
   text-decoration: none;
 }
 .title-name a h4,
 .title-name a h5 {
   margin: 0;
 }
-.title-name .more {
-  color: #ffffff;
-}
-.doc-row {
-  margin-bottom: 10px;
-}
 .page .pagination {
   margin: 0;
 }
-.tab-container {
-  background: #ffffff;
-  padding: 15px;
-  margin-top: -1px;
-  border: 1px solid #dddddd;
-}
-.doc-row hr {
+hr {
   margin: 20px 0;
   border: 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #fff;
+}
+.green-bg {
+  background-color: #19aa8d;
+}
+.yellow-bg {
+  background-color: #f8ac59;
+}
+.red-bg {
+  background-color: #ed5565;
 }

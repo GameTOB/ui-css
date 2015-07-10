@@ -1,8 +1,7 @@
-/* variables */
 .breadcrumb {
-  background-color: #ffffff;
-  border-bottom: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #ddd;
   margin-bottom: 20px;
   padding: 8px 20px;
 }
