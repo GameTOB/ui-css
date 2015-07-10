@@ -24,9 +24,9 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="textArea" class="col-xs-2 control-label">描述</label>
+							<label for="textarea" class="col-xs-2 control-label">描述</label>
 							<div class="col-xs-10">
-								<textarea class="form-control" rows="3" id="textArea"></textarea>
+								<textarea class="form-control" rows="3" id="textarea"></textarea>
 								<span class="help-block">此处可以输入长文字.</span>
 							</div>
 						</div>
@@ -80,9 +80,7 @@
 		</div>
 	</div>
 	<div class="col-xs-6">
-		
-
-
+	
 		<div class="panel panel-default">
 			<div class="panel-body">
 				<div class="form-group">

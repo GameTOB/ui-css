@@ -1,5 +1,5 @@
 <!-- page-title -->
-<div class="doc-row page-title clearfix content">
+<div class="page-title clearfix content">
 	<div class="pull-left">
 		<!-- tit -->
 		<div class="title-base">
@@ -126,7 +126,7 @@
 </div>
 <!--/panel -->
 
-<div class="doc-row clearfix">
+<div class="clearfix">
 	
 	<div class="col-xs-4">
 		<div class="panel panel-primary">

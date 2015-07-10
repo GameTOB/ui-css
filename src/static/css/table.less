@@ -1,16 +1,14 @@
-@import "variables";
-
 
 // Table ==============================
 table {
-  margin-top: @margin-base-computed;
-  font-size: @font-size-base;
+  margin-top:10px;
+  font-size: 12px;
   white-space: nowrap;
   tr th {
     font-weight: bold;
-    border-bottom:2px solid @table-border;
-    background: @table-th-bg;
-    color: @font-color;
+    border-bottom:2px solid #e8e8e8;
+    background: #337ab7;
+    color: #fff;
   }
   th, td {
     vertical-align: middle;
@@ -19,67 +17,38 @@ table {
 }
 thead {
   tr.th-collapsed{
-    border-bottom: 1px solid @table-border;
+    border-bottom: 1px solid #e8e8e8;
   }
-  tr:first-child {
-    border-bottom: 0px;
-  }
-  tr:first-child {
+  tr:first-child{
     border-bottom: 0px;
   }
   tr:last-child .th-collapsed {
     border-top: 0px;
   }
 }
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
+.table-bordered > thead > tr > th,.table-bordered > thead > tr > td {
   border-bottom-width: 1px;
 }
-// Tabset ========================
-.nav-tabs.nav-justified > li {
-  display: inline-block;
-  width: 16.66666667%; //.col-xs-2
-  border-radius: 4px 4px 0px 0px;
-  a, a:hover, a:focus {
-    outline: 0px;
-    border: 0px solid transparent;
-  }
-  &.active {
-    a, a:hover, a:focus{
-      border: 0px solid transparent;
-      background-image: linear-gradient(180deg, #B1DAFF, #ffffff);
-    }
-  }
-  h4{
-    margin-bottom: @margin-base-computed;
-  }
-}
-// table-area
-.table-area{
-  margin: @margin-base-computed;
-}
 
-// table-th-non ============
-.table-th-non > thead > tr > th{
-  background: none;
-  color: @font-color-base;
-}
 // custom-table
-.custom-table{
-  margin-bottom:@margin-base-computed * 2;
+.table-custom{
+  margin-bottom:20px;
   width: 100%;
-  font-size: 12px;
   line-height: 27px;
   border: 1px solid #ddd;
 }
-.custom-table > thead > tr > th, .custom-table > tbody > tr > td{
-  border-right: 1px solid #ddd;
-  padding: 0 4px;
-}
-.custom-table > tbody > tr > td{
-  border-bottom: 1px solid #ddd;
-}
-.custom-table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 1px solid #ddd;
+.table-custom{
+  thead > tr > th{
+    background:transparent;
+    color: #333;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0 4px;
+    vertical-align: bottom;
+  } 
+  tbody> tr > td{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0 4px;
+  }
 }

@@ -1,5 +1,5 @@
 <!-- page-title -->
-<div class="doc-row page-title clearfix content">
+<div class="page-title clearfix content">
 	<div class="pull-left">
 		<!-- tit -->
 		<div class="title-base">
@@ -16,7 +16,7 @@
 </div>
 <!-- /page-title -->
 <h5><span class="label label-warning">默认用法</span></h5>
-<div class="doc-row">
+<div class="">
 <!-- tab-->
 <ul class="nav nav-tabs">
 	<li class="active">
@@ -47,7 +47,7 @@
 <!-- /tab -->
 <!-- tab-container -->
 <div class="tab-container clearfix">
-	<div class="doc-row clearfix">
+	<div class="clearfix">
 		<form class="form-inline">
 			<div class="form-group form-margin-base col-xs-3">
 				<label for="exampleInputName2">标签名称：</label>
@@ -164,17 +164,17 @@
 </div>
 
 <h5><span class="label label-warning">其它用法</span></h5>
-<!-- tabbale-custom red-->
-<div class="doc-row">
-<div class="tabbable tabbable-custom red">
-	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_1_1" data-toggle="tab">选项一</a></li>
-		<li class=""><a href="#tab_1_2" data-toggle="tab">选项二</a></li>
-		<li class=""><a href="#tab_1_3" data-toggle="tab">大小固定</a></li>
+<!-- tabbale-custom cyan-->
+<div class="">
+<div class="tab tab-custom">
+	<ul class="nav nav-tab">
+		<li class="active"><a href="#" data-toggle="tab">选项一</a></li>
+		<li class=""><a href="#" data-toggle="tab">选项二</a></li>
+		<li class=""><a href="#" data-toggle="tab">大小固定</a></li>
 	</ul>
 	<div class="tab-container">
-		<div class=" active" id="tab_1_1">
-		<table class="table table-hover">
+		<div class="active">
+		<table class="table-custom table-striped table-hover">
 			<thead>
 				<tr>
 					<th>#</th>
@@ -216,25 +216,6 @@
 			</tbody>
 		</table>
 		</div>
-		<div class=" active" id="tab_1_2"></div>
-		<div class=" active" id="tab_1_3"></div>
-	</div>
-</div>
-</div>
-<!--/tabbale-custom red -->
-
-<!-- tabbale-custom cyan-->
-<div class="doc-row">
-<div class="tabbable tabbable-custom cyan">
-	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_1_1" data-toggle="tab">选项一</a></li>
-		<li class=""><a href="#tab_1_2" data-toggle="tab">选项二</a></li>
-		<li class=""><a href="#tab_1_3" data-toggle="tab">大小固定</a></li>
-	</ul>
-	<div class="tab-container">
-		<div class=" active" id="tab_1_1">内容显示区</div>
-		<div class=" active" id="tab_1_2"></div>
-		<div class=" active" id="tab_1_3"></div>
 	</div>
 </div>
 </div>

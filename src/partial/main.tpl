@@ -33,11 +33,11 @@
     </form>
 </div>
 <!-- ARK============== /BreadcrumbNavigation -->
-<!-- widget -->
-<div class="doc-row clearfix">
+<!-- list-box-summary -->
+<div class=" clearfix">
     <div class="col-xs-3">
-        <div class="widget summary-info green-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info green-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -49,8 +49,8 @@
         </div>
     </div>
     <div class="col-xs-4">
-        <div class="widget summary-info yellow-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info yellow-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -62,8 +62,8 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info green-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info green-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -75,8 +75,8 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info green-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info green-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -88,8 +88,8 @@
         </div>
     </div>
     <div class="col-xs-5">
-        <div class="widget summary-info red-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info red-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -101,8 +101,8 @@
         </div>
     </div>
     <div class="col-xs-2">
-        <div class="widget summary-info yellow-bg">
-            <div class="doc-row clearfix">
+        <div class="list-box-summary summary-info yellow-bg">
+            <div class=" clearfix">
                 <div class="col-xs-4">
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
@@ -114,9 +114,9 @@
         </div>
     </div>
 </div>
-<!-- /widget -->
-<div class="doc-row"><hr /></div>
-<div class="doc-row clearfix">
+<!-- /list-box-summary -->
+<hr />
+<div class="clearfix">
     <div class="col-xs-3">
         <div class="list-box list-button">
             <a href="#">+添加</a>

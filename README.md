@@ -49,17 +49,15 @@ gulp vendor
 ## LESS分类
 
 > * ui-css.less /import less
-> * reset.less /重置浏览器的不一致性
-> * non-responsive.less /重置bootstrap中对响应式做的控制
-> * font-awesome.less /字体图标
-> * variables.less /变量定义
-> * scaffolding.less /框架主要的组成部分 doc-bd  doc-main  table  title
-> * table.less /表格类
-> * form.less /表单类
-> * sidebar.less /左侧菜单
-> * modal.less /模式框
-> * alert.less /各类消息提示框
-> * tab.less /选项卡
-> * list.less /列表
-> * breadcrumbs.less /面包屑
+> * non-responsive.less /重置bootstrap中对响应式做的控制。
+> * variables.less /变量定义。
+> * scaffolding.less /框架主要的组成部分。
+> * table.less /通用表格组件，可带表头表尾，用于显示各类数据。
+> * form.less /通用表单样式，可基于此表单样式构建各类功能表单。
+> * sidebar.less /左侧菜单样式，支持三级菜单。
+> * modal.less /不同场景的弹出窗。
+> * alert.less /通用信息提示框样式，共有提示、成功、警告、等待等。
+> * tab.less /标签切换组件。
+> * list.less /列表类。
+> * breadcrumbs.less /通用面包屑样式。
 

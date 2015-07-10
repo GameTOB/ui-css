@@ -52,7 +52,7 @@
 			这里会提示一些信息给你,请注意查看！
 		</div>
 		<h2>标签</h2>
-		<div class="doc-row">
+		<div>
 			<span class="label label-default">默认</span>
 			<span class="label label-primary">重要</span>
 			<span class="label label-success">成功</span>
