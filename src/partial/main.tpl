@@ -34,7 +34,7 @@
 </div>
 <!-- ARK============== /BreadcrumbNavigation -->
 <!-- list-box-summary -->
-<div class=" clearfix">
+<div class="clearfix">
     <div class="col-xs-3">
         <div class="list-box-summary summary-info green-bg">
             <div class=" clearfix">
@@ -118,13 +118,13 @@
 <hr />
 <div class="clearfix">
     <div class="col-xs-3">
-        <div class="list-box list-button">
+        <div class="ark-list-box ark-list-button">
             <a href="#">+添加</a>
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="list-box">
-            <div class="list-title clearfix">
+        <div class="ark-list-box">
+            <div class="ark-list-title clearfix">
                 <span><strong>ONE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
@@ -132,8 +132,8 @@
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="list-box">
-            <div class="list-title clearfix">
+        <div class="ark-list-box">
+            <div class="ark-list-title clearfix">
                 <span><strong>TWO</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
@@ -141,8 +141,8 @@
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="list-box">
-            <div class="list-title clearfix">
+        <div class="ark-list-box">
+            <div class="ark-list-title clearfix">
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
@@ -150,8 +150,8 @@
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="list-box">
-            <div class="list-title clearfix">
+        <div class="ark-list-box">
+            <div class="ark-list-title clearfix">
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
@@ -159,8 +159,8 @@
         </div>
     </div>
     <div class="col-xs-3">
-        <div class="list-box">
-            <div class="list-title clearfix">
+        <div class="ark-list-box">
+            <div class="ark-list-title clearfix">
                 <span><strong>THREE</strong></span>
                 <span class="pull-right"><a href="#">编辑</a> <a href="#" class="label label-primary">进入APP</a></span>
             </div>
