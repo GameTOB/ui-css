@@ -54,7 +54,7 @@ body {
 a {
   cursor: pointer;
 }
-#ui-aside {
+#bs-aside {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@ a {
   overflow-y: auto;
   background-color: #2f4050;
 }
-#ui-main {
+#bs-main {
   position: absolute;
   left: 190px;
   top: 0;

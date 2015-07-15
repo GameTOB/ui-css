@@ -2,49 +2,45 @@
   color: #a7b1c2;
   text-align: center;
 }
-.aside-menu {
-  padding: 0;
+.bs-aside-menu {
   margin-top: 20px;
+  padding: 0;
 }
-/*default*/
-.aside-menu li > a {
+.bs-aside-menu li > a {
   display: block;
+  padding: 10px 15px;
   font-size: 12px;
-  color: #a7b1c2;
   text-decoration: none;
   text-align: left;
-  padding: 10px 15px;
+  color: #a7b1c2;
 }
-.aside-menu li > a:hover,
-.aside-menu li > a:focus {
+.bs-aside-menu li > a:hover,
+.bs-aside-menu li > a:focus {
   color: white;
   background-color: none;
 }
-.aside-menu > li > a > i {
+.bs-aside-menu > li > a > i {
   display: inline-block;
   width: 12px;
   margin-right: 8px;
 }
-.aside-menu > li.unfold {
+.bs-aside-menu > li.unfold {
   border-left: 4px solid #19aa8d;
   background: #293846;
 }
-.aside-menu li {
+.bs-aside-menu li {
   list-style: none;
 }
-.aside-menu li.unfold > a {
+.bs-aside-menu li.unfold > a {
   background: #293846;
   color: white;
 }
-.aside-menu li.unfold > .nav {
+.bs-aside-menu li.unfold > .nav {
   display: block;
   padding-left: 18px;
 }
-.aside-menu li > .nav {
-  display: none;
-}
-.aside-menu li > .nav > li > a:hover,
-.aside-menu li > .nav > li > a:focus {
+.bs-aside-menu li > .nav > li > a:hover,
+.bs-aside-menu li > .nav > li > a:focus {
   color: white;
   background-color: transparent;
 }

@@ -5,95 +5,64 @@ body {
 a {
   cursor: pointer;
 }
-#doc-aside {
+#bs-aside {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  overflow-y: auto;
   width: 190px;
+  overflow-y: auto;
   background-color: #2f4050;
-  z-index: 2;
-  transition: all 0.5s ease-in;
 }
-#doc-content {
+#bs-main {
   position: absolute;
   left: 190px;
   top: 0;
   right: 0;
   bottom: 0;
-  background: #f3f3f3;
   overflow: auto;
+  background: #f3f3f3;
 }
-#doc-toolbar {
-  color: #888;
-  padding: 0 20px;
-  line-height: 54px;
-}
-#doc-toolbar .logout {
-  text-decoration: underline;
-  padding: 0 8px;
-  font-weight: bold;
-}
-#doc-main {
-  top: 60px;
-  right: 0px;
-  bottom: 0px;
+.header {
+  min-width: 1090px;
   padding: 20px;
+  color: #888;
+}
+.header .nav > li + li:before {
+  padding: 0 5px;
+}
+.header li > a {
+  display: inline-block;
+  padding: 0;
+  padding-left: 10px;
+}
+.content {
+  padding: 0 20px;
   min-width: 1090px;
   overflow: auto;
-  z-index: 1;
 }
-.title-base label {
-  margin: 0 6px;
-}
-.title-base small {
-  font-size: 12px;
-  font-style: inherit;
-  padding: 4px;
-}
-.title-icon {
-  display: inline-block;
-  background: #19aa8d;
-  border-radius: 4px;
-  width: 4px;
-  height: 20px;
-  vertical-align: -4px;
-}
-.title-name {
-  font-size: 20px;
-  display: inline-block;
-  line-height: 30px;
-}
-.title-name a {
-  background: #19aa8d;
-  color: #333;
-  border-radius: 15px;
-  padding: 4px 10px;
-}
-.title-name a:hover {
-  color: #666;
-  text-decoration: none;
-}
-.title-name a h4,
-.title-name a h5 {
-  margin: 0;
-}
-.page .pagination {
-  margin: 0;
-}
-hr {
-  margin: 20px 0;
-  border: 0;
+.breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  min-width: 1090px;
 }
-.green-bg {
-  background-color: #19aa8d;
+.breadcrumb ul {
+  padding: 0;
 }
-.yellow-bg {
-  background-color: #f8ac59;
+.breadcrumb form.form-inline .form-group {
+  margin-bottom: 0;
 }
-.red-bg {
-  background-color: #ed5565;
+.breadcrumb .breadcrumb-nav {
+  margin-bottom: 0;
+}
+.breadcrumb .breadcrumb-nav li {
+  display: inline-block;
+}
+.breadcrumb .breadcrumb-nav > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/";
 }

@@ -6,22 +6,22 @@
         <title>UI - CSS</title>
         <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
         <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
-        <link rel="stylesheet" href="static/css/ui-css.css" />
+        <link rel="stylesheet" href="static/css/bootstrap.css" />
     </head>
     
     <body>
-        <!-- aside-menu -->
-        <div id="doc-aside">
+        <!-- bs-aside -->
+        <div id="bs-aside">
             <!-- logo -->
             <h3 class="logo">LOGO</h3>
             <!-- /logo -->
-            <ul class="aside-menu">
+            <ul class="bs-aside-menu">
 
                 <li >
                     <a href="index.html">
                         <i class="fa fa-calendar"></i>
                         <span class="nav-label">ARK</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -29,7 +29,7 @@
                     <a href="table.html">
                         <i class="fa fa-line-chart"></i>
                         <span class="nav-label">表格</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -37,7 +37,7 @@
                     <a href="form.html">
                         <i class="fa fa-list-alt"></i>
                         <span class="nav-label">表单</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -45,7 +45,7 @@
                     <a href="sidebar.html">
                         <i class="fa fa-bars"></i>
                         <span class="nav-label">菜单</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -53,7 +53,7 @@
                     <a href="tab.html">
                         <i class="fa fa-files-o"></i>
                         <span class="nav-label">选项卡</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -61,7 +61,7 @@
                     <a href="panel.html">
                         <i class="fa fa-usd"></i>
                         <span class="nav-label">面板</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -69,7 +69,7 @@
                     <a href="alert.html">
                         <i class="fa fa-cogs"></i>
                         <span class="nav-label">信息提示</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -77,163 +77,164 @@
                     <a href="modal.html">
                         <i class="fa fa-windows"></i>
                         <span class="nav-label">弹出窗</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
             </ul>
         </div>
-        <!-- /aside-menu -->
+        <!-- /bs-aside -->
 
-        <div id="doc-content">
+        <!-- bs-main -->
+        <div id="bs-main">
 
-            <!-- toolbar -->
-            <div class="clearfix" id="doc-toolbar">
-                <div class="pull-left logo">
-                    system name
-                </div>
-                <div class="pull-right user-info">
-                    <span>
-                        <strong>超级管理员,</strong>欢迎您!
-                        <a href="#" class="logout" ><i class="fa fa-power-off"></i>退出</a>
-                    </span>
-                </div>
+            <!-- header -->
+            <div class="header clearfix">
+                <ul class="nav nav-pills pull-right">
+                    <li>超级管理员,</li>
+                    <li>欢迎您！</li>
+                    <li><a href="#" class="logout">退出</a></li>
+                </ul>
             </div>
-            <!-- /toolbar -->
-
-            <!-- doc-main -->
-            <div id="doc-main">
+            <!-- /header -->
             
-<!-- page-title -->
-<div class="page-title clearfix content">
-	<div class="pull-left">
-		<!-- tit -->
-		<div class="title-base">
-			<span class="title-icon"></span>
-			<span class="title-name">模块标题</span>
-			<small>小标题或描述性文字</small>
-		</div>
-		<!-- /tit -->
-	</div>
-	<div class="pull-right search">
-		<span class="input-icon"> <input type="text" placeholder="Search ..." class="input-search" /> <i class="fa fa-search"></i>
-		</span>
-	</div>
-</div>
-<!-- /page-title -->
-<h5><span class="label label-warning">简单面板</span></h5>
-<div class="panel panel-default">
-	<div class="panel-body">
-		基本模块
-	</div>
-</div>
-<div class="panel panel-default">
-	<div class="panel-body">
-		内容区
-	</div>
-	<div class="panel-footer">尾</div>
-</div>
-<h5><span class="label label-warning">带图片内容的面板</span></h5>
-<!-- panel -->
-<div class="panel panel-default">
-	<div class="panel-heading clearfix">
-		面板名称
-		<small>其它文字</small>
-		<a href="#" class="pull-right">更多</a>
-	</div>
-	<div class="panel-body element-con">
-		<div class="">
-			<div class="col-xs-6 col-md-3">
-				<a href="#" class="thumbnail">
-					<img src="static/img/defaultimage.png" alt="default image">
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a href="#" class="thumbnail">
-					<img src="static/img/defaultimage.png" alt="default image">
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a href="#" class="thumbnail">
-					<img src="static/img/defaultimage.png" alt="default image">
-				</a>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<a href="#" class="thumbnail">
-					<img src="static/img/defaultimage.png" alt="default image">
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!--/panel -->
-<h5><span class="label label-warning">内容为筛选条件容器</span></h5>
-<!-- panel -->
-<div class="panel  panel-primary">
-	<div class="panel-heading">
-		面板名称
-	</div>
-	<div class="panel-body element-con clearfix">
-		<!-- form-->
-		<form class="form-inline">
-			<div class="form-group form-margin-base col-xs-3">
-				<label for="exampleInputName2">标签名称：</label>
-				<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
-			</div>
-			<div class="form-group form-margin-base col-xs-3">
-				<label>标签名称：</label>
-				<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
-			</div>
-			<div class="clearfix"></div>
-			<div class="btn-group pull-right">
-				<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
-				<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
-			</div>
-		</form>
-		<!--/form-->
-	</div>
-</div>
-<!--/panel -->
-<h5><span class="label label-warning">默认用法</span></h5>
-<!-- panel -->
-<div class="panel panel-danger ">
-	<div class="panel-heading clearfix">
-		面板名称
-		<small>其它文字</small>
-		<a href="#" class="pull-right">更多 <span class="badge">42</span></a>
-	</div>
-	<div class="panel-body element-con">
-		内容显示区
-	</div>
-</div>
-<!--/panel -->
+         <!-- BreadcrumbNavigation -->
+            <div class="breadcrumb clearfix">
+                <ul class="breadcrumb-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a>主展示区</a>
+                    </li>
+                    <li class="active">
+                        <strong>当前位置</strong>
+                    </li>
+                </ul>
+            </div>
+            <!-- /BreadcrumbNavigation -->
 
-<div class="clearfix">
-	
+
+            
+<!-- content -->
+<div class="content">
+	<!-- title -->
+	<h4> <span class="title-icon"></span> 模块标题<small>小标题或描述性文字</small></h4>
+	<!-- 	<div class="search pull-right">
+			<span class="input-icon">
+			<input type="text" placeholder="Search ..." class="input-search" />
+			<i class="fa fa-search"></i>
+			</span>
+	</div> -->
+	<!-- /title -->
+	<h5><span class="label label-warning">简单面板</span></h5>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			基本模块
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			内容区
+		</div>
+		<div class="panel-footer">尾</div>
+	</div>
+	<h5><span class="label label-warning">带图片内容的面板</span></h5>
+	<!-- panel -->
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			面板名称
+			<small>其它文字</small>
+			<a href="#" class="pull-right">更多</a>
+		</div>
+		<div class="panel-body">
+			<div class="col-xs-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="static/img/defaultimage.png" alt="default image">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="static/img/defaultimage.png" alt="default image">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="static/img/defaultimage.png" alt="default image">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="static/img/defaultimage.png" alt="default image">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--/panel -->
+	<h5><span class="label label-warning">内容为筛选条件容器</span></h5>
+	<!-- panel -->
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			面板名称
+		</div>
+		<div class="panel-body">
+			<!-- form-->
+			<form class="form-inline">
+				<div class="form-group form-margin-base col-xs-3">
+					<label for="exampleInputName2">标签名称：</label>
+					<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
+				</div>
+				<div class="form-group form-margin-base col-xs-3">
+					<label>标签名称：</label>
+					<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入" />
+				</div>
+				<div class=""></div>
+				<div class="btn-group pull-right">
+					<button type="button" class="btn btn-primary"><i class="fa fa-search"></i>检索</button>
+					<button type="button" class="btn btn-default"><i class="fa fa-refresh"></i>重置</button>
+				</div>
+			</form>
+			<!--/form-->
+		</div>
+	</div>
+	<!--/panel -->
+	<h5><span class="label label-warning">默认用法</span></h5>
+	<!-- panel -->
+	<div class="panel panel-danger ">
+		<div class="panel-heading">
+			面板名称
+			<small>其它文字</small>
+			<a href="#" class="pull-right">更多 <span class="badge">42</span></a>
+		</div>
+		<div class="panel-body">
+			内容显示区
+		</div>
+	</div>
+	<!--/panel -->
 	<div class="col-xs-4">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
@@ -260,7 +261,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="col-xs-4">
 		<div class="panel panel-danger">
 			<div class="panel-heading">
@@ -279,13 +279,13 @@
 			</div>
 		</div>
 	</div>
-
 </div>
+<!-- content -->
 
-            </div>
-            <!-- /doc-main -->
-
+            
+        
         </div>
-    </body>
+        <!-- /bs-main -->
 
+    </body>
 </html>

@@ -6,22 +6,22 @@
         <title>UI - CSS</title>
         <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
         <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
-        <link rel="stylesheet" href="static/css/ui-css.css" />
+        <link rel="stylesheet" href="static/css/bootstrap.css" />
     </head>
     
     <body>
-        <!-- aside-menu -->
-        <div id="doc-aside">
+        <!-- bs-aside -->
+        <div id="bs-aside">
             <!-- logo -->
             <h3 class="logo">LOGO</h3>
             <!-- /logo -->
-            <ul class="aside-menu">
+            <ul class="bs-aside-menu">
 
                 <li >
                     <a href="index.html">
                         <i class="fa fa-calendar"></i>
                         <span class="nav-label">ARK</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -29,7 +29,7 @@
                     <a href="table.html">
                         <i class="fa fa-line-chart"></i>
                         <span class="nav-label">表格</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -37,7 +37,7 @@
                     <a href="form.html">
                         <i class="fa fa-list-alt"></i>
                         <span class="nav-label">表单</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -45,7 +45,7 @@
                     <a href="sidebar.html">
                         <i class="fa fa-bars"></i>
                         <span class="nav-label">菜单</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -53,7 +53,7 @@
                     <a href="tab.html">
                         <i class="fa fa-files-o"></i>
                         <span class="nav-label">选项卡</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -61,7 +61,7 @@
                     <a href="panel.html">
                         <i class="fa fa-usd"></i>
                         <span class="nav-label">面板</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -69,7 +69,7 @@
                     <a href="alert.html">
                         <i class="fa fa-cogs"></i>
                         <span class="nav-label">信息提示</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
@@ -77,166 +77,168 @@
                     <a href="modal.html">
                         <i class="fa fa-windows"></i>
                         <span class="nav-label">弹出窗</span>
-                        <i class="nav-sidebarfa fa fa-caret-right pull-right"></i>
+                        <i class="fa fa-caret-right pull-right"></i>
                     </a>
                 </li>
 
             </ul>
         </div>
-        <!-- /aside-menu -->
+        <!-- /bs-aside -->
 
-        <div id="doc-content">
+        <!-- bs-main -->
+        <div id="bs-main">
 
-            <!-- toolbar -->
-            <div class="clearfix" id="doc-toolbar">
-                <div class="pull-left logo">
-                    system name
-                </div>
-                <div class="pull-right user-info">
-                    <span>
-                        <strong>超级管理员,</strong>欢迎您!
-                        <a href="#" class="logout" ><i class="fa fa-power-off"></i>退出</a>
-                    </span>
-                </div>
+            <!-- header -->
+            <div class="header clearfix">
+                <ul class="nav nav-pills pull-right">
+                    <li>超级管理员,</li>
+                    <li>欢迎您！</li>
+                    <li><a href="#" class="logout">退出</a></li>
+                </ul>
             </div>
-            <!-- /toolbar -->
-
-            <!-- doc-main -->
-            <div id="doc-main">
+            <!-- /header -->
             
-<div class="clearfix">
-	<div class="col-xs-6">
-		<div class="panel panel-default">
-			<div class="panel-body">
-				<!-- form -->
-				<form class="form-horizontal">
-					<fieldset>
-						<legend>表单</legend>
-						<div class="form-group">
-							<label for="inputEmail" class="col-xs-2 control-label">邮箱</label>
-							<div class="col-xs-10">
-								<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+         <!-- BreadcrumbNavigation -->
+            <div class="breadcrumb clearfix">
+                <ul class="breadcrumb-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a>主展示区</a>
+                    </li>
+                    <li class="active">
+                        <strong>当前位置</strong>
+                    </li>
+                </ul>
+            </div>
+            <!-- /BreadcrumbNavigation -->
+
+
+            
+<!-- content -->
+<div class="content">
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<!-- form -->
+			<form class="form-horizontal">
+				<fieldset>
+					<legend>表单</legend>
+					<div class="form-group">
+						<label for="inputEmail" class="col-xs-2 control-label">邮箱</label>
+						<div class="col-xs-10">
+							<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword" class="col-xs-2 control-label">密码</label>
+						<div class="col-xs-10">
+							<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">选择项
+								</label>
 							</div>
 						</div>
-						<div class="form-group">
-							<label for="inputPassword" class="col-xs-2 control-label">密码</label>
-							<div class="col-xs-10">
-								<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-								<div class="checkbox">
-									<label>
-										<input type="checkbox">选择项
-									</label>
-								</div>
+					</div>
+					<div class="form-group">
+						<label for="textarea" class="col-xs-2 control-label">描述</label>
+						<div class="col-xs-10">
+							<textarea class="form-control" rows="3" id="textarea"></textarea>
+							<span class="help-block">此处可以输入长文字.</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-2 control-label">单选项</label>
+						<div class="col-xs-10">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+									选项一
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									选项二
+								</label>
 							</div>
 						</div>
-						<div class="form-group">
-							<label for="textarea" class="col-xs-2 control-label">描述</label>
-							<div class="col-xs-10">
-								<textarea class="form-control" rows="3" id="textarea"></textarea>
-								<span class="help-block">此处可以输入长文字.</span>
-							</div>
+					</div>
+					<div class="form-group">
+						<label for="select" class="col-xs-2 control-label">选项</label>
+						<div class="col-xs-10">
+							<select class="form-control" id="select">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<br>
+							<select multiple="" class="form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
 						</div>
-						<div class="form-group">
-							<label class="col-xs-2 control-label">单选项</label>
-							<div class="col-xs-10">
-								<div class="radio">
-									<label>
-										<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-										选项一
-									</label>
-								</div>
-								<div class="radio">
-									<label>
-										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-										选项二
-									</label>
-								</div>
-							</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-10 col-xs-offset-2">
+							<button type="submit" class="btn btn-primary">提交</button>
+							<button type="reset" class="btn btn-default">取消</button>
 						</div>
-						<div class="form-group">
-							<label for="select" class="col-xs-2 control-label">选项</label>
-							<div class="col-xs-10">
-								<select class="form-control" id="select">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-								<br>
-								<select multiple="" class="form-control">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-xs-10 col-xs-offset-2">
-								<button type="submit" class="btn btn-primary">提交</button>
-								<button type="reset" class="btn btn-default">取消</button>
-							</div>
-						</div>
-					</fieldset>
-				</form>
-				<!-- /form -->
-			</div>
+					</div>
+				</fieldset>
+			</form>
+			<!-- /form -->
 		</div>
 	</div>
-	<div class="col-xs-6">
-	
-		<div class="panel panel-default">
-			<div class="panel-body">
-				<div class="form-group">
-					<label class="control-label" for="focusedInput">input</label>
-					<input class="form-control" id="focusedInput" type="text" value="This is focused...">
-				</div>
-
-				<div class="form-group">
-					<label class="control-label" for="disabledInput">禁止输入</label>
-					<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
-				</div>
-
-				<div class="form-group has-warning">
-					<label class="control-label" for="inputWarning">Input warning</label>
-					<input type="text" class="form-control" id="inputWarning">
-				</div>
-
-				<div class="form-group has-error">
-					<label class="control-label" for="inputError">Input error</label>
-					<input type="text" class="form-control" id="inputError">
-				</div>
-
-				<div class="form-group has-success">
-					<label class="control-label" for="inputSuccess">Input success</label>
-					<input type="text" class="form-control" id="inputSuccess">
-				</div>
-
-				<div class="form-group">
-					<label class="control-label" for="inputLarge">Large input</label>
-					<input class="form-control input-lg" type="text" id="inputLarge">
-				</div>
-
-				<div class="form-group">
-					<label class="control-label" for="inputDefault">Default input</label>
-					<input type="text" class="form-control" id="inputDefault">
-				</div>
-
-				<div class="form-group">
-					<label class="control-label" for="inputSmall">Small input</label>
-					<input class="form-control input-sm" type="text" id="inputSmall">
-				</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="form-group">
+				<label class="control-label" for="focusedInput">input</label>
+				<input class="form-control" id="focusedInput" type="text" value="This is focused...">
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="disabledInput">禁止输入</label>
+				<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." >
+			</div>
+			<div class="form-group has-warning">
+				<label class="control-label" for="inputWarning">Input warning</label>
+				<input type="text" class="form-control" id="inputWarning">
+			</div>
+			<div class="form-group has-error">
+				<label class="control-label" for="inputError">Input error</label>
+				<input type="text" class="form-control" id="inputError">
+			</div>
+			<div class="form-group has-success">
+				<label class="control-label" for="inputSuccess">Input success</label>
+				<input type="text" class="form-control" id="inputSuccess">
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="inputLarge">Large input</label>
+				<input class="form-control input-lg" type="text" id="inputLarge">
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="inputDefault">Default input</label>
+				<input type="text" class="form-control" id="inputDefault">
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="inputSmall">Small input</label>
+				<input class="form-control input-sm" type="text" id="inputSmall">
 			</div>
 		</div>
 	</div>
 </div>
+<!-- /content -->
 
-            </div>
-            <!-- /doc-main -->
-
+            
+        
         </div>
-    </body>
+        <!-- /bs-main -->
 
+    </body>
 </html>

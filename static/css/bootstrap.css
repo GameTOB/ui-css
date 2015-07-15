@@ -54,7 +54,7 @@ body {
 a {
   cursor: pointer;
 }
-#ui-aside {
+#bs-aside {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@ a {
   overflow-y: auto;
   background-color: #2f4050;
 }
-#ui-main {
+#bs-main {
   position: absolute;
   left: 190px;
   top: 0;
@@ -73,6 +73,7 @@ a {
   background: #f3f3f3;
 }
 .header {
+  min-width: 1090px;
   padding: 20px;
   color: #888;
 }
@@ -88,6 +89,31 @@ a {
   padding: 0 20px;
   min-width: 1090px;
   overflow: auto;
+}
+.breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  min-width: 1090px;
+}
+.breadcrumb ul {
+  padding: 0;
+}
+.breadcrumb form.form-inline .form-group {
+  margin-bottom: 0;
+}
+.breadcrumb .breadcrumb-nav {
+  margin-bottom: 0;
+}
+.breadcrumb .breadcrumb-nav li {
+  display: inline-block;
+}
+.breadcrumb .breadcrumb-nav > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/";
 }
 .title-icon {
   display: inline-block;
@@ -259,11 +285,11 @@ hr {
   color: #a7b1c2;
   text-align: center;
 }
-.ui-aside-menu {
+.bs-aside-menu {
   margin-top: 20px;
   padding: 0;
 }
-.ui-aside-menu li > a {
+.bs-aside-menu li > a {
   display: block;
   padding: 10px 15px;
   font-size: 12px;
@@ -271,33 +297,33 @@ hr {
   text-align: left;
   color: #a7b1c2;
 }
-.ui-aside-menu li > a:hover,
-.ui-aside-menu li > a:focus {
+.bs-aside-menu li > a:hover,
+.bs-aside-menu li > a:focus {
   color: white;
   background-color: none;
 }
-.ui-aside-menu > li > a > i {
+.bs-aside-menu > li > a > i {
   display: inline-block;
   width: 12px;
   margin-right: 8px;
 }
-.ui-aside-menu > li.unfold {
+.bs-aside-menu > li.unfold {
   border-left: 4px solid #19aa8d;
   background: #293846;
 }
-.ui-aside-menu li {
+.bs-aside-menu li {
   list-style: none;
 }
-.ui-aside-menu li.unfold > a {
+.bs-aside-menu li.unfold > a {
   background: #293846;
   color: white;
 }
-.ui-aside-menu li.unfold > .nav {
+.bs-aside-menu li.unfold > .nav {
   display: block;
   padding-left: 18px;
 }
-.ui-aside-menu li > .nav > li > a:hover,
-.ui-aside-menu li > .nav > li > a:focus {
+.bs-aside-menu li > .nav > li > a:hover,
+.bs-aside-menu li > .nav > li > a:focus {
   color: white;
   background-color: transparent;
 }
@@ -368,30 +394,6 @@ table tr th {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 0 4px;
-}
-.breadcrumb {
-  background-color: #fff;
-  border-bottom: 1px solid #efefef;
-  border-top: 1px solid #ddd;
-  margin-bottom: 20px;
-  padding: 8px 20px;
-}
-.breadcrumb ul {
-  padding: 0;
-}
-.breadcrumb form.form-inline .form-group {
-  margin-bottom: 0;
-}
-.breadcrumb .breadcrumb-nav {
-  margin-bottom: 0;
-}
-.breadcrumb .breadcrumb-nav li {
-  display: inline-block;
-}
-.breadcrumb .breadcrumb-nav > li + li:before {
-  padding: 0 5px;
-  color: #ccc;
-  content: "/";
 }
 /*modal*/
 .modal-scroll {
