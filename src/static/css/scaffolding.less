@@ -1,114 +1,78 @@
-// body ====================================
+// reset ====================================
 body{
   background:#2f4050;
   overflow:hidden;
 }
 a{ cursor: pointer;}
 
-// doc-aside  ===================================
-#doc-aside {
+// bs-aside  ===================================
+#bs-aside {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  overflow-y: auto;
   width: 190px;
+  overflow-y: auto;
   background-color:#2f4050;
-  z-index: 2;
-  transition: all +0.5s ease-in;
 }
 
-// doc-content  ===================================
-#doc-content {
+// bs-main  ===================================
+#bs-main {
   position:absolute;
   left: 190px;
   top: 0;
   right: 0;
   bottom: 0;
-  background: #f3f3f3;
   overflow: auto;
+  background: #f3f3f3;
+
 }
 
-// toolbar ===================================
-#doc-toolbar {
+// header ===================================
+.header {
+  min-width: 1090px;
+  padding:20px;
   color:#888;
-  padding: 0 20px;
-  line-height: 54px;
-  .logout {
-    text-decoration: underline;
-    padding: 0 8px;
-    font-weight: bold;
+  .nav>li+li:before {
+    padding: 0 5px;
+  }
+  li>a{
+    display: inline-block;
+    padding: 0;
+    padding-left: 10px;
   }
 }
-// doc-main =================================
-#doc-main {
-  top:60px;
-  right: 0px;
-  bottom: 0px;
-  padding: 20px;
+
+// content ===================================
+.content{
+  padding: 0 20px;
   min-width: 1090px;
   overflow: auto;
-  z-index: 1;
 }
 
-//title ===================================
-.title-base{
-  label{
-    margin: 0 6px;
-  }
-  small{
-    font-size: 12px;
-    font-style: inherit;
-    padding:4px;
-  }
-}
-.title-icon{
-  display: inline-block;
-  background:#19aa8d;
-  border-radius:4px;
-  width: 4px;
-  height: 20px;
-  vertical-align: -4px;
-}
-.title-name{
-  font-size: 20px;
-  display: inline-block;
-  line-height: 20px * 1.5;
-  a{
-    background:#19aa8d;
-    color: #333;
-    border-radius: 15px;
-    padding:4px 10px;
-    &:hover{
-      color: #666;
-      text-decoration: none;
-    }
-    h4,h5{
-      margin: 0;
-    }
-  }
-}
-
-// page ===================================
-.page{
-  .pagination{ margin: 0;}
-}
-
-// hr ===================================
-hr {
-  margin: 20px 0;
-  border: 0;
+// breadcrumb
+.breadcrumb{
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff;
-}
-
-// base color ============================
-.green-bg{
-  background-color: #19aa8d;
-}
-.yellow-bg{
-  background-color: #f8ac59;
-}
-.red-bg{
-  background-color: #ed5565;
+  margin-bottom:20px;
+  padding: 8px 20px;
+  min-width: 1090px;
+  ul{
+    padding: 0;
+  }
+  form.form-inline .form-group{
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav{
+    margin-bottom: 0;
+  }
+  .breadcrumb-nav li{
+    display: inline-block;
+  }
+  .breadcrumb-nav>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+  }
 }

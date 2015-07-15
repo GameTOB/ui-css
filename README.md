@@ -50,7 +50,6 @@ gulp vendor
 
 > * ui-css.less /import less
 > * non-responsive.less /重置bootstrap中对响应式做的控制。
-> * variables.less /变量定义。
 > * scaffolding.less /框架主要的组成部分。
 > * table.less /通用表格组件，可带表头表尾，用于显示各类数据。
 > * form.less /通用表单样式，可基于此表单样式构建各类功能表单。
