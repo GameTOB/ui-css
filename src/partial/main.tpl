@@ -1,25 +1,5 @@
 <!-- content -->
 <div class="content">
-    <!-- ARK==============BreadcrumbNavigation -->
-    <div class="breadcrumb clearfix">
-        <form class="form-inline">
-            <div class="form-group">
-                <a href="#">Home</a>
-                <p class="form-control-static">标签名称:</p>
-            </div>
-            <div class="form-group">
-                <select class="form-control">
-                    <option>select1</option>
-                    <option>select2</option>
-                    <option>select3</option>
-                    <option>select4</option>
-                    <option>select5</option>
-                </select>
-                <button type="submit" class="btn btn-primary">前往应用</button>
-            </div>
-        </form>
-    </div>
-    <!-- ARK============== /BreadcrumbNavigation -->
     <!-- list-box-summary -->
     <div class="clearfix">
         <div class="col-xs-3">
