@@ -12,7 +12,7 @@
 		</div>
 		<!-- /panel-head -->
 		<!-- panel-body -->
-		<div class="panel-body element-com clearfix">
+		<div class="panel-body element-com">
 			<div class="btn-group pull-left">
 				<button class="btn btn-success btn-sm">添加<i class="fa fa-plus-circle"></i></button>
 			</div>
@@ -24,7 +24,7 @@
 					<abbr class="select2-search-choice-close"></abbr>
 					<div><b></b></div>
 				</a>
-				<div class="select2-drop select2-with-searchbox select2-drop-active select2-drop-above">
+				<div class="select2-drop">
 					<div class="select2-search"><input type="text" class="select2-input" /></div>
 					<ul class="select2-results">
 						<li><div class="select2-result-label">5</div></li>
@@ -49,6 +49,7 @@
 		<!-- /btn-group -->
 		<!-- table -->
 		<table class="table-custom table-striped table-hover">
+			<caption>表格标题</caption>
 			<thead>
 				<tr>
 					<th> 序号 </th>
@@ -67,9 +68,9 @@
 				<tr>
 					<td> 1 </td>
 					<td> 女 </td>
-					<td  class="text-left"> % +0.86 </td>
-					<td  class="text-left"> % -0.2</td>
-					<td class="text-left">  ¥ 122,155,140 </td>
+					<td  > % +0.86 </td>
+					<td  > % -0.2</td>
+					<td >  ¥ 122,155,140 </td>
 					<td > 北京市 </td>
 					<td > <span class="label label-danger">标签</span> <span class="label label-warning">标签</span> </td>
 					<td > 25 </td>
@@ -79,9 +80,9 @@
 				<tr>
 					<td> 2 </td>
 					<td> 男 </td>
-					<td  class="text-left"> % +0.02</td>
-					<td  class="text-left"> % +1.6</td>
-					<td  class="text-left"> ¥ 122,155,140 </td>
+					<td  > % +0.02</td>
+					<td  > % +1.6</td>
+					<td  > ¥ 122,155,140 </td>
 					<td > 张家口市 </td>
 					<td > <span class="label label-info">标签</span> <span class="label label-primary">标签</span> </td>
 					<td > 35 </td>
@@ -91,9 +92,9 @@
 				<tr>
 					<td> 3 </td>
 					<td> 女 </td>
-					<td  class="text-left"> % +0.02</td>
-					<td  class="text-left"> % +1.6</td>
-					<td  class="text-left"> ¥ 122,155,140 </td>
+					<td  > % +0.02</td>
+					<td  > % +1.6</td>
+					<td  > ¥ 122,155,140 </td>
 					<td > 香港 </td>
 					<td >
 						<span class="label label-default">默认</span>
@@ -134,7 +135,7 @@
 <br/>
 <span class="label label-warning">有边框表格</span>
 <!-- table -->
-<table class="table table-striped table-hover table-bordered">
+<table class="table table-striped table-hover table-bordered ">
 	<thead>
 		<tr>
 			<th> 序号 </th>

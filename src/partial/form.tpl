@@ -6,50 +6,82 @@
 			<form class="form-horizontal">
 				<fieldset>
 					<legend>表单</legend>
-					<div class="form-group">
-						<label for="inputEmail" class="col-xs-2 control-label">邮箱</label>
-						<div class="col-xs-10">
+					<div class="form-group has-success">
+						<label for="inputEmail" class="col-xs-2 control-label">邮箱:</label>
+						<div class="col-xs-8">
 							<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+							<p class="help-block">格式:XXX@mail.com</p>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputPassword" class="col-xs-2 control-label">密码</label>
-						<div class="col-xs-10">
+						<label for="inputPassword" class="col-xs-2 control-label">密码:</label>
+						<div class="col-xs-8">
 							<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">选择项
-								</label>
-							</div>
 						</div>
 					</div>
-					<div class="form-group">
+					<div class="form-group has-error">
+						<label class="col-xs-2 control-label">个人信息:</label>
+						<div class="col-xs-8">
+							<input type="password" class="form-control" />
+							<p class="help-block">请仔细核对信息！</p>
+						</div>
+					</div>
+					<div class="form-group has-warning">
 						<label for="textarea" class="col-xs-2 control-label">描述</label>
-						<div class="col-xs-10">
+						<div class="col-xs-8">
 							<textarea class="form-control" rows="3" id="textarea"></textarea>
-							<span class="help-block">此处可以输入长文字.</span>
+							<p class="help-block">此处可以输入255个字。</p>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-xs-2 control-label">单选项</label>
-						<div class="col-xs-10">
-							<div class="radio">
-								<label>
+						<label class="col-xs-2 control-label">单选项:</label>
+						<div class="col-xs-8">
+							
+							<div class="col-xs-10">
+								<label >
 									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
 									选项一
 								</label>
 							</div>
-							<div class="radio">
-								<label>
-									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+							
+							<div class="col-xs-10" >
+								<label >
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
 									选项二
 								</label>
 							</div>
+							
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="select" class="col-xs-2 control-label">选项</label>
-						<div class="col-xs-10">
+						<label class="col-xs-2 control-label">单选项:</label>
+						<div class="col-xs-8">
+							<label class="radio-inline">
+								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								选项一
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+								选项二
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-2 control-label">复选项:</label>
+						<div class="col-xs-8">
+							<label class="checkbox-inline">
+								<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								选项一
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+								选项二
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="select" class="col-xs-2 control-label">选项:</label>
+						<div class="col-xs-8">
 							<select class="form-control" id="select">
 								<option>1</option>
 								<option>2</option>
@@ -58,7 +90,7 @@
 								<option>5</option>
 							</select>
 							<br>
-							<select multiple="" class="form-control">
+							<select class="form-control">
 								<option>1</option>
 								<option>2</option>
 								<option>3</option>
@@ -68,7 +100,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-xs-10 col-xs-offset-2">
+						<div class="col-xs-8 col-xs-offset-2">
 							<button type="submit" class="btn btn-primary">提交</button>
 							<button type="reset" class="btn btn-default">取消</button>
 						</div>
@@ -78,6 +110,103 @@
 			<!-- /form -->
 		</div>
 	</div>
+
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<!-- form -->
+			<form class="form-horizontal">
+				<fieldset>
+					<legend>表单</legend>
+					<div class="form-group">
+						<label for="inputEmail" class="col-xs-2 control-label">邮箱:</label>
+						<div class="col-xs-8">
+							<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+						</div>
+						<div class="col-cs-2"><p class="help-block">格式:XXX@mail.com</p></div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword" class="col-xs-2 control-label">密码:</label>
+						<div class="col-xs-8">
+							<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-group has-error">
+						<label class="col-xs-2 control-label">个人信息:</label>
+						<div class="col-xs-8">
+							<input type="password" class="form-control" />
+						</div>
+						<div class="col-cs-2"><p class="help-block">请仔细核对信息！</p></div>
+					</div>
+					<div class="form-group has-warning">
+						<label for="textarea" class="col-xs-2 control-label">描述</label>
+						<div class="col-xs-8">
+							<textarea class="form-control" rows="3" id="textarea"></textarea>
+						</div>
+						<div class="col-cs-2"><p class="help-block">此处可以输入255个字。</p></div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-2 control-label">单选项:</label>
+						<div class="col-xs-8">
+							<label class="radio-inline">
+								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								选项一
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+								选项二
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-xs-2 control-label">复选项:</label>
+						<div class="col-xs-8">
+							<label class="checkbox-inline">
+								<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+								选项一
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+								选项二
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="select" class="col-xs-2 control-label">选项:</label>
+						<div class="col-xs-8">
+							<select class="form-control" id="select">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<br>
+							<select class="form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-8 col-xs-offset-2">
+							<button type="submit" class="btn btn-primary">提交</button>
+							<button type="reset" class="btn btn-default">取消</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+			<!-- /form -->
+		</div>
+	</div>
+
+
+
+
+
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="form-group">
@@ -85,8 +214,22 @@
 				<input class="form-control" id="focusedInput" type="text" value="This is focused...">
 			</div>
 			<div class="form-group">
-				<label class="control-label" for="disabledInput">禁止输入</label>
-				<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." >
+				<label class="control-label" for="readonlyInput">ReadonlyInput</label>
+				<input class="form-control" id="readonlyInput" type="text" placeholder="只读" readonly>
+			</div>
+			<div class="form-group">
+				<label for="disabledInput">Disabled input</label>
+				<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+			</div>
+			<div class="form-group">
+				<label for="disabledSelect">Disabled select</label>
+				<select class="form-control"  id="disabledSelect" disabled>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
 			</div>
 			<div class="form-group has-warning">
 				<label class="control-label" for="inputWarning">Input warning</label>
