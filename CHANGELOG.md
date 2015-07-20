@@ -1,5 +1,12 @@
 #ver 0.1 
 
+##2015/7/20 
+1.table.less mixin中tbale-row.less的代码阅读
+2.<colgroup></colgroup> & <<col></col> 的学习及实践
+3.表格中<caption></caption> & <h1></h1> 的用法
+
+
+
 ## 2015/7/15
 1. layout rebuild
 2. scaffolding.less 从命名及CSS顺序做调整

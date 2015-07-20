@@ -136,6 +136,7 @@
 <span class="label label-warning">有边框表格</span>
 <!-- table -->
 <table class="table table-striped table-hover table-bordered ">
+	<h4>标题</h4>
 	<thead>
 		<tr>
 			<th> 序号 </th>
@@ -255,7 +256,7 @@
 <br/>
 <span class="label label-warning">无边框简单表格</span>
 <!-- table -->
-<table class="table">
+<table class="table table-striped">
 	<thead>
 		<tr>
 			<th> 序号 </th>
@@ -318,5 +319,45 @@
 	</nav>
 </div>
 <!--/页码-->
+<span class="label label-warning">带有<colgroup> <col>的表格</span>
+<table class="table">
+	<colgroup>
+	<col class="vzebra-even">
+	<col class="vzebra-odd">
+	<col class="vzebra-even">
+	<col class="vzebra-odd">
+	</colgroup>
+	<thead>
+		<tr>
+			<th scope="col" >test</th>
+			<th scope="col" >test</th>
+			<th scope="col" >test</th>
+			<th scope="col" >test</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>显示数据</td>
+			<td>显示数据</td>
+			<td>显示数据</td>
+			<td>显示数据</td>
+		</tr>
+		<tr>
+			<td>显示数据</td>
+			<td>显示数据</td>
+			<td>显示数据</td>
+			<td>显示数据</td>
+		</tr>
+	</tbody>
+	<tfoot>
+	<td>总计：</td>
+	<td>155,101,00</td>
+	<td>155,101,00</td>
+	<td>155,101,00</td>
+	</tfoot>
+</table>
+
+
+
 </div>
 <!-- /content -->
