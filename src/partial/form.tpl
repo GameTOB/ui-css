@@ -110,8 +110,6 @@
 			<!-- /form -->
 		</div>
 	</div>
-
-
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<!-- form -->
@@ -202,13 +200,21 @@
 			<!-- /form -->
 		</div>
 	</div>
-
-
-
-
-
 	<div class="panel panel-default">
 		<div class="panel-body">
+
+			<form class="form-inline col-xs-12">
+			<div class="form-group">
+				<label class="sr-only" for="InputAmount">请输入...</label>
+				<div class="input-group">
+					<div class="input-group-addon">$</div>
+					<input type="text" class="form-control" id="InputAmount" placeholder="请输入...">
+					<div class="input-group-addon">.00</div>
+				</div>
+				<button type="submit" class="btn btn-primary">提交</button>
+			</div>
+			</form>
+
 			<div class="form-group">
 				<label class="control-label" for="focusedInput">input</label>
 				<input class="form-control" id="focusedInput" type="text" value="This is focused...">
