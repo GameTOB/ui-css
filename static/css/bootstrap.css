@@ -151,7 +151,7 @@ hr {
   color: #19aa8d;
 }
 .input-search {
-  border: 1px solid  #a7b1c2;
+  border: 1px solid #a7b1c2;
   height: 32px;
   padding: 2px 0 2px 20px;
   border-radius: 4px;
@@ -365,6 +365,7 @@ hr {
   padding: 10px 20px;
   padding-bottom: 0;
   margin: 10px 0;
+  clear: both;
 }
 table {
   margin-top: 10px;
@@ -376,24 +377,31 @@ table tr th {
   background: #337ab7;
   color: #fff;
 }
-.table-custom {
+table colgroup > col.vzebra-even {
+  background: #EFF2FF;
+}
+table colgroup > col.vzebra-odd {
+  background: #E3E8FF;
+}
+.table-concise {
   margin-bottom: 20px;
   width: 100%;
   line-height: 27px;
   border: 1px solid #ddd;
 }
-.table-custom thead > tr > th {
+.table-concise > thead > tr > th,
+.table-concise > tbody > tr > th,
+.table-concise > thead > tr > td,
+.table-concise > tbody > tr > td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0 4px;
+}
+.table-concise > thead > tr th,
+.table-concise > tbody > tr th {
   background: transparent;
   color: #333;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 0 4px;
   vertical-align: bottom;
-}
-.table-custom tbody > tr > td {
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 0 4px;
 }
 /*modal*/
 .modal-scroll {

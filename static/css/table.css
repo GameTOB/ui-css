@@ -8,22 +8,29 @@ table tr th {
   background: #337ab7;
   color: #fff;
 }
-.table-custom {
+table colgroup > col.vzebra-even {
+  background: #EFF2FF;
+}
+table colgroup > col.vzebra-odd {
+  background: #E3E8FF;
+}
+.table-concise {
   margin-bottom: 20px;
   width: 100%;
   line-height: 27px;
   border: 1px solid #ddd;
 }
-.table-custom thead > tr > th {
+.table-concise > thead > tr > th,
+.table-concise > tbody > tr > th,
+.table-concise > thead > tr > td,
+.table-concise > tbody > tr > td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0 4px;
+}
+.table-concise > thead > tr th,
+.table-concise > tbody > tr th {
   background: transparent;
   color: #333;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 0 4px;
   vertical-align: bottom;
-}
-.table-custom tbody > tr > td {
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 0 4px;
 }
