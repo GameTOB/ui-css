@@ -1,9 +1,16 @@
 #ver 0.1 
 
-##2015/7/20 
-1.table.less mixin中tbale-row.less的代码阅读
-2.<colgroup></colgroup> & <<col></col> 的学习及实践
-3.表格中<caption></caption> & <h1></h1> 的用法
+## 2015/7/21 
+1. -ms-overflow-style 的使用 (IE10以上对触摸设备自动隐藏滚动条)
+2. first-child / last-child 伪类的使用
+3. LESS嵌套用法认识，及对table.less做相应嵌套样式（对table-concise做修改）
+
+
+
+## 2015/7/20 
+1. table.less mixin中tbale-row.less的代码阅读
+2. colgroup & col 的学习及实践
+3. 表格中 caption & h 的用法
 
 
 

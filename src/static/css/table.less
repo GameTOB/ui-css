@@ -10,31 +10,33 @@ table {
     color: #fff;
   }
   colgroup > col.vzebra-even{
-   background:#EFF2FF;
- }
+    background:#EFF2FF;
+  }
   colgroup > col.vzebra-odd{
-   background:#E3E8FF;
- }
+    background:#E3E8FF;
+  }
 }
-// custom-table
-.table-custom{
+
+// table-concise 定制紧凑行的表格===========================
+.table-concise{
   margin-bottom:20px;
   width: 100%;
   line-height: 27px;
   border: 1px solid #ddd;
-}
-.table-custom{
-  thead > tr > th{
-    background:transparent;
-    color: #333;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 0 4px;
-    vertical-align: bottom;
-  } 
-  tbody> tr > td{
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 0 4px;
+  > thead,
+  > tbody{
+    > tr{
+      > th,
+      > td{
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 0 4px;
+      }
+    th{
+      background:transparent;
+      color: #333;
+      vertical-align: bottom;
+     } 
+    }
   }
 }

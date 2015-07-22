@@ -4,7 +4,7 @@
 	<h4> <span class="title-icon"></span> 模块标题<small>小标题或描述性文字</small></h4>
 	<!-- /title -->
 	<h5><span class="label label-warning">默认用法</span></h5>
-	<div class="">
+	<div >
 		<!-- tab-->
 		<ul class="nav nav-tabs">
 			<li class="active">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<!-- table -->
-			<table class="table table-striped table-hover table-bordered">
+			<table class="table table-striped">
 				<thead>
 					<tr>
 						<th> 序号 </th>
@@ -72,7 +72,7 @@
 					<tr>
 						<td> 1 </td>
 						<td> 女 </td>
-						<td class=""> 2,058 </td>
+						<td > 2,058 </td>
 						<td > 10,025</td>
 						<td > 122,155,140 </td>
 						<td > 北京市 </td>
@@ -85,7 +85,7 @@
 					<tr>
 						<td> 2 </td>
 						<td> 男 </td>
-						<td class=""> 2,058 </td>
+						<td > 2,058 </td>
 						<td > 10,025</td>
 						<td > 122,155,140 </td>
 						<td > 张家口市 </td>
@@ -98,7 +98,7 @@
 					<tr>
 						<td> 3 </td>
 						<td> 女 </td>
-						<td class=""> 2,058 </td>
+						<td > 2,058 </td>
 						<td > 10,025</td>
 						<td > 122,155,140 </td>
 						<td > 香港 </td>
@@ -111,7 +111,7 @@
 					<tr>
 						<td> 4 </td>
 						<td> 女 </td>
-						<td class=""> 2,058 </td>
+						<td > 2,058 </td>
 						<td > 10,025</td>
 						<td > 122,155,140 </td>
 						<td > 北京市 </td>
@@ -155,11 +155,11 @@
 	<div class="tab tab-custom">
 		<ul class="nav nav-tab">
 			<li class="active"><a href="#" data-toggle="tab">选项一</a></li>
-			<li class=""><a href="#" data-toggle="tab">选项二</a></li>
-			<li class=""><a href="#" data-toggle="tab">大小固定</a></li>
+			<li ><a href="#" data-toggle="tab">选项二</a></li>
+			<li ><a href="#" data-toggle="tab">大小固定</a></li>
 		</ul>
 		<div class="tab-container">
-			<table class="active table-custom table-striped table-hover">
+			<table class="table table-striped table-hover">
 				<thead>
 					<tr>
 						<th>#</th>
