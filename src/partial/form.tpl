@@ -1,4 +1,4 @@
-<!-- content -->
+<!--content -->
 <div class="content">
 	<div class="panel panel-default">
 		<div class="panel-body">
@@ -202,21 +202,19 @@
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-body">
-
 			<form class="form-inline col-xs-12">
-			<div class="form-group">
-				<label class="sr-only" for="InputAmount">请输入...</label>
-				<div class="input-group">
-					<div class="input-group-addon">$</div>
-					<input type="text" class="form-control" id="InputAmount" placeholder="请输入...">
-					<div class="input-group-addon">.00</div>
+				<div class="form-group">
+					<label class="sr-only" for="InputAmount">请输入...</label>
+					<div class="input-group">
+						<div class="input-group-addon">$</div>
+						<input type="text" class="form-control" id="InputAmount" placeholder="请输入...">
+						<div class="input-group-addon">.00</div>
+					</div>
+					<button type="submit" class="btn btn-primary">提交</button>
 				</div>
-				<button type="submit" class="btn btn-primary">提交</button>
-			</div>
 			</form>
-
 			<div class="form-group">
-				<label class="control-label" for="focusedInput">input</label>
+				<label for="focusedInput">input</label>
 				<input class="form-control" id="focusedInput" type="text" value="This is focused...">
 			</div>
 			<div class="form-group">
@@ -263,5 +261,19 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- input type=file -->
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<form>
+				<a href="javascript:void(0);" class="btn_addpic">
+					<span><i class="fa fa-plus-circle fa-lg"></i>上传图片</span>
+					<input type="file" tabindex="3" title="支持jpg、jpeg、gif、png格式，文件小于5M" size="3" name="pic" class="fileprew">
+				</a>
+			</form>
+		</div>
+	</div>
+	<!--/input type=file -->
+
 </div>
-<!-- /content -->
+<!-- /content-->

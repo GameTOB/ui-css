@@ -43,7 +43,13 @@
 					</div>
 					<div class="form-group form-margin-base col-xs-2">
 						<label>标签名称：</label>
-						<select class="form-control"> <option>select1</option> <option>select2</option> <option>select3</option> <option>select4</option> <option>select5</option> </select>
+						<select class="form-control">
+						 <option>select1</option>
+						 <option>select2</option>
+						 <option>select3</option>
+						 <option>select4</option>
+						 <option>select5</option>
+						</select>
 					</div>
 				</form>
 				<div class="btn-group pull-right">
@@ -80,7 +86,7 @@
 						<td > 25 </td>
 						<td > 1991.08.28</td>
 						<td > 2015/06/15 </td>
-						<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
+						<td> <a href="#"> 编辑 </a><a href="#"> 删除 </a> </td>
 					</tr>
 					<tr>
 						<td> 2 </td>
@@ -93,7 +99,7 @@
 						<td > 35 </td>
 						<td > 1978.08.28</td>
 						<td ><span class="label label-info">标签</span></td>
-						<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
+						<td> <a href="#"> 编辑 </a><a href="#"> 删除 </a> </td>
 					</tr>
 					<tr>
 						<td> 3 </td>
@@ -105,8 +111,8 @@
 						<td > 赵女士 </td>
 						<td > 25 </td>
 						<td > 1960.04.12</td>
-						<td > <span class="label label-danger">标签</span> <span class="label label-warning">标签</span></td>
-						<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
+						<td > <span class="label label-danger">标签</span><span class="label label-warning">标签</span></td>
+						<td> <a href="#"> 编辑 </a><a href="#"> 删除 </a> </td>
 					</tr>
 					<tr>
 						<td> 4 </td>
@@ -118,7 +124,7 @@
 						<td > 张三 </td>
 						<td > 25 </td>
 						<td > 1991.08.28</td>
-						<td > <span class="label label-success">标签</span> <span class="label label-info">标签</span></td>
+						<td > <span class="label label-success">标签</span><span class="label label-info">标签</span></td>
 						<td> <a href="#"> 编辑 </a> <a href="#"> 删除 </a> </td>
 					</tr>
 				</tbody>
@@ -159,7 +165,7 @@
 			<li ><a href="#" data-toggle="tab">大小固定</a></li>
 		</ul>
 		<div class="tab-container">
-			<table class="table table-striped table-hover">
+			<table class="table table-striped">
 				<thead>
 					<tr>
 						<th>#</th>
@@ -182,7 +188,7 @@
 						<td>data</td>
 						<td>data</td>
 						<td>data</td>
-						<td><span class="label label-success">标签</span></td>
+						<td><span class="label label-success">标签</span><span class="label label-success">标签</span></td>
 					</tr>
 					<tr>
 						<td>3</td>
@@ -200,6 +206,9 @@
 					</tr>
 				</tbody>
 			</table>
+
+
+
 		</div>
 	</div>
 	<!--/tabbale-custom -->

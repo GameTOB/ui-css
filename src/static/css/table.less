@@ -4,16 +4,23 @@ table {
   margin-top:10px;
   font-size: 12px;
   white-space: nowrap;
-  tr th {
-    font-weight: bold;
-    background: #337ab7;
-    color: #fff;
+   tr{
+     th{
+      font-weight: bold;
+      background: #337ab7;
+      color: #fff;
+    }
+     td span.label{
+       margin: 0 4px;
+    }
   }
-  colgroup > col.vzebra-even{
-    background:#EFF2FF;
-  }
-  colgroup > col.vzebra-odd{
-    background:#E3E8FF;
+  colgroup > col{
+    &.vzebra-even{
+      background:#EFF2FF;
+    }
+    &.vzebra-odd{
+      background:#E3E8FF;
+    }
   }
 }
 

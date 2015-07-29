@@ -330,10 +330,10 @@
 	</colgroup>
 	<thead>
 		<tr>
-			<th scope="col" >test</th>
-			<th scope="col" >test</th>
-			<th scope="col" >test</th>
-			<th scope="col" >test</th>
+			<th>test</th>
+			<th>test</th>
+			<th>test</th>
+			<th>test</th>
 		</tr>
 	</thead>
 	<tbody>

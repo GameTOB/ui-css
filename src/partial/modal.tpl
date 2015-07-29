@@ -1,6 +1,6 @@
 <!-- content -->
 <div class="content">
-   <!-- modal -->
+
    <!-- 模态框（Modal） -->
    <div class="modal" style="display:inherit;left:auto">
       <div class="modal-dialog">
@@ -29,7 +29,7 @@
       </div>
    </div>
    <!-- /modal -->
-   <!-- modal -->
+
    <!-- 模态框（Modal） -->
    <div class="modal" style="display:inherit; margin-top:10%;left:auto">
       <div class="modal-dialog">
