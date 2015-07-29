@@ -3,11 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>UI - CSS</title>
+        <title>UI-CSS</title>
         <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
-        <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css"/>
-        <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.css"/>
         <link rel="stylesheet" href="static/css/bootstrap.css" />
+        <link rel="stylesheet" href="static/css/bootstrap-theme.css" />
     </head>
     
     <body>
