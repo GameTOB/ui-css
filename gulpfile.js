@@ -99,7 +99,7 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('build::less' , function(cb){
-	return gulp.src( config.srcDirectory + '/static/css/**/*.{css,less}' )
+	return gulp.src( config.srcDirectory + '/static/css/**/bootstrap.{css,less}' )
             .pipe(less({
                 paths: [path.join(__dirname, 'static/css', 'include')]
             }))

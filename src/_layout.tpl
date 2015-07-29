@@ -10,13 +10,21 @@
     </head>
     
     <body>
-        <!-- aside-->
-        <div id="aside">
-            <!-- logo -->
-            <h3 class="logo">LOGO</h3>
-            <!-- /logo -->
-            <ul class="aside-menu">
 
+        <!-- header -->
+         <header id="header">
+                <ul class="nav nav-pills pull-right">
+                 <li><a href="#"><i class="fa fa-user fa-lg"></i></a></li>
+                 <li><a href="#"><i class="fa fa-repeat fa-lg"></i></a></li>
+                </ul>    
+         </header>
+        <!-- header -->
+
+
+        <!-- aside-->
+        <aside>
+        <nav id="aside">
+            <ul class="nav">
                 <li {% if subItem=="index" %}class="unfold" {% endif %}>
                     <a href="index.html">
                         <i class="fa fa-calendar"></i>
@@ -82,25 +90,14 @@
                 </li>
 
             </ul>
-        </div>
+        </nav>
+        </aside>
         <!-- /aside-->
 
         <!-- main -->
         <div id="main">
-
-            <!-- header -->
-            <div class="header clearfix">
-                <ul class="nav nav-pills pull-right">
-                    <li>超级管理员,</li>
-                    <li>欢迎您！</li>
-                    <li><a href="#" class="logout">退出</a></li>
-                </ul>
-            </div>
-            <!-- /header -->
-            
          <!-- BreadcrumbNavigation -->
-            <div class="breadcrumb clearfix">
-                <ul class="breadcrumb-nav">
+                <ul class="breadcrumb">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -111,13 +108,12 @@
                         <strong>当前位置</strong>
                     </li>
                 </ul>
-            </div>
             <!-- /BreadcrumbNavigation -->
 
 
             {% block main %} {% endblock %}
             
-        
+
         </div>
         <!-- /main -->
 
