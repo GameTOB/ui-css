@@ -10,12 +10,12 @@
     </head>
     
     <body>
-        <!-- bs-aside -->
-        <div id="bs-aside">
+        <!-- aside-->
+        <div id="aside">
             <!-- logo -->
             <h3 class="logo">LOGO</h3>
             <!-- /logo -->
-            <ul class="bs-aside-menu">
+            <ul class="aside-menu">
 
                 <li {% if subItem=="index" %}class="unfold" {% endif %}>
                     <a href="index.html">
@@ -83,10 +83,10 @@
 
             </ul>
         </div>
-        <!-- /bs-aside -->
+        <!-- /aside-->
 
-        <!-- bs-main -->
-        <div id="bs-main">
+        <!-- main -->
+        <div id="main">
 
             <!-- header -->
             <div class="header clearfix">
@@ -119,7 +119,7 @@
             
         
         </div>
-        <!-- /bs-main -->
+        <!-- /main -->
 
     </body>
 </html>
