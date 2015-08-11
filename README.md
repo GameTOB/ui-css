@@ -1,6 +1,6 @@
-# UI-CSS for GameTOB
+# bootstrap
 
-- ver 0.1.0
+- ver 0.1.1
 
 ## 样例
 http://gametob.github.io/ui-css/
@@ -46,18 +46,17 @@ gulp vendor
 ```` 
 > 将package.json中指定的资源包(dependencies) 从 /node_modules 中拷贝至 /vendor
 
-## LESS分类
+## less
 
-> * ui-css.less /import less
-> * non-responsive.less /重置bootstrap中对响应式做的控制。
-> * scaffolding.less /框架主要的组成部分。
-> * table.less /通用表格组件，可带表头表尾，用于显示各类数据。
-> * form.less /通用表单样式，可基于此表单样式构建各类功能表单。
-> * sidebar.less /左侧菜单样式，支持三级菜单。
-> * modal.less /不同场景的弹出窗。
-> * alert.less /通用信息提示框样式，共有提示、成功、警告、等待等。
-> * tab.less /标签切换组件。
-> * list.less /列表类。
+* ｜－bootstrap 第三方
+* ｜－－base（基础类）
+* ｜－－components（组件类）
+* ｜－－mixins（mixins）
+* ｜－－reset （字体及print normalize）
+* ｜－－utility（responsive/theme/utility）
+* ｜－－variabels-mixins（variabels/import mixins）
+* ｜－platform
+* ｜－bootstrap.less（import less）最终编译文件
 
 
 
