@@ -3,7 +3,6 @@
 // Tables
 // --------------------------------------------------
 
-
 table {
   background-color: @table-bg;
 }
@@ -16,6 +15,7 @@ caption {
 th {
   text-align: left;
 }
+
 
 
 // Baseline styles
@@ -63,7 +63,9 @@ th {
   .table {
     background-color: @body-bg;
   }
+
 }
+
 
 
 // Condensed table w/ half padding
@@ -162,7 +164,12 @@ table {
 .table-row-variant(warning; @state-warning-bg);
 .table-row-variant(danger; @state-danger-bg);
 
-
+// col
+// .table-col-variant(active; @table-bg-active);
+// .table-col-variant(success; @state-success-bg);
+// .table-col-variant(info; @state-info-bg);
+// .table-col-variant(warning; @state-warning-bg);
+// .table-col-variant(danger; @state-danger-bg);
 // Responsive tables
 //
 // Wrap your tables in `.table-responsive` and we'll make them mobile friendly
@@ -233,3 +240,5 @@ table {
     }
   }
 }
+
+

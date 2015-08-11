@@ -1,4 +1,4 @@
-@import "variables";
+// @import "variables";
 //
 // Navbars
 // --------------------------------------------------
@@ -14,7 +14,6 @@
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
   border: 1px solid transparent;
-
   // Prevent floats from breaking the navbar
   &:extend(.clearfix all);
 
@@ -31,7 +30,6 @@
 
 .navbar-header {
   &:extend(.clearfix all);
-
   @media (min-width: @grid-float-breakpoint) {
     float: left;
   }

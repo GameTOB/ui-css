@@ -1,4 +1,4 @@
-@import "variables";
+// @import "variables";
 //
 // Navs
 // --------------------------------------------------
@@ -18,6 +18,9 @@
     display: block;
 
     > a {
+      > i.fa{
+        width: 20px;
+      }
       position: relative;
       display: block;
       padding: @nav-link-padding;
@@ -26,8 +29,6 @@
         text-decoration: none;
         background-color: @nav-link-hover-bg;
       }
-
-
     }
 
     // Disabled state sets text to gray and nukes hover/tab effects

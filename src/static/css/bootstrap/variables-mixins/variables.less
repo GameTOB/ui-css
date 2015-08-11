@@ -42,13 +42,13 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Microsoft Yahei", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          12px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -136,6 +136,9 @@
 
 //** Border color for table and cell borders.
 @table-border-color:            #ddd;
+
+
+
 
 
 //== Buttons
@@ -797,6 +800,7 @@
 @breadcrumb-active-color:       @gray-light;
 //** Textual separator for between breadcrumb elements
 @breadcrumb-separator:          "/";
+@breadcrumb-border-color: 		#cfdbe2;
 
 
 //== Carousel
@@ -867,3 +871,15 @@
 @dl-horizontal-breakpoint:    @grid-float-breakpoint;
 //** Horizontal line color.
 @hr-border:                   @gray-lighter;
+
+
+// header
+@header-height: 50px;
+@header-padding-vertical:   8px;
+@header-padding-horizontal: 15px;
+@header-bg:                 #23b7e5;
+@header-color:              #a9ebff;
+@header-active-color:       @gray-light;
+
+// main 
+@main-bg: #FAFBFC;
