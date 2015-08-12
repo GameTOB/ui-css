@@ -1,4 +1,8 @@
-// Header
+// layout @wangyan
+// --------------------
+
+
+// Header 头部通条
 // -------------------------
 #header{
   position: absolute;
@@ -11,7 +15,7 @@
   }
 }
 
-// Main
+// Main 右侧
 // -------------------------
 #main{
   position: absolute;
@@ -24,7 +28,7 @@
 }
 
 
-// Content
+// Content 右侧内容区外盒
 // -------------------------
 .content{
   padding: 20px;
@@ -32,15 +36,24 @@
 
 
 
-//aside
+//aside 侧边栏
 // -------------------------
 #aside{
   background: @aside-bg;
+  border-right: none;
+  .nav{
+    > li > a{
+      padding:15px;
+      color: #9E9E9E;
+      &:hover{
+        background-color: darken(@aside-bg, 3%);
+      }
+    }
+  }
 }
 
 
-
-//show-grid
+//show-grid 栅格展示
 // -------------------------
 .show-grid [class^="col-"] {
   padding-top: 10px;
@@ -51,8 +64,7 @@
 }
 
 
-
-// navbar
+// navbar 头部个人信息NAV LI
 // -------------------------
 .navbar-default{
   background: @header-bg;
