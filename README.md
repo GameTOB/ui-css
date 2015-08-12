@@ -10,15 +10,15 @@ http://gametob.github.io/ui-css/
 [CHANGELOG.md]
 
 ## 目录结构
-* | - conf  目前包含开发机环境所需的nginx配置文件
-* | - src / 源代码包
-* | -  | -  *.html 单例页面
-* | -  | -  _layout.tpl 页面框架模板
-* | -  | -  partial /  页面单例模板
-* | -  | -  static  /  静态资源
-* | - dist / 编译后的成品 用于调试及发布
-* | - vendor / 第三方资源包
-* | - node_modules / npm install 生成
+| --- conf  目前包含开发机环境所需的nginx配置文件
+| --- src / 源代码包
+| 		| ---  *.html 单例页面
+| 		| ---  _layout.tpl 页面框架模板
+| 		| ---  partial /  页面单例模板
+| 		| ---  static  /  静态资源
+| --- dist / 编译后的成品 用于调试及发布
+| --- vendor / 第三方资源包
+| --- node_modules / npm install 生成
 
 
 ## 使用说明
@@ -48,15 +48,14 @@ gulp vendor
 
 ## less
 
-* ｜－bootstrap 第三方
-* ｜－－base（基础类）
-* ｜－－components（组件类）
-* ｜－－mixins（mixins）
-* ｜－－reset （字体及print normalize）
-* ｜－－utility（responsive/theme/utility）
-* ｜－－variabels-mixins（variabels/import mixins）
-* ｜－platform
-* ｜－bootstrap.less（import less）最终编译文件
-
+｜--- bootstrap 第三方
+｜    ｜---base（基础类）
+｜    ｜---mixins（mixins）
+｜    ｜---reset （字体及print normalize）
+｜    ｜---utility（responsive/theme/utility）
+｜    ｜---variabels-mixins（variabels/import mixins）
+｜    ｜---components（组件类）
+｜--- platform
+｜--- bootstrap.less（import less）最终编译文件
 
 

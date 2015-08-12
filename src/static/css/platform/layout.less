@@ -6,6 +6,9 @@
   height: @header-height;
   background-color: @header-bg;
   color: @header-color;
+  a{
+    color: #fff;
+  }
 }
 
 // Main
@@ -20,8 +23,44 @@
   background-color: @main-bg;
 }
 
+
 // Content
 // -------------------------
 .content{
   padding: 20px;
+}
+
+
+
+//aside
+// -------------------------
+#aside{
+  background: @aside-bg;
+}
+
+
+
+//show-grid
+// -------------------------
+.show-grid [class^="col-"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  background-color: #eee !important;
+}
+
+
+
+// navbar
+// -------------------------
+.navbar-default{
+  background: @header-bg;
+  > li > a{
+    text-align: center;
+      &:hover,
+      &:focus{
+      background-color: darken(@header-bg, 3%)
+    }
+  }
 }

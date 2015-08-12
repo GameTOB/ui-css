@@ -2,35 +2,34 @@
 <div class="content">
 	<div class="panel panel-default">
 		<div class="panel-body">
-		<!-- tab-->
-		<ul class="nav nav-tabs">
-			<li class="active">
-				<a href="#">选项一</a>
-			</li>
-			<li>
-				<a href="#">选项二</a>
-			</li>
-			<li>
-				<a href="#">选项大小可随意</a>
-			</li>
-			<li>
-				<a href="#">选项四</a>
-			</li>
-			<li>
-				<a href="#">选项五</a>
-			</li>
-			<li>
-				<a href="#">选项六</a>
-			</li>
-			<li>
-				<a href="#">选项七</a>
-			</li>
-			<li>
-				<a href="#">选项八</a>
-			</li>
-		</ul>
-		<!-- /tab -->
-
+			<!-- tab-->
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#">选项一</a>
+				</li>
+				<li>
+					<a href="#">选项二</a>
+				</li>
+				<li>
+					<a href="#">选项大小可随意</a>
+				</li>
+				<li>
+					<a href="#">选项四</a>
+				</li>
+				<li>
+					<a href="#">选项五</a>
+				</li>
+				<li>
+					<a href="#">选项六</a>
+				</li>
+				<li>
+					<a href="#">选项七</a>
+				</li>
+				<li>
+					<a href="#">选项八</a>
+				</li>
+			</ul>
+			<!-- /tab -->
 			<!-- table -->
 			<table class="table table-striped">
 				<thead>
@@ -129,11 +128,34 @@
 			<!--/页码-->
 		</div>
 	</div>
+	<hr>
 
-			<hr>
-
-
-			
-
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="socialicons">
+				<div class="col-xs-2">
+					<a href="#" class="thumbnail">
+						<img src="static/img/testpic.png" alt="default image">
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="static/img/testpic.png" alt="default image">
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#" class="thumbnail">
+						<img src="static/img/testpic.png" alt="default image">
+					</a>
+				</div>
+				<div class="col-xs-2">
+					<a href="#" class="thumbnail">
+						<img src="static/img/testpic.png" alt="default image">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 </div>
 <!-- /content -->
