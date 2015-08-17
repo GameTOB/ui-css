@@ -1,10 +1,7 @@
 <!-- content -->
 <div class="content">
 	<!-- panel -->
-	<div class="panel panel-info">
-		<div class="panel-heading">
-			alert
-		</div>
+	<div class="panel panel-default">
 		<div class="panel-body">
 			<h2>信息提示</h2>
 			<!-- alert -->

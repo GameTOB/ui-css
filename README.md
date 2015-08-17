@@ -46,16 +46,24 @@ gulp vendor
 ```` 
 > 将package.json中指定的资源包(dependencies) 从 /node_modules 中拷贝至 /vendor
 
+
 ## less
 
 * ｜--- bootstrap 第三方
+* ｜---｜---variabels mixins（variabels）
+* ｜---｜---mixins（import mixins）
+* ｜---｜---theme（主题LESS）
 * ｜---｜---base（基础类）
 * ｜---｜---mixins（mixins）
-* ｜---｜---reset （字体及print normalize）
+* ｜---｜---normalize（normalize）
 * ｜---｜---utility（responsive/theme/utility）
-* ｜---｜---variabels-mixins（variabels/import mixins）
 * ｜---｜---components（组件类）
+* ｜---｜---print（排版）
 * ｜--- platform
+* ｜---｜---layout（system layout）
+* ｜---｜---platform-variables（自定义变量）
+* ｜---｜---re-panel（自定义面板）
+* ｜---｜---animation（特殊场景动画）
 * ｜--- bootstrap.less（import less）最终编译文件
 
 

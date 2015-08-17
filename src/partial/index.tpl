@@ -343,7 +343,7 @@
     <!-- Data picker -->
     <div class="row">
         <div class="col-xs-4">
-            <div class="form-group">
+            <div class="form-group  form-inline">
                 <label class="font-noraml">date</label>
                 <div class="input-group date">
                     <span class="input-group-addon">
@@ -352,7 +352,7 @@
                     <input type="text" class="form-control" value="03/04/2015">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group  form-inline">
                 <label class="font-noraml">select</label>
                 <div class="input-group" >
                     <input type="text" class="input-sm form-control" value="05/14/2015">
@@ -363,5 +363,87 @@
         </div>
     </div>
     <!-- /Data picker -->
+    <!-- form -->
+    
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <form>
+                <div class="form-group">
+                   
+                        <div class="well well-lg">
+                            内容区
+                        </div>
+                 
+                    <hr>
+                    <!-- table -->
+                    <table class="table table-striped table-hover table-bordered table-condensed">
+                        <caption>表格标题</caption>
+                        <thead>
+                            <tr>
+                                <th> 序号 </th>
+                                <th> 性别 </th>
+                                <th> 本月增长 </th>
+                                <th> 本日增长 </th>
+                                <th> 总额 </th>
+                                <th> 所在地 </th>
+                                <th> 姓名 </th>
+                                <th> 年龄 </th>
+                                <th> 出生日期 </th>
+                                <th> 注册日期 </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1 </td>
+                                <td> 女 </td>
+                                <td > 2,058 </td>
+                                <td > 10,025</td>
+                                <td > 122,155,140 </td>
+                                <td > 北京市 </td>
+                                <td > 张三 </td>
+                                <td > 25 </td>
+                                <td > 1991.08.28</td>
+                                <td > 2015/06/15 </td>
+                            </tr>
+                            <tr>
+                                <td> 2 </td>
+                                <td> 男 </td>
+                                <td > 2,058 </td>
+                                <td > 10,025</td>
+                                <td > 122,155,140 </td>
+                                <td > 张家口市 </td>
+                                <td > 王五 </td>
+                                <td > 35 </td>
+                                <td > 1978.08.28</td>
+                                <td > 2015/06/18 </td>
+                            </tr>
+                            <tr>
+                                <td> 3 </td>
+                                <td> 女 </td>
+                                <td > 2,058 </td>
+                                <td > 10,025</td>
+                                <td > 122,155,140 </td>
+                                <td > 香港 </td>
+                                <td > 赵女士 </td>
+                                <td > 25 </td>
+                                <td > 1960.04.12</td>
+                                <td > 2015/06/10 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- /table -->
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-6 col-xs-offset-6 text-right">
+                    <button class="btn btn-primary ">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    
+    <!-- /form -->
 </div>
 <!-- /content

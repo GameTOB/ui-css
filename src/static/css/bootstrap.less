@@ -5,13 +5,15 @@
  */
 
 // Core variables and mixins
-@import "bootstrap/variables-mixins/variables.less";
-@import "bootstrap/variables-mixins/mixins.less";
+@import "bootstrap/variables.less";
+@import "bootstrap/mixins.less";
 
 // Reset and dependencies
-@import "bootstrap/reset/normalize.less";
-@import "bootstrap/reset/print.less";
-@import "bootstrap/reset/glyphicons.less";
+@import "bootstrap/normalize/normalize.less";
+
+// Print and glyphicons
+@import "bootstrap/print/print.less";
+@import "bootstrap/print/glyphicons.less";
 
 // Core CSS
 @import "bootstrap/base/scaffolding.less";
@@ -60,3 +62,4 @@
 @import "platform/layout.less";
 @import "platform/animation.less";
 @import "platform/platform-variables.less";
+@import "platform/re-panel.less";

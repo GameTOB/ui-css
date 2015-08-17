@@ -1,4 +1,4 @@
-<!-- content -->
+<!--content -->
 <div class="content">
 	<div class="panel panel-default">
 		<div class="panel-body">
@@ -129,7 +129,6 @@
 		</div>
 	</div>
 	<hr>
-
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="socialicons">
@@ -156,6 +155,44 @@
 			</div>
 		</div>
 	</div>
-	
+
+	<div class="row">
+		<!-- transition -->
+		<div class="col-xs-6">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="block"></div>
+					<!--<div id="my3dspace">
+									<div id="pagegroup">
+													<div class="page" id="page1">1</div>
+													<div class="page" id="page2">2</div>
+													<div class="page" id="page3">3</div>
+													<div class="page" id="page4">4</div>
+													<div class="page" id="page5">5</div>
+													<div class="page" id="page6">6</div>
+									</div>
+					</div>
+					<div class="op">
+									<a href="javascript:next()">next</a>
+									<a href="javascript:prev()">previous</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<!-- /transition -->
+		<div class="col-xs-6">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					
+					<div class="test-block">
+						
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
-<!-- /content -->
+<!-- /content-->
