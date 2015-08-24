@@ -183,16 +183,54 @@
 		<div class="col-xs-6">
 			<div class="panel panel-default">
 				<div class="panel-body">
-					
-					<div class="test-block">
-						
-					</div>
-
-
+					<div class="test-block"></div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+	<div class="row">
+		<!-- transition -->
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="gradient-block totop">使用关键词：top</div>
+					<div class="gradient-block tobottom">使用关键词：bottom</div>
+					<div class="gradient-block toleft">使用关键词：left</div>
+					<div class="gradient-block toright">使用关键词：right</div>
+					<div class="gradient-block todeg">使用角度：deg</div>
+				</div>
+			</div>
+		</div>
+		<!-- /transition -->
+		<div class="col-xs-6">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="button">
+						<a href="javascript:void(0)" class="button-bevel btn-orange">
+							<span class="refresh">refresh</span>
+						</a>
+						<a href="javascript:void(0)" class="button-bevel btn-red">
+							<span class="refresh">refresh</span>
+						</a>
+						<a href="javascript:void(0)" class="button-bevel btn-purple">
+							<span class="refresh">refresh</span>
+						</a>
+						<a href="javascript:void(0)" class="button-bevel btn-blue">
+							<span class="refresh">refresh</span>
+						</a>
+						<a href="javascript:void(0)" class="button-bevel btn-cyan">
+							<span class="refresh">refresh</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 
 </div>
 <!-- /content-->
