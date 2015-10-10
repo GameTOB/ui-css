@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .panel {
   margin-bottom: @line-height-computed;
   background-color: @panel-bg;
@@ -27,3 +28,34 @@
   .panel-variant(@panel-default-border; @panel-default-text; @panel-default-heading-bg; @panel-default-border);
 }
 
+=======
+.panel {
+  margin-bottom: @line-height-computed;
+  background-color: @panel-bg;
+  border: 1px solid transparent;
+  border-radius: @panel-border-radius;
+  .box-shadow(0 1px 1px rgba(0,0,0,.05));
+}
+
+// Panel contents
+.panel-body {
+  padding: @panel-body-padding;
+  &:extend(.clearfix all);
+}
+
+// Optional heading
+.panel-heading {
+  padding: @panel-heading-padding;
+  border-bottom: 1px solid transparent;
+  .border-top-radius((@panel-border-radius - 1));
+
+  > .dropdown .dropdown-toggle {
+    color: inherit;
+  }
+}
+
+.panel-default {
+  .panel-variant(@panel-default-border; @panel-default-text; @panel-default-heading-bg; @panel-default-border);
+}
+
+>>>>>>> 6aff63b9367ce1e5b9ac06ec91fd07abecfd36a3
