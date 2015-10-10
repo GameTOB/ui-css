@@ -1,0 +1,8 @@
+// colgroup for col 'bgcolor' for wangyan
+.table-col-variant(@state; @background){
+  .table > colgroup {
+    > col.@{state}{
+      background-color: @background;
+    }
+  }
+}
