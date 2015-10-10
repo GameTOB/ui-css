@@ -1,12 +1,68 @@
-// disable responsive
-@import "non-responsive";
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "bootstrap/variables.less";
+@import "bootstrap/mixins.less";
+
+// Reset and dependencies
+@import "bootstrap/normalize/normalize.less";
+
+// Print and glyphicons
+@import "bootstrap/print/print.less";
+@import "bootstrap/print/glyphicons.less";
 
 // Core CSS
-@import "scaffolding";
-@import "base";
-@import "form";
-@import "sidebar";
-@import "list";
-@import "table";
-@import "modal";
-@import "tab";
+@import "bootstrap/base/scaffolding.less";
+@import "bootstrap/base/type.less";
+@import "bootstrap/base/code.less";
+@import "bootstrap/base/grid.less";
+@import "bootstrap/base/tables.less";
+@import "bootstrap/base/forms.less";
+@import "bootstrap/base/buttons.less";
+
+// Components
+@import "bootstrap/components/component-animations.less";
+@import "bootstrap/components/dropdowns.less";
+@import "bootstrap/components/button-groups.less";
+@import "bootstrap/components/input-groups.less";
+@import "bootstrap/components/navs.less";
+@import "bootstrap/components/navbar.less";
+@import "bootstrap/components/breadcrumbs.less";
+@import "bootstrap/components/pagination.less";
+@import "bootstrap/components/pager.less";
+@import "bootstrap/components/labels.less";
+@import "bootstrap/components/badges.less";
+@import "bootstrap/components/jumbotron.less";
+@import "bootstrap/components/thumbnails.less";
+@import "bootstrap/components/alerts.less";
+@import "bootstrap/components/progress-bars.less";
+@import "bootstrap/components/media.less";
+@import "bootstrap/components/list-group.less";
+@import "bootstrap/components/panels.less";
+@import "bootstrap/components/responsive-embed.less";
+@import "bootstrap/components/wells.less";
+@import "bootstrap/components/close.less";
+
+// Components w/ JavaScript
+@import "bootstrap/components/modals.less";
+@import "bootstrap/components/tooltip.less";
+@import "bootstrap/components/popovers.less";
+@import "bootstrap/components/carousel.less";
+
+// Utility classes
+@import "bootstrap/utility/utilities.less";
+@import "bootstrap/utility/responsive-utilities.less";
+
+
+//platform
+@import "platform/layout.less";
+@import "platform/animation.less";
+@import "platform/platform-variables.less";
+@import "platform/platform-panel.less";
+@import "platform/platform-btn.less";
+@import "platform/platform-aside.less";
+@import "platform/mixin/platform-btn.less";
