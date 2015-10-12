@@ -82,13 +82,20 @@
                     </a>
                 </li>
 
+                <li {% if subItem=="huston" %}class="unfold" {% endif %}>
+                    <a href="huston.html">
+                        <i class="fa fa-windows"></i>
+                        <span class="nav-label">huston</span>
+                        <i class="fa fa-caret-right pull-right"></i>
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- /bs-aside -->
 
         <!-- bs-main -->
         <div id="bs-main">
-
             <!-- header -->
             <div class="header clearfix">
                 <ul class="nav nav-pills pull-right">
