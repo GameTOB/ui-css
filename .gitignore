@@ -4,5 +4,5 @@ bower_components/
 dist/
 output/
 sftp-config.json
-conf/used/
+conf/
 .publish/
