@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>UI-CSS</title>
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css"/>
+        <link rel="stylesheet" href="static/css/bootstrap.css" />
+        </head>
+        
+        <body>
+            <!-- header -->
+            <header id="header">
+                <a href="#/" class="navbar-brand">LOGO</a>
+                <ul class="nav navbar-nav navbar-default pull-right">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-repeat fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <!-- header -->
+
+            <!-- aside-->
+            <aside>
+                <nav id="aside">
+                    <ul class="nav">
+                       <li class="unfold" >
+                            <a href="uielement.html">
+                                <i class="fa fa-usd"></i>
+                                <span class="nav-label">
+                                    基础元素
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+
+                        <li >
+                            <a href="grid.html">
+                                <i class="fa fa-cogs"></i>
+                                <span class="nav-label">
+                                    栅格
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+
+                        <li >
+                            <a href="index.html">
+                                <i class="fa fa-calendar"></i>
+                                <span class="nav-label">
+                                    表单
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+                       <li >
+                            <a href="table.html">
+                                <i class="fa fa-line-chart"></i>
+                                <span class="nav-label">
+                                    表格
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="tab.html">
+                                <i class="fa fa-files-o"></i>
+                                <span class="nav-label">
+                                    选项卡
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+                         <li >
+                            <a href="panel.html">
+                                <i class="fa fa-list-alt"></i>
+                                <span class="nav-label">
+                                    面板集
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+                         <li >
+                            <a href="alert.html">
+                                <i class="fa fa-bars"></i>
+                                <span class="nav-label">
+                                    警告条
+                                </span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
+                        <li >
+                        <a href="aside.html">
+                            <i class="fa fa-windows"></i>
+                            <span class="nav-label">菜单结构</span>
+                            <i class="fa fa-caret-right pull-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- /aside-->
+        <!-- main -->
+        <div id="main">
+            <!-- BreadcrumbNavigation -->
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        主展示区
+                    </a>
+                </li>
+                <li class="active">
+                    <strong>
+                    当前位置
+                    </strong>
+                </li>
+            </ul>
+            <!-- /BreadcrumbNavigation -->
+            
+<!-- content -->
+<div class="content">
+	<div class="row">
+		<div class="col-xs-4">
+			<div class="panel">
+				<div class="panel-body">
+					<h1>这里是标题</h1>
+					<h2>这里是标题</h2>
+					<h3>这里是标题</h3>
+					<h4>这里是标题</h4>
+					<h5>这里是标题</h5>
+					<h6>这里是标题</h6>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="panel">
+				<div class="panel-body">
+					<p class="text-default">这里是文本</p>
+					<p class="text-danger">这里是文本</p>
+					<p class="text-success">这里是文本</p>
+					<p class="text-info">这里是文本</p>
+					<p class="text-primary">这里是文本</p>
+					<p class="text-warning">这里是文本</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="panel">
+				<div class="panel-body">
+					<blockquote>
+						<p>gulp中做swig模板编译时，记得带上 {cache:false}</p>
+						<small><strong>XXXXX</strong> from <cite>china</cite></small>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<div class="panel">
+				<div class="panel-body">
+					<p class="text-left">文本居于左边</p>
+					<p class="text-right">文本居于右边</p>
+					<p class="text-center">文本居中</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-2">
+			<div class="panel">
+				<div class="panel-body">
+					<div class="listgroup">
+						<a class="list-group-item active" href="#">
+							<h5 class="list-group-item-heading">这里是列表标题</h5>
+							<p class="list-group-item-text">列表内容</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h5 class="list-group-item-heading">这里是列表标题</h5>
+							<p class="list-group-item-text">列表内容</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h5 class="list-group-item-heading">这里是列表标题</h5>
+							<p class="list-group-item-text">列表内容</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h5 class="list-group-item-heading">这里是列表标题</h5>
+							<p class="list-group-item-text">列表内容</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h5 class="list-group-item-heading">这里是列表标题</h5>
+							<p class="list-group-item-text">列表内容</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="panel">
+				<div class="panel-body">
+					<div class="well">
+						内容区
+					</div>
+					<div class="well well-lg">
+						内容区
+					</div>
+					<div class="well well-sm">
+						内容区
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<div class="panel">
+				<div class="panel-body">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="badge badge-primary">16</span>
+							列表内容
+						</li>
+						<li class="list-group-item ">
+							<span class="badge info">12</span>
+							列表内容
+						</li>
+						<li class="list-group-item">
+							<span class="badge badge-danger">10</span>
+							列表内容
+						</li>
+						<li class="list-group-item">
+							<span class="badge badge-success">10</span>
+							列表内容
+						</li>
+						<li class="list-group-item">
+							<span class="badge badge-warning">7</span>
+							列表内容
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="panel">
+				<div class="panel-body">
+					<button type="button" class="btn btn-default">按钮</button>
+					<button type="button" class="btn btn-primary">按钮</button>
+					<button type="button" class="btn btn-success">按钮</button>
+					<button type="button" class="btn btn-danger">按钮</button>
+					<button type="button" class="btn btn-info">按钮</button>
+					<button type="button" class="btn btn-warning">按钮</button>
+					<button type="button" class="btn btn-link">按钮</button>
+					<hr>
+					<button type="button" class="btn btn-primary btn-lg">Large button</button>
+					<button type="button" class="btn btn-primary">Default button</button>
+					<button type="button" class="btn btn-primary btn-sm">Small button</button>
+					<button type="button" class="btn btn-primary btn-xs">Mini button</button>
+					<hr>
+					<button type="button" class="btn btn-primary"><i class="fa fa-line-chart"></i> Large button</button>
+					<button type="button" class="btn btn-info"><i class="fa fa-line-chart"></i> Large button</button>
+					<button type="button" class="btn btn-danger"><i class="fa fa-line-chart"></i> Large button</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /content -->
+
+
+        </div>
+        <!-- /main -->
+    </body>
+</html>
