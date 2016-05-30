@@ -1,171 +1,77 @@
-<<<<<<< HEAD
 // layout @wangyan
 // --------------------
-
-
 // Header 头部通条
 // -------------------------
-#header{
-  position: absolute;
-  width: 100%;
-  height: @header-height;
-  background-color: @header-bg;
-  color: @header-color;
-  a{
-    color: #fff;
-  }
+#header {
+    position: absolute;
+    width: 100%;
+    height: @header-height;
+    background-color: @header-bg;
+    color: @header-color;
+    a {
+        color: #fff;
+    }
 }
 
 // Main 右侧
 // -------------------------
-#main{
-  position: absolute;
-  top: 50px;
-  bottom: 0;
-  left: 190px;
-  right: 0;
-  overflow-y: auto;
-  background-color: @main-bg;
+#main {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 190px;
+    right: 0;
+    overflow-y: auto;
+    background-color: @main-bg;
 }
-
 
 // Content 右侧内容区外盒
 // -------------------------
-.content{
-  padding: 20px;
+.content {
+    padding: 20px;
 }
-
-
 
 //aside 侧边栏
 // -------------------------
-#aside{
-  position: absolute;
-  left: 0;
-  top: 50px;
-  bottom: 0;
-  width: 190px;
-  overflow-x:auto;
-  background: @aside-bg;
-  border-right: none;
-  .nav{
-    > li > a{
-      padding:15px;
-      color: #9E9E9E;
-      &:hover{
-        background-color: darken(@aside-bg, 3%);
-      }
+#aside {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 190px;
+    overflow-x: auto;
+    background: @aside-bg;
+    border-right: none;
+    .nav {
+        > li > a {
+            padding: 15px;
+            color: #9E9E9E;
+            &:hover {
+                background-color: darken(@aside-bg, 3%);
+            }
+        }
     }
-  }
 }
-
 
 //show-grid 栅格展示
 // -------------------------
 .show-grid [class^="col-"] {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  background-color: #eee !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: #eee !important;
 }
-
 
 // navbar 头部个人信息NAV LI
 // -------------------------
-.navbar-default{
-  background: @header-bg;
-  > li > a{
-    text-align: center;
-      &:hover,
-      &:focus{
-      background-color: darken(@header-bg, 3%)
+.navbar-default {
+    background: @header-bg;
+    > li > a {
+        text-align: center;
+        &:hover,
+        &:focus {
+            background-color: darken(@header-bg, 3%)
+        }
     }
-  }
 }
-=======
-// layout @wangyan
-// --------------------
-
-
-// Header 头部通条
-// -------------------------
-#header{
-  position: absolute;
-  width: 100%;
-  height: @header-height;
-  background-color: @header-bg;
-  color: @header-color;
-  a{
-    color: #fff;
-  }
-}
-
-// Main 右侧
-// -------------------------
-#main{
-  position: absolute;
-  top: 50px;
-  bottom: 0;
-  left: 190px;
-  right: 0;
-  overflow-y: auto;
-  background-color: @main-bg;
-}
-
-
-// Content 右侧内容区外盒
-// -------------------------
-.content{
-  padding: 20px;
-}
-
-
-
-//aside 侧边栏
-// -------------------------
-#aside{
-  position: absolute;
-  left: 0;
-  top: 50px;
-  bottom: 0;
-  width: 190px;
-  overflow-x:auto;
-  background: @aside-bg;
-  border-right: none;
-  .nav{
-    > li > a{
-      padding:15px;
-      color: #9E9E9E;
-      &:hover{
-        background-color: darken(@aside-bg, 3%);
-      }
-    }
-  }
-}
-
-
-//show-grid 栅格展示
-// -------------------------
-.show-grid [class^="col-"] {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  background-color: #eee !important;
-}
-
-
-// navbar 头部个人信息NAV LI
-// -------------------------
-.navbar-default{
-  background: @header-bg;
-  > li > a{
-    text-align: center;
-      &:hover,
-      &:focus{
-      background-color: darken(@header-bg, 3%)
-    }
-  }
-}
->>>>>>> 6aff63b9367ce1e5b9ac06ec91fd07abecfd36a3

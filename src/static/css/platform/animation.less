@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // animation  @wangyan
 // --------------------
 
@@ -137,295 +137,79 @@
 	margin-right: 4px;
 }
 
-// .button-bevel{
-// 	&.btn-orange{
-// 		box-shadow: #c46d00 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	 }
-// 	&.btn-red{
-// 		box-shadow: #d63400 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-blue{
-// 		box-shadow: #4d00d6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-purple{
-// 		box-shadow: #009dd6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-cyan{
-// 		box-shadow: #00d6ae 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// }
-
-// .btn-orange{
-// 	background: rgb(255,183,0);
-// 	background: -webkit-linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 	background: linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 	border:1px solid #e59500;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-red{
-// 	background: linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
-// 	background: -webkit-linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
-// 	border:1px solid #ed5601;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, #ff7b00 0%, #ff5300 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-blue{
-// 	background: linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
-// 	background: -webikit-linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
-// 	border:1px solid #7300ed;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top,  #9c00ff 0%, #6e00ff 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-purple{
-// 	background: linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
-// 	background: -webkit-linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
-// 	border: 1px solid #0090ed;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top,  #007fff 0%, #00a9ff 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-cyan{
-// 	background: linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
-// 	background: -webkit-linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
-// 	border:1px solid #00edde;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, #00f4ff 0%, #00ffe3 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-
-// }
-
-=======
-// animation  @wangyan
-// --------------------
-
-
-.socialicons img {
-	transition: all 0.8s ease-in-out;
-	// scale .7;
-	// &:hover{
-	// 	transform:rotate(-360deg) scale(.7);
-	// }
-	// scale 1.5;
-	&:hover{
-		transform:rotate(360deg) scale(1.5);
-	}
-}
-
-
-.block{
-	width: 60px;
-	height: 10px;
-	border-radius:15px;
-	background-color: blue;
-	-webkit-transition: background-color 3s;
-	&:hover{
-	width: 800px;
-    background-color: cyan;
-    -webkit-transition:width 10s ease;
-	}
-}
-
-// #experiment{
-// 	-webkit-perspective:800px;
-// 	-webkit-perspective-origin:50% 50%;
-// 	-webkit-transform-style:-webkit-preserve-3d;
-// 	#block{
-// 		width: 100px;
-// 		height: 100px;
-// 		background-color: blue;
-// 		margin: 0 auto;
-// 		-webkit-transform:rotateY(45deg);
-// 	}
-// }
-
-#my3dspace{
-	-webkit-perspective:800px;
-	-webkit-perspective-origin:50% 50%;
-	overflow: hidden;
-}
-#pagegroup{
-	width: 400px;
-	height: 400px;
-	margin: 0 auto;
-	-webkit-transform-style:preserve-3d;
-	position: relative;
-	.page{
-		position: absolute;
-		width: 300px;
-		height: 300px;
-		line-height: 300px;
-		padding:20px;
-		background-color: #000;
-		color: #fff;
-		text-align: center;
-	}
-	#page1{
-		-webkit-transform-origin:bottom;
-		-webkit-transform:-webkit-transform 1s linear; 
-	}
-	#page2, #page3, #page4, #page5, #page6{
-		-webkit-transform-origin:bottom;
-		-webkit-transform:-webkit-transform 1s linear;
-		-webkit-transform:rotateX(90deg);
-	}
-}
-
-.op{
-	text-align: center;
-}
-
-.test-block{
-	width: 300px;
-	height: 300px;
-	background-color: #ccc;
-    &:hover{
-	-webkit-transform:translate(-10px,-10px);
-    }
-}
-
-.gradient-block{
-	width:100%;
-	height:150px;
-	border:1px solid #666;
-	line-height: 150px;
-	font-size: 30px;
-	text-align: center;
-	color: #fff;
-	margin:10px auto;
-}
-
-.totop{
-	background-image: -webkit-linear-gradient(to top, orange, green, red, blue, indigo, violet);
-	background-image: linear-gradient(to top, orange, green, red, blue, indigo, violet);
-}
-.tobottom{
-	background-image: -webkit-linear-gradient(to bottom, orange, green, red);
-	background-image: linear-gradient(to bottom, orange, green, red);
-}
-.toleft{
-	background-image: -webkit-linear-gradient(to left, orange, green);
-	background-image: linear-gradient(to left, orange, green);
-}
-.toright{
-	background-image: -webkit-linear-gradient(to right, orange, green);
-	background-image: linear-gradient(to right, orange, green);
-}
-
-//deg ----可以设置为任意角度
-//--------------------------
-.todeg{
-	background-image: -webkit-linear-gradient(180deg, orange, green);
-	background-image: linear-gradient(180deg, orange, green);
-}
-
-
-
-//css3 button @wangyan
-//--------------------
-.button{
-	margin-bottom: 10px;
-}
-
 .button-bevel{
-	vertical-align: top;
-	border-radius: 4px;
-	padding: 10px 25px 12px;
-	margin-right: 4px;
+	&.btn-orange{
+		box-shadow: #c46d00 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
+	 }
+	&.btn-red{
+		box-shadow: #d63400 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
+	}
+	&.btn-blue{
+		box-shadow: #4d00d6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
+	}
+	&.btn-purple{
+		box-shadow: #009dd6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
+	}
+	&.btn-cyan{
+		box-shadow: #00d6ae 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
+	}
 }
 
-// .button-bevel{
-// 	&.btn-orange{
-// 		box-shadow: #c46d00 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	 }
-// 	&.btn-red{
-// 		box-shadow: #d63400 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-blue{
-// 		box-shadow: #4d00d6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-purple{
-// 		box-shadow: #009dd6 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// 	&.btn-cyan{
-// 		box-shadow: #00d6ae 0 6px 0, rgba(0,0,0,0.3) 0 10px 3px;
-// 	}
-// }
+.btn-orange{
+	background: rgb(255,183,0);
+	background: -webkit-linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
+	border:1px solid #e59500;
+	color: #fff;
+	&:hover{
+		background: linear-gradient(to top, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
+		text-decoration: none;
+		color: #fff;
+	}
+}
+.btn-red{
+	background: linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
+	background: -webkit-linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
+	border:1px solid #ed5601;
+	color: #fff;
+	&:hover{
+		background: linear-gradient(to top, #ff7b00 0%, #ff5300 100%);
+		text-decoration: none;
+		color: #fff;
+	}
+}
+.btn-blue{
+	background: linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
+	background: -webikit-linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
+	border:1px solid #7300ed;
+	color: #fff;
+	&:hover{
+		background: linear-gradient(to top,  #9c00ff 0%, #6e00ff 100%);
+		text-decoration: none;
+		color: #fff;
+	}
+}
+.btn-purple{
+	background: linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
+	background: -webkit-linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
+	border: 1px solid #0090ed;
+	color: #fff;
+	&:hover{
+		background: linear-gradient(to top,  #007fff 0%, #00a9ff 100%);
+		text-decoration: none;
+		color: #fff;
+	}
+}
+.btn-cyan{
+	background: linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
+	background: -webkit-linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
+	border:1px solid #00edde;
+	color: #fff;
+	&:hover{
+		background: linear-gradient(to top, #00f4ff 0%, #00ffe3 100%);
+		text-decoration: none;
+		color: #fff;
+	}
 
-// .btn-orange{
-// 	background: rgb(255,183,0);
-// 	background: -webkit-linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 	background: linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 	border:1px solid #e59500;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, rgba(255,183,0,1) 0%, rgba(255,140,0,1) 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-red{
-// 	background: linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
-// 	background: -webkit-linear-gradient(to bottom, #ff7b00 0%, #ff5300 100%);
-// 	border:1px solid #ed5601;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, #ff7b00 0%, #ff5300 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-blue{
-// 	background: linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
-// 	background: -webikit-linear-gradient(to bottom, #9c00ff 0%, #6e00ff 100%);
-// 	border:1px solid #7300ed;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top,  #9c00ff 0%, #6e00ff 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-purple{
-// 	background: linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
-// 	background: -webkit-linear-gradient(to bottom, #007fff 0%, #00a9ff 100%);
-// 	border: 1px solid #0090ed;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top,  #007fff 0%, #00a9ff 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
-// }
-// .btn-cyan{
-// 	background: linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
-// 	background: -webkit-linear-gradient(to bottom, #00f4ff 0%, #00ffe3 100%);
-// 	border:1px solid #00edde;
-// 	color: #fff;
-// 	&:hover{
-// 		background: linear-gradient(to top, #00f4ff 0%, #00ffe3 100%);
-// 		text-decoration: none;
-// 		color: #fff;
-// 	}
+}
 
-// }
-
->>>>>>> 6aff63b9367ce1e5b9ac06ec91fd07abecfd36a3
