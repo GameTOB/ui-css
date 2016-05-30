@@ -1,9 +1,5 @@
-rg.fail
 node_modules/
 bower_components/
 dist/
-output/
-vendor/
 sftp-config.json
-conf/used/
-.publish/
+conf/
