@@ -38,8 +38,8 @@ var browserSyncConf = {
 	open : "local" ,
 	startPath: "/index.html"
 };
-var userNgxConf = process.env.USER+"_ui-css_ngx.conf",
-	tplNgxConf = "tpl_ui-css_ngx.conf";
+var userNgxConf = process.env.USER+"_inuit_ngx.conf",
+	tplNgxConf = "tpl_inuit_ngx.conf";
 
 gulp.task('httpServer::ngxconf' , function(cb){
 
