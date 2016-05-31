@@ -4,10 +4,17 @@
 
 ## 样例
 http://gametob.github.io/ui-css/
+http://gametob.github.io/ui-css/dist/uielement.html
 
 ## CHANGELOG
 
 [CHANGELOG.md]
+
+## 分为3个分支
+* | - master 【左右结构的后台系统，皮肤：谜底绿】
+* | - bootstrap【左右结构的后台系统，皮肤：后台蓝】
+* | - gh-pages【作为一个静态网站生成器，一个简化的构建过程基于GitHub建立起网站页面】
+
 
 ## 目录结构
 * | - conf  目前包含开发机环境所需的nginx配置文件
