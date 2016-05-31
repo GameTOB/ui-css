@@ -11,8 +11,8 @@ http://gametob.github.io/ui-css/dist/uielement.html
 [CHANGELOG.md]
 
 ## 分为3个分支
-* | - master 【左右结构的后台系统，皮肤：谜底绿】
-* | - bootstrap【左右结构的后台系统，皮肤：后台蓝】
+* | - master 【左右结构的后台系统元素及场景分类，皮肤：谜底绿】
+* | - bootstrap【左右结构的后台系统元素及场景分类，皮肤：后台蓝】
 * | - gh-pages【作为一个静态网站生成器，一个简化的构建过程基于GitHub建立起网站页面】
 
 
